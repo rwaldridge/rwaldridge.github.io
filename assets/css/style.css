@@ -151,6 +151,58 @@ a:hover {
   display: inline-block;
 }
 
+.project-collaborators,
+.project-team {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.project-long-description {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.project-outputs {
+  margin-top: 1rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.project-outputs ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.5rem;
+}
+
+details {
+  margin-top: 1rem;
+}
+
+summary {
+  cursor: pointer;
+  color: var(--color-accent);
+  font-weight: 500;
+  padding: 0.5rem 0;
+}
+
+summary:hover {
+  text-decoration: underline;
+}
+
+.status-active {
+  color: #28a745;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-completed {
+  color: #6c757d;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .site-nav {
