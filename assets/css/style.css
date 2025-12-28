@@ -73,8 +73,16 @@ body {
 
 /* Profile Section */
 .profile-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
   gap: 2rem;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
   margin-bottom: 3rem;
 }
@@ -82,10 +90,16 @@ body {
 .profile-photo {
   width: 200px;
   height: 200px;
+  min-width: 200px;
+  max-width: 200px;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
   object-fit: cover;
+  -o-object-fit: cover;
   flex-shrink: 0;
+  -ms-flex-negative: 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .profile-text {
