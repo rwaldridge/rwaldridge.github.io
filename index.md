@@ -31,7 +31,24 @@ I am Professor of Health Metrics Sciences and Team Lead for Clinical Informatics
 
 ## Recent Publications
 
-Coming soon - add your publications to `_data/publications.yml`.
+{% assign recent_pubs = site.data.publications | sort: 'year' | reverse | limit: 5 %}
+{% for pub in recent_pubs %}
+<div class="publication">
+  <div class="pub-title">{{ pub.title }}</div>
+  <div class="pub-authors">{{ pub.authors }}</div>
+  <div class="pub-venue">
+    {% if pub.venue %}<em>{{ pub.venue }}</em>{% endif %}
+    {% if pub.year %} ({{ pub.year }}){% endif %}
+  </div>
+  {% if pub.doi %}
+  <div class="pub-links">
+    <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">View Publication</a>
+  </div>
+  {% endif %}
+</div>
+{% endfor %}
+
+[View all publications →](/publications.html)
 
 ## Contact
 

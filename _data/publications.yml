@@ -1,191 +1,1372 @@
 # _data/publications.yml
-# 
-# This file contains all your publications. Add new entries at the bottom.
-# The site will automatically display them on your publications page.
 #
-# REQUIRED FIELDS: title, authors, year, type, venue
-# OPTIONAL FIELDS: venue_short, volume, pages, doi, pdf, abstract, tags, featured
+# Publications list generated from BibTeX
 #
-# TYPES: journal, conference, book-chapter, preprint, thesis
 
-# Journal Article Example
-- title: "Adaptive Learning Rates in Deep Neural Networks: A Theoretical Framework"
-  authors: "Aldridge, R., Smith, J., & Chen, L."
+- title: "Eyeglasses and risk of {COVID"
+  authors: "{Navaratnam AMD"
   year: 2024
   type: "journal"
-  venue: "Journal of Machine Learning Research"
-  venue_short: "JMLR"
-  volume: "25"
-  pages: "1-34"
-  doi: "10.1234/jmlr.2024.12345"
-  pdf: "/assets/papers/aldridge-2024-adaptive.pdf"
-  abstract: "We present a theoretical framework for understanding adaptive learning rate algorithms in deep neural networks. Our analysis reveals fundamental convergence properties that explain empirical success across diverse architectures."
-  tags:
-    - "machine-learning"
-    - "optimization-theory"
-    - "deep-learning"
-  featured: true
+  venue: "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases"
+  venue_short: "International journal of infectious diseases : IJID : off..."
+  doi: "10.1016/j.ijid.2023.10.021"
 
-# Conference Paper Example
-- title: "Scaling Educational Data Mining for Large Institutions"
-  authors: "Aldridge, R."
-  year: 2023
-  type: "conference"
-  venue: "International Conference on Educational Data Mining"
-  venue_short: "EDM 2023"
-  location: "Montreal, Canada"
-  doi: "10.1109/edm.2023.67890"
-  pdf: "https://doi.org/10.1109/edm.2023.67890"
-  slides: "/assets/slides/edm-2023-slides.pdf"
-  abstract: "Large educational institutions generate massive datasets that remain underutilized due to scalability challenges. We present a distributed architecture that enables real-time analytics on student learning data."
-  tags:
-    - "education"
-    - "data-mining"
-    - "learning-analytics"
-  featured: false
+- title: "{COVID"
+  authors: "R, Burns and S, Wyke and MT, Eyre and Y, Boukari and TB, Sørensen and C, Tsang and CNJ, Campbell and S, Beale and D, Zenner and S, Hargreaves and I, Campos-Matos and K, Harron and RW, Aldridge"
+  year: 2024
+  type: "journal"
+  venue: "Nature human behaviour"
+  doi: "10.1038/s41562-023-01768-6"
 
-# Book Chapter Example
-- title: "Open Science Practices in Computer Science Research"
-  authors: "Chen, L., Aldridge, R., & Rodriguez, M."
-  year: 2023
-  type: "book-chapter"
-  venue: "The Handbook of Research Transparency"
-  venue_short: "Research Transparency Handbook"
-  publisher: "Academic Press"
-  pages: "234-256"
-  isbn: "978-0-12345-678-9"
-  pdf: "/assets/papers/chen-2023-open-science.pdf"
-  abstract: "This chapter examines the adoption of open science practices in computational research, including preregistration, data sharing, and reproducible workflows."
-  tags:
-    - "open-science"
-    - "research-methods"
-    - "reproducibility"
-  featured: false
+- title: "Sexual and reproductive health and rights of migrant women attending primary care in {England"
+  authors: "N, Pathak and CX, Zhang and Y, Boukari and R, Burns and D, Menezes and G, Hugenholtz and RS, French and A, Gonzalez-Izquierdo and R, Mathur and S, Denaxas and A, Hayward and P, Sonnenberg and RW, Aldridge"
+  year: 2024
+  type: "journal"
+  venue: "Journal of migration and health"
+  doi: "10.1016/j.jmh.2024.100214"
 
-# Journal Article with Multiple Identifiers
-- title: "Interpretable Machine Learning for Healthcare Prediction"
-  authors: "Williams, K., Aldridge, R., Park, S., & Johnson, M."
+- title: "Linking migration and hospital data in {England"
+  authors: "R, Burns and S, Wyke and Y, Boukari and SV, Katikireddi and D, Zenner and I, Campos-Matos and K, Harron and RW, Aldridge"
+  year: 2024
+  type: "journal"
+  venue: "International journal of population data science"
+  doi: "10.23889/ijpds.v9i1.2181"
+
+- title: "Author {Correction"
+  authors: "R, Burns and S, Wyke and MT, Eyre and Y, Boukari and TB, Sørensen and C, Tsang and CNJ, Campbell and S, Beale and D, Zenner and S, Hargreaves and I, Campos-Matos and K, Harron and RW, Aldridge"
+  year: 2024
+  type: "journal"
+  venue: "Nature human behaviour"
+  doi: "10.1038/s41562-024-01845-4"
+
+- title: "Global incidence, prevalence, years lived with disability ({YLDs"
+  authors: "Diseases, GBD 2021 and Collaborators, Injuries"
+  year: 2024
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(24)00757-8"
+
+- title: "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990-2021: a systematic analysis for the {Global"
+  authors: "Collaborators, GBD 2021 Causes of Death"
+  year: 2024
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(24)00367-2"
+
+- title: "The incidence of {COVID"
+  authors: "WLE, Fong and VG, Nguyen and R, Burns and Y, Boukari and S, Beale and I, Braithwaite and TE, Byrne and C, Geismar and E, Fragaszy and S, Hoskins and J, Kovar and AM, Navaratnam and Y, Oskrochi and RW, Aldridge"
+  year: 2024
+  type: "journal"
+  venue: "Journal of migration and health"
+  doi: "10.1016/j.jmh.2024.100218"
+
+- title: "Global age-sex-specific mortality, life expectancy, and population estimates in 204 countries and territories and 811 subnational locations, 1950-2021, and the impact of the {COVID"
+  authors: "Collaborators, GBD 2021 Demographics"
+  year: 2024
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(24)00476-8"
+
+- title: "Long-term outcomes of {SARS"
+  authors: "S, Beale and A, Yavlinsky and WLE, Fong and VG, Nguyen and J, Kovar and T, Vos and S, Wulf Hanson and AC, Hayward and I, Abubakar and RW, Aldridge"
+  year: 2024
+  type: "journal"
+  venue: "Epidemiology and infection"
+  doi: "10.1017/s0950268824000748"
+
+- title: "Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990-2021: a systematic analysis for the {Global"
+  authors: "Collaborators, GBD 2021 Risk Factors"
+  year: 2024
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(24)00933-4"
+
+- title: "Anti-{Nucleocapsid"
+  authors: "Beale, Sarah and Yavlinsky, Alexei and Moncunill, Gemma and Fong, Wing Lam Erica and Nguyen, Vincent Grigori and Kovar, Jana and Hayward, Andrew C and Abubakar, Ibrahim and W Aldridge, Robert"
+  year: 2024
+  type: "journal"
+  doi: "10.1101/2024.06.19.24309147"
+
+- title: "To what extent did mortality from {COVID"
+  authors: "L, Hiam and J, Minton and R, Burns and M, McKee and RW, Aldridge"
+  year: 2024
+  type: "journal"
+  venue: "European journal of public health"
+  doi: "10.1093/eurpub/ckae142"
+
+- title: "Burden of disease scenarios for 204 countries and territories, 2022-2050: a forecasting analysis for the {Global"
+  authors: "Collaborators, GBD 2021 Forecasting"
+  year: 2024
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(24)00685-8"
+
+- title: "Estimating the household secondary attack rate and serial interval of {COVID"
+  authors: "A, Dhiman and E, Yom-Tov and L, Pellis and M, Edelstein and R, Pebody and A, Hayward and T, House and T, Finnie and D, Guzman and V, Lampos and Consortium, Virus Watch and IJ, Cox"
+  year: 2024
+  type: "journal"
+  venue: "NPJ digital medicine"
+  doi: "10.1038/s41746-024-01160-2"
+
+- title: "Workplace mortality risk and social determinants among migrant workers: a systematic review and meta-analysis."
+  authors: "K, Lau and R, Aldridge and M, Norredam and GF, Mkoma and M, Kugan and RC, Lin and L, Kiss and C, Zimmerman and S, Hargreaves"
+  year: 2024
+  type: "journal"
+  venue: "The Lancet. Public health"
+  doi: "10.1016/s2468-2667(24)00226-3"
+
+- title: "Disparities in wellbeing in the {USA"
+  authors: "L, Dwyer-Lindgren and P, Kendrick and MM, Baumann and Z, Li and C, Schmidt and DO, Sylte and F, Daoud and W, La Motte-Kerr and RW, Aldridge and C, Bisignano and SI, Hay and AH, Mokdad and CJL, Murray"
+  year: 2024
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(24)01757-4"
+
+- title: "Estimating the risk of post-{COVID"
+  authors: "Fong, Wing Lam Erica and Beale, Sarah and Nguyen, Vincent Grigori and Kovar, Jana and Yavlinsky, Alexei and Hayward, Andrew C and Abubakar, Ibrahim and van Kuijk, Sander MJ and Aldridge, Robert W"
+  year: 2024
+  type: "journal"
+  doi: "10.1101/2024.11.26.24317965"
+
+- title: "Interventions to improve health and the determinants of health among sex workers in high-income countries: a systematic review."
+  authors: "L, Johnson and LC, Potter and H, Beeching and M, Bradbury and B, Matos and G, Sumner and L, Wills and K, Worthing and RW, Aldridge and G, Feder and AC, Hayward and N, Pathak and L, Platt and A, Story and SA, Luchenski"
   year: 2023
   type: "journal"
-  venue: "Nature Medicine"
-  venue_short: "Nat. Med."
-  volume: "29"
-  issue: "8"
-  pages: "1456-1465"
-  doi: "10.1038/s41591-023-01234-5"
-  pmid: "37245678"
-  pdf: "/assets/papers/williams-2023-interpretable.pdf"
-  supplement: "/assets/papers/williams-2023-supplement.pdf"
-  code: "https://github.com/yourusername/interpretable-healthcare-ml"
-  abstract: "Black-box models in healthcare raise concerns about trust and accountability. We develop interpretable alternatives that maintain prediction accuracy while providing clinically meaningful explanations."
-  tags:
-    - "machine-learning"
-    - "healthcare"
-    - "interpretability"
-  featured: true
+  venue: "The Lancet. Public health"
+  doi: "10.1016/s2468-2667(22)00252-3"
 
-# Conference Paper with Best Paper Award
-- title: "Zero-Shot Cross-Lingual Transfer for Low-Resource Languages"
-  authors: "Aldridge, R. & Martinez, A."
+- title: "A case-crossover study of the effect of vaccination on {SARS"
+  authors: "Serisier, A and Beale, S and Boukari, Y and Hoskins, S and Nguyen, V and Byrne, T and Fong, WLE and Fragaszy, E and Geismar, C and Kovar, J and Yavlinsky, A and Hayward, A and Aldridge, RW"
+  year: 2023
+  type: "journal"
+  venue: "Vaccine"
+  doi: "10.1016/j.vaccine.2022.11.073"
+
+- title: "Tracking {Changes"
+  authors: "V, Nguyen and Y, Liu and R, Mumford and B, Flanagan and P, Patel and I, Braithwaite and M, Shrotri and T, Byrne and S, Beale and A, Aryee and WLE, Fong and E, Fragaszy and C, Geismar and Collaborative, Virus Watch"
+  year: 2023
+  type: "journal"
+  venue: "JMIR public health and surveillance"
+  doi: "10.2196/38072"
+
+- title: "Racism, xenophobia, and discrimination: data disaggregation is a complex but crucial step to improving child health."
+  authors: "Devakumar, D and Rajagopalan, S and Strong, KL and Requejo, J and Diaz, T and Gram, L and Aldridge, R and Dalglish, SL"
+  year: 2023
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(23)00618-9"
+
+- title: "Comparative effectiveness of different primary vaccination courses on {mRNA"
+  authors: "Nguyen, VG and Yavlinsky, A and Beale, S and Hoskins, S and Byrne, TE and Lampos, V and Braithwaite, I and Fong, WLE and Fragaszy, E and Geismar, C and Kovar, J and Navaratnam, AMD and Patel, P and Aldridge, RW"
+  year: 2023
+  type: "journal"
+  venue: "International journal of epidemiology"
+  doi: "10.1093/ije/dyad002"
+
+- title: "Integrated approach to cardiovascular disease in people experiencing homelessness: a qualitative study."
+  authors: "Bark, P and Ramasawmy, M and Hayward, A and Luchenski, S and Aldridge, R and Burridge, S and Banerjee, A"
+  year: 2023
+  type: "journal"
+  venue: "Open heart"
+  doi: "10.1136/openhrt-2022-002235"
+
+- title: "Between-occupation differences in work-related {COVID"
+  authors: "S, Beale and A, Yavlinsky and S, Hoskins and V, Nguyen and T, Byrne and WLE, Fong and J, Kovar and M, Van Tongeren and RW, Aldridge and A, Hayward and Watch, Virus"
+  year: 2023
+  type: "journal"
+  venue: "Scandinavian journal of work, environment & health"
+  doi: "10.5271/sjweh.4092"
+
+- title: "Symptom profiles of community cases infected by influenza, {RSV"
+  authors: "Geismar, C and Nguyen, V and Fragaszy, E and Shrotri, M and Navaratnam, AMD and Beale, S and Byrne, TE and Fong, WLE and Yavlinsky, A and Kovar, J and Hoskins, S and Braithwaite, I and Aldridge, RW and Hayward, AC"
+  year: 2023
+  type: "journal"
+  venue: "Scientific reports"
+  doi: "10.1038/s41598-023-38869-1"
+
+- title: "Inequalities in access to paid sick leave among workers in {England"
+  authors: "Patel, P and Beale, S and Nguyen, V and Braithwaite, I and Byrne, TE and Erica Fong, WL and Fragaszy, E and Geismar, C and Hoskins, S and Navaratnam, AMD and Shrotri, M and Kovar, J and Aryee, A and Aldridge, RW"
+  year: 2023
+  type: "journal"
+  venue: "The International journal of health planning and management"
+  doi: "10.1002/hpm.3697"
+
+- title: "Bayesian reconstruction of {SARS"
+  authors: "Geismar, C and Nguyen, V and Fragaszy, E and Shrotri, M and Navaratnam, AMD and Beale, S and Byrne, TE and Fong, WLE and Yavlinsky, A and Kovar, J and Hoskins, S and Braithwaite, I and Aldridge, RW and Cori, A"
+  year: 2023
+  type: "journal"
+  venue: "Epidemics"
+  doi: "10.1016/j.epidem.2023.100713"
+
+- title: "Estimating disease burden using national linked electronic health records: a study using an {English"
+  authors: "Aldridge, Robert W. and Evans, Hannah E. R. and Yavlinsky, Alexei and Moayyeri, Alireza and Bhaskaran, Krishnan and Mathur, Rohini and Jordan, Kelvin P. and Croft, Peter and Denaxas, Spiros and Shah, Anoop D. and Blackburn, Ruth M. and Moller, Henrik and Ng, Edmond S. W. and Hughes, Andrew and Fox, Sebastian and Flowers, Julian and Schmidt, Jurgen and Hayward, Andrew and Gilbert, Ruth and Smeeth, Liam and Hemingway, Harry"
+  year: 2023
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "8"
+  pages: "262"
+  doi: "10.12688/wellcomeopenres.19470.1"
+
+- title: "Interventions to improve perinatal outcomes among migrant women in high-income countries: a systematic review protocol."
+  authors: "Stevenson, K and Ogunlana, K and Edwards, S and Henderson, WG and Rayment-Jones, H and McGranahan, M and Marti-Castaner, M and Fellmeth, G and Luchenski, S and Stevenson, FA and Knight, M and Aldridge, RW"
+  year: 2023
+  type: "journal"
+  venue: "BMJ open"
+  doi: "10.1136/bmjopen-2023-072090"
+
+- title: "How is ethnicity reported, described, and analysed in health research in the {UK"
+  authors: "{Lam J"
+  year: 2023
+  type: "journal"
+  venue: "BMC public health"
+  doi: "10.1186/s12889-023-16947-3"
+
+- title: "Lessons learned from co-production in public health research: the {MAMAH"
+  authors: "K, Stevenson and K, Ogunlana and M, Alomari and R, Agoropopoola and F, Stevenson and M, Knight and R, Aldridge"
+  year: 2023
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(23)02107-4"
+
+- title: "Drivers determining tuberculosis disease screening yield in four {European"
+  authors: "Zenner, Dominik and Brals, Daniella and Nederby-Öhd, Joanna and Menezes, Dee and Aldridge, Robert and Anderson, Sarah R. and de Vries, Gerard and Erkens, Connie and Marchese, Valentina and Matteelli, Alberto and Muzyamba, Morris and van Rest, Job and Spruijt, Ineke and Were, John and Migliori, Giovanni Battista and Lönnroth, Knut and Cobelens, Frank and Abubakar, Ibrahim"
+  year: 2023
+  type: "journal"
+  venue: "European Respiratory Journal"
+  volume: "62"
+  pages: "2202396"
+  doi: "10.1183/13993003.02396-2022"
+
+- title: "Cohort {Profile"
+  authors: "T, Byrne and J, Kovar and S, Beale and I, Braithwaite and E, Fragaszy and WLE, Fong and C, Geismar and S, Hoskins and AMD, Navaratnam and V, Nguyen and P, Patel and M, Shrotri and A, Yavlinsky and RW, Aldridge"
+  year: 2023
+  type: "journal"
+  venue: "International journal of epidemiology"
+  doi: "10.1093/ije/dyad087"
+
+- title: "Recording and analysing ethnicity in public health research: a bibliographical review and focus group discussions with young migrants and refugees in the {UK"
+  authors: "J, Lam and RW, Aldridge and R, Blackburn and K, Harron"
+  year: 2023
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(23)02092-5"
+
+- title: "Perspectives on registration to primary care from inclusion health groups in {England"
+  authors: "A, Humphrey and L, Fagan and E, Carruthers and JM, Yuan and K, Ogunlana and J, Alfred and A, Nagasivam and K, Stevenson and RW, Aldridge and F, Stevenson and S, Williams and R, Burns"
+  year: 2023
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(23)02074-3"
+
+- title: "Interventions to improve access to primary care for inclusion health groups in {England"
+  authors: "E, Carruthers and J, Dobbin and L, Fagan and A, Humphrey and A, Nagasivam and K, Stevenson and JM, Yuan and RW, Aldridge and R, Burns"
+  year: 2023
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(23)02081-0"
+
+- title: "Small numbers, big impact: making a utilitarian case for the contribution of inclusion health to population health in {England"
+  authors: "Zhang, Claire X and Lewer, Dan and Aldridge, Robert W and Hayward, Andrew C and Cornaglia, Carlotta and Trussell, Peta and Lillford-Wildman, Charlotte and Castle, Joanna and Gommon, Jake and Campos-Matos, Ines"
+  year: 2023
+  type: "journal"
+  venue: "Journal of Epidemiology and Community Health"
+  volume: "77"
+  pages: "816--820"
+  doi: "10.1136/jech-2023-220849"
+
+- title: "Long-{Term"
+  authors: "Beale, Sarah and Yavlinsky, Alexei and Fong, Wing Lam Erica and Nguyen, Vincent G and Kovar, Jana and Vos, Theo and Hansen, Sarah Wulf and Hayward, Andrew C and Abubakar, Ibrahim and Aldridge, Robert W"
+  year: 2023
+  type: "journal"
+  doi: "10.1101/2023.12.18.23300124"
+
+- title: "Hospital admissions for physical health and psychosocial adversity among people experiencing homelessness in {England"
+  authors: "S, Luchenski and R, Aldridge and F, Stevenson and S, Tariq and N, Hewett and A, Hayward"
+  year: 2023
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(23)02061-5"
+
+- title: "Elevated mortality among the second-generation (children of migrants) in {Europe"
+  authors: "M, Wallace and L, Hiam and R, Aldridge"
+  year: 2023
+  type: "journal"
+  venue: "British medical bulletin"
+  doi: "10.1093/bmb/ldad027"
+
+- title: "Deprivation and exposure to public activities during the {COVID"
+  authors: "Beale, S and Braithwaite, I and Navaratnam, AM and Hardelid, P and Rodger, A and Aryee, A and Byrne, TE and Fong, EWL and Fragaszy, E and Geismar, C and Kovar, J and Nguyen, V and Patel, P and Shrotri, M and Aldridge, R W and Hayward, A C"
   year: 2022
-  type: "conference"
-  venue: "Annual Meeting of the Association for Computational Linguistics"
-  venue_short: "ACL 2022"
-  location: "Dublin, Ireland"
-  doi: "10.18653/v1/2022.acl-long.123"
-  pdf: "/assets/papers/aldridge-2022-zero-shot.pdf"
-  slides: "/assets/slides/acl-2022-slides.pdf"
-  video: "https://youtube.com/watch?v=example"
-  award: "Best Paper Award"
-  abstract: "We demonstrate effective zero-shot transfer of NLP models to low-resource languages through careful alignment of multilingual embeddings and task-specific fine-tuning strategies."
-  tags:
-    - "nlp"
-    - "low-resource-languages"
-    - "transfer-learning"
-  featured: true
+  type: "journal"
+  venue: "Journal of epidemiology and community health"
+  doi: "10.1136/jech-2021-217076"
 
-# Preprint Example
-- title: "Federated Learning with Differential Privacy Guarantees"
-  authors: "Aldridge, R., Thompson, B., & Lee, J."
-  year: 2024
-  type: "preprint"
-  venue: "arXiv"
-  venue_short: "arXiv"
-  archive: "arXiv"
-  archive_id: "2024.12345"
-  doi: "10.48550/arXiv.2024.12345"
-  pdf: "https://arxiv.org/pdf/2024.12345.pdf"
-  abstract: "We propose a federated learning framework that provides formal differential privacy guarantees without sacrificing model accuracy. Under review at ICML 2025."
-  tags:
-    - "federated-learning"
-    - "privacy"
-    - "machine-learning"
-  featured: false
-  note: "Under review"
-
-# Workshop Paper
-- title: "Teaching Data Ethics in Computer Science Curricula"
-  authors: "Aldridge, R."
+- title: "Workplace contact patterns in {England"
+  authors: "S, Beale and S, Hoskins and T, Byrne and WLE, Fong and E, Fragaszy and C, Geismar and J, Kovar and AMD, Navaratnam and V, Nguyen and P, Patel and A, Yavlinsky and AM, Johnson and M, Van Tongeren and Collaborative, Virus Watch"
   year: 2022
-  type: "workshop"
-  venue: "Workshop on AI Ethics in Education (AAAI-22)"
-  venue_short: "AAAI-22 Workshop"
-  location: "Virtual"
-  pdf: "/assets/papers/aldridge-2022-data-ethics.pdf"
-  abstract: "We present a curricular framework for integrating data ethics throughout computer science education, with case studies from three institutions."
-  tags:
-    - "education"
-    - "ethics"
-    - "curriculum-design"
-  featured: false
+  type: "journal"
+  venue: "The Lancet regional health. Europe"
+  doi: "10.1016/j.lanepe.2022.100352"
 
-# Thesis Example
-- title: "Scalable Methods for Personalized Learning in Massive Online Courses"
-  authors: "Aldridge, R."
-  year: 2020
-  type: "thesis"
-  venue: "PhD Thesis, University of Example"
-  venue_short: "PhD Thesis"
-  institution: "University of Example"
-  department: "Computer Science"
-  advisor: "Prof. Jane Smith"
-  pdf: "/assets/papers/aldridge-2020-thesis.pdf"
-  abstract: "This dissertation develops and evaluates machine learning methods for personalizing educational content in MOOCs, demonstrating improved learning outcomes across diverse student populations."
-  tags:
-    - "education"
-    - "machine-learning"
-    - "personalization"
-  featured: false
+- title: "Occupation, work-related contact and {SARS"
+  authors: "S, Beale and P, Patel and A, Rodger and I, Braithwaite and T, Byrne and WLE, Fong and E, Fragaszy and C, Geismar and J, Kovar and A, Navaratnam and V, Nguyen and M, Shrotri and A, Aryee and R, Aldridge and Collaborative, Virus Watch"
+  year: 2022
+  type: "journal"
+  venue: "Occupational and environmental medicine"
+  doi: "10.1136/oemed-2021-107920"
 
-# Short Paper / Poster
-- title: "Visualizing Neural Network Decision Boundaries in High Dimensions"
-  authors: "Park, M., Aldridge, R., & Chen, L."
+- title: "Nucleocapsid and spike antibody responses following virologically confirmed {SARS"
+  authors: "AMD, Navaratnam and M, Shrotri and V, Nguyen and I, Braithwaite and S, Beale and TE, Byrne and WLE, Fong and E, Fragaszy and C, Geismar and S, Hoskins and J, Kovar and P, Patel and A, Yavlinsky and Collaborative, Virus Watch"
+  year: 2022
+  type: "journal"
+  venue: "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases"
+  venue_short: "International journal of infectious diseases : IJID : off..."
+  doi: "10.1016/j.ijid.2022.07.053"
+
+- title: "Migrants' primary care utilisation before and during the {COVID"
+  authors: "CX, Zhang and Y, Boukari and N, Pathak and R, Mathur and SV, Katikireddi and P, Patel and I, Campos-Matos and D, Lewer and V, Nguyen and GCG, Hugenholtz and R, Burns and A, Mulick and A, Henderson and RW, Aldridge"
+  year: 2022
+  type: "journal"
+  venue: "The Lancet regional health. Europe"
+  doi: "10.1016/j.lanepe.2022.100455"
+
+- title: "Anti-spike antibody trajectories in individuals previously immunised with {BNT162b2"
+  authors: "Yavlinsky, Alexei and Beale, Sarah and Nguyen, Vincent and Shrotri, Madhumita and Byrne, Thomas and Geismar, Cyril and Fragaszy, Ellen and Hoskins, Susan and Fong, Wing Lam Erica and Navaratnam, Annalan M D and Braithwaite, Isobel and Patel, Parth and Kovar, Jana and Hayward, Andrew and Aldridge, Robert W"
+  year: 2022
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "7"
+  pages: "181"
+  doi: "10.12688/wellcomeopenres.17914.1"
+
+- title: "Settings for non-household transmission of {SARS"
+  authors: "Hoskins, Susan and Beale, Sarah and Nguyen, Vincent and Fragaszy, Ellen and Navaratnam, Annalan M.D. and Smith, Colette and French, Clare and Kovar, Jana and Byrne, Thomas and Fong, Wing Lam Erica and Geismar, Cyril and Patel, Parth and Yavlinksy, Alexei and Johnson, Anne M. and Aldridge, Robert W. and Hayward, Andrew"
+  year: 2022
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "7"
+  pages: "199"
+  doi: "10.12688/wellcomeopenres.17981.1"
+
+- title: "The economic case for hospital discharge services for people experiencing homelessness in {England"
+  authors: "Tinelli, M and Wittenberg, R and Cornes, M and Aldridge, RW and Clark, M and Byng, R and Foster, G and Fuller, J and Hayward, A and Hewett, N and Kilmister, A and Manthorpe, J and Neale, J and Whiteford, M"
+  year: 2022
+  type: "journal"
+  venue: "Health & social care in the community"
+  doi: "10.1111/hsc.14057"
+
+- title: "Spike-antibody responses to {COVID"
+  authors: "Shrotri, M and Fragaszy, E and Nguyen, V and Navaratnam, AMD and Geismar, C and Beale, S and Kovar, J and Byrne, TE and Fong, WLE and Patel, P and Aryee, A and Braithwaite, I and Johnson, AM and Aldridge, RW"
+  year: 2022
+  type: "journal"
+  venue: "Nature communications"
+  doi: "10.1038/s41467-022-33550-z"
+
+- title: "Prevalence and {Characteristics"
+  authors: "Miller, F and Nguyen, DV and Navaratnam, AM and Shrotri, M and Kovar, J and Hayward, AC and Fragaszy, E and Aldridge, RW and Hardelid, P and Collaborative, VirusWatch"
+  year: 2022
+  type: "journal"
+  venue: "The Pediatric infectious disease journal"
+  doi: "10.1097/inf.0000000000003715"
+
+- title: "Country differences and determinants of yield in programmatic migrant {TB"
+  authors: "Menezes, D and Zenner, D and Aldridge, R and Anderson, SR and de Vries, G and Erkens, C and Marchese, V and Matteeli, A and Muzyamba, M and Nederby-Öhd, J and van Rest, J and Spruijt, I and Were, J and Cobelens, F"
+  year: 2022
+  type: "journal"
+  venue: "The international journal of tuberculosis and lung disease : the official journal of the International Union against Tuberculosis and Lung Disease"
+  venue_short: "The international journal of tuberculosis and lung diseas..."
+  doi: "10.5588/ijtld.22.0186"
+
+- title: "{COVID"
+  authors: "R, Burns and I, Campos-Matos and K, Harron and R, Aldridge"
+  year: 2022
+  type: "journal"
+  venue: "Lancet (London, England)"
+
+- title: "Bayesian reconstruction of household transmissions to infer the serial interval of {COVID"
+  authors: "C, Geismar and V, Nguyen and E, Fragaszy and M, Shrotri and A, Navaratnam and S, Beale and T, Byrne and W, Fong and A, Yavlinsky and J, Kovar and I, Braithwaite and R, Aldridge and A, Hayward and A, Cori"
+  year: 2022
+  type: "journal"
+  venue: "Lancet (London, England)"
+
+- title: "Human mobility variations in response to restriction policies during the {COVID"
+  authors: "Cheng, T and Chen, T and Liu, Y and Aldridge, RW and Nguyen, V and Hayward, AC and Michie, S"
+  year: 2022
+  type: "journal"
+  venue: "Frontiers in public health"
+  doi: "10.3389/fpubh.2022.999521"
+
+- title: "Co-production in public health research grant writing: engaging underserved migrant mothers in the {UK"
+  authors: "K, Stevenson and K, Ogunlana and Y, Ciftici and M, Knight and R, Aldridge and F, Stevenson"
+  year: 2022
+  type: "journal"
+  venue: "European journal of public health"
+
+- title: "Relative contribution of essential and non-essential activities to {SARS"
+  authors: "S, Hoskins and S, Beale and V, Nguyen and Y, Boukari and A, Yavlinsky and J, Kovar and T, Byrne and E, Fragaszy and WLE, Fong and C, Geismar and P, Patel and AMD, Navaratnam and M, van Tongeren and Collaborative, Virus Watch"
+  year: 2022
+  type: "journal"
+  venue: "Epidemiology and infection"
+  doi: "10.1017/s0950268822001832"
+
+- title: "Design of financial incentive interventions to improve lifestyle behaviors and health outcomes: {A"
+  authors: "Miranda, J. Jaime and Pesantes, M. Amalia and Lazo-Porras, María and Portocarrero, Jill and Diez-Canseco, Francisco and Carrillo-Larco, Rodrigo M. and Bernabe-Ortiz, Antonio and Trujillo, Antonio J. and Aldridge, Robert W."
   year: 2021
-  type: "poster"
-  venue: "International Conference on Learning Representations"
-  venue_short: "ICLR 2021"
-  location: "Virtual"
-  pdf: "/assets/papers/park-2021-visualizing.pdf"
-  poster: "/assets/posters/iclr-2021-poster.pdf"
-  abstract: "We introduce a dimensionality reduction technique specifically designed to preserve neural network decision boundary structure for visualization."
-  tags:
-    - "visualization"
-    - "deep-learning"
-    - "interpretability"
-  featured: false
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "6"
+  pages: "163"
+  doi: "10.12688/wellcomeopenres.16947.1"
 
-# Technical Report
-- title: "Annual Report on AI Adoption in Higher Education Institutions"
-  authors: "Aldridge, R. (Ed.)"
-  year: 2024
-  type: "report"
-  venue: "Center for Educational Technology Research"
-  venue_short: "CETR Report"
-  report_number: "CETR-2024-01"
-  pdf: "/assets/papers/aldridge-2024-ai-adoption-report.pdf"
-  abstract: "Comprehensive survey of AI tool adoption across 150 universities, including implementation challenges, faculty attitudes, and student outcomes."
-  tags:
-    - "education"
-    - "AI"
-    - "survey"
-  featured: false
+- title: "Transforming health systems to reduce health inequalities."
+  authors: "J, Ford and S, Sowden and J, Olivera and C, Bambra and A, Gimson and R, Aldridge and C, Brayne"
+  year: 2021
+  type: "journal"
+  venue: "Future healthcare journal"
+  doi: "10.7861/fhj.2021-0018"
+
+- title: "Spike-antibody waning after second dose of {BNT162b2"
+  authors: "Shrotri, M and Navaratnam, AMD and Nguyen, V and Byrne, T and Geismar, C and Fragaszy, E and Beale, S and Fong, WLE and Patel, P and Kovar, J and Hayward, AC and Aldridge, RW and Collaborative, Virus Watch"
+  year: 2021
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(21)01642-1"
+
+- title: "International migration of unaccompanied minors: trends, health risks, and legal protection."
+  authors: "Corona Maioli, S and Bhabha, J and Wickramage, K and Wood, LCN and Erragne, L and Ortega García, O and Burgess, R and Digidiki, V and Aldridge, RW and Devakumar, D"
+  year: 2021
+  type: "journal"
+  venue: "The Lancet. Child & adolescent health"
+  doi: "10.1016/s2352-4642(21)00194-2"
+
+- title: "Improving care transfers for homeless patients after hospital discharge: a realist evaluation"
+  authors: "Cornes, Michelle and Aldridge, Robert W and Biswell, Elizabeth and Byng, Richard and Clark, Michael and Foster, Graham and Fuller, James and Hayward, Andrew and Hewett, Nigel and Kilmister, Alan and Manthorpe, Jill and Neale, Joanne and Tinelli, Michela and Whiteford, Martin"
+  year: 2021
+  type: "journal"
+  venue: "Health Services and Delivery Research"
+  volume: "9"
+  pages: "1--186"
+  doi: "10.3310/hsdr09170"
+
+- title: "Design of financial incentive interventions to improve lifestyle behaviors and health outcomes: {A"
+  authors: "Miranda, J. Jaime and Pesantes, M. Amalia and Lazo-Porras, María and Portocarrero, Jill and Diez-Canseco, Francisco and Carrillo-Larco, Rodrigo M. and Bernabe-Ortiz, Antonio and Trujillo, Antonio J. and Aldridge, Robert W."
+  year: 2021
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "6"
+  pages: "163"
+  doi: "10.12688/wellcomeopenres.16947.2"
+
+- title: "Reported exposure to {SARS"
+  authors: "Beale, Sarah and Byrne, Thomas and Fragaszy, Ellen and Kovar, Jana and Nguyen, Vincent and Aryee, Anna and Fong, Wing Lam Erica and Geismar, Cyril and Patel, Parth and Shrotri, Madhumita and Patni, Nicholas and Braithwaite, Isobel and Navaratnam, Annalan and Johnson, Anne M and Aldridge, Robert W. and Hayward, Andrew C"
+  year: 2021
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "6"
+  pages: "242"
+  doi: "10.12688/wellcomeopenres.17067.1"
+
+- title: "Trends, patterns and psychological influences on {COVID"
+  authors: "Byrne, T and Patel, P and Shrotri, M and Beale, S and Michie, S and Butt, J and Hawkins, N and Hardelid, P and Rodger, A and Aryee, A and Braithwaite, I and Fong, WLE and Fragaszy, E and Geismar, C and Kovar, J and Navaratnam, AM and Nguyen, V and Hayward, A C and Aldridge, R W and Collaborative, Virus Watch"
+  year: 2021
+  type: "journal"
+  venue: "Vaccine"
+  doi: "10.1016/j.vaccine.2021.09.066"
+
+- title: "Prevalence of persistent symptoms in children during the {COVID"
+  authors: "Miller, Faith and Nguyen, Vincent and Navaratnam, Annalan MD and Shrotri, Madhumita and Kovar, Jana and Hayward, Andrew C. and Fragaszy, Ellen and Aldridge, Robert W. and and, Pia Hardelid"
+  year: 2021
+  type: "journal"
+  doi: "10.1101/2021.05.28.21257602"
+
+- title: "Migration health research in the {United"
+  authors: "Burns, R and Zhang, CX and Patel, P and Eley, I and Campos-Matos, I and Aldridge, RW"
+  year: 2021
+  type: "journal"
+  venue: "Journal of migration and health"
+  doi: "10.1016/j.jmh.2021.100061"
+
+- title: "Relative contribution of leaving home for work or education, transport, shopping and other activities on risk of acquiring {COVID"
+  authors: "Hoskins, S and Beale, S and Aldridge, RW and Navaratnam, AMD and Smith, C and French, CE and Yavlinsky, A and Nguyen, V and Byrne, T and Kovar, J and Fragaszy, E and Fong, WLA and Geismar, C and Patel, P and Johnson, AM"
+  year: 2021
+  type: "journal"
+  doi: "10.1101/2021.12.08.21267458"
+
+- title: "Social prescribing for migrants in the {United"
+  authors: "CX, Zhang and F, Wurie and A, Browne and S, Haworth and R, Burns and R, Aldridge and D, Zenner and A, Tran and I, Campos-Matos"
+  year: 2021
+  type: "journal"
+  venue: "Journal of migration and health"
+  doi: "10.1016/j.jmh.2021.100067"
+
+- title: "Development and {Validation"
+  authors: "Pathak, Neha and Zhang, Claire X. and Boukari, Yamina and Burns, Rachel and Mathur, Rohini and Gonzalez-Izquierdo, Arturo and Denaxas, Spiros and Sonnenberg, Pam and Hayward, Andrew and Aldridge, Robert W."
+  year: 2021
+  type: "journal"
+  doi: "10.20944/preprints202110.0081.v1"
+
+- title: "Waning of {SARS"
+  authors: "Aldridge, Robert William and Yavlinsky, Alexei and Nguyen, Vincent Grigori and Eyre, Max T. and Shrotri, Madhumita and Navaratnam, Annalan Mathew Dwight and Beale, Sarah and Braithwaite, Isobel and Byrne, Thomas Edward and Kovar, Jana and Fragaszy, Ellen and Fong, Erica Wing Lam and Geismar, Cyril Roman and Patel, Parth and Rodger, Alison and Johnson, Anne M. and Hayward, Andrew C."
+  year: 2021
+  type: "journal"
+  doi: "10.1101/2021.11.05.21265968"
+
+- title: "Household overcrowding and risk of {SARS"
+  authors: "Aldridge, Robert W and Pineo, Helen and Fragaszy, Ellen and Eyre, Max T and Kovar, Jana and Nguyen, Vincent and Beale, Sarah and Byrne, Thomas and Aryee, Anna and Smith, Colette and Devakumar, Delan and Taylor, Jonathon and Katikireddi, Srinivasa Vittal and Fong, Wing Lam Erica and Geismar, Cyril and Patel, Parth and Shrotri, Madhumita and Braithwaite, Isobel and Patni, Nicholas and Navaratnam, Annalan M.D. and Johnson, Anne M. and Hayward, Andrew"
+  year: 2021
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "6"
+  pages: "347"
+  doi: "10.12688/wellcomeopenres.17308.1"
+
+- title: "Household serial interval of {COVID"
+  authors: "Geismar, Cyril and Fragaszy, Ellen and Nguyen, Vincent and Fong, Wing Lam Erica and Shrotri, Madhumita and Beale, Sarah and Rodger, Alison and Lampos, Vasileios and Byrne, Thomas and Kovar, Jana and Navaratnam, Annalan M D and Patel, Parth and Aldridge, Robert W and Hayward, Andrew"
+  year: 2021
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "6"
+  pages: "224"
+  doi: "10.12688/wellcomeopenres.16974.2"
+
+- title: "Development and {Validation"
+  authors: "Pathak, Neha and Zhang, Claire X. and Boukari, Yamina and Burns, Rachel and Mathur, Rohini and Gonzalez-Izquierdo, Arturo and Denaxas, Spiros and Sonnenberg, Pam and Hayward, Andrew and Aldridge, Robert W."
+  year: 2021
+  type: "journal"
+  venue: "International Journal of Environmental Research and Public Health"
+  venue_short: "International Journal of Environmental Research and Publi..."
+  volume: "18"
+  pages: "13304"
+  doi: "10.3390/ijerph182413304"
+
+- title: "{UK"
+  authors: "C, Vrinten and RW, Aldridge and Committee, UK Public Health Science Conference Organising"
+  year: 2021
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(21)00942-9"
+
+- title: "Impact of baseline cases of cough and fever on {UK"
+  authors: "Eyre, Max T. and Burns, Rachel and Kirkby, Victoria and Smith, Catherine and Denaxas, Spiros and Nguyen, Vincent and Hayward, Andrew and Shallcross, Laura and Fragaszy, Ellen and Aldridge, Robert W."
+  year: 2021
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "225"
+  doi: "10.12688/wellcomeopenres.16304.2"
+
+- title: "Health of people experiencing co-occurring homelessness, imprisonment, substance use, sex work and/or severe mental illness in high-income countries: a systematic review and meta-analysis."
+  authors: "EJ, Tweed and RM, Thomson and D, Lewer and C, Sumpter and A, Kirolos and PM, Southworth and AK, Purba and RW, Aldridge and A, Hayward and A, Story and SW, Hwang and SV, Katikireddi"
+  year: 2021
+  type: "journal"
+  venue: "Journal of epidemiology and community health"
+  doi: "10.1136/jech-2020-215975"
+
+- title: "Screening for tuberculosis among high-risk groups attending {London"
+  authors: "Gupta, Rishi K. and Lule, Swaib A. and Krutikov, Maria and Gosce, Lara and Green, Nathan and Southern, Jo and Imran, Ambreen and Aldridge, Robert W. and Kunst, Heinke and Lipman, Marc and Lynn, William and Burgess, Helen and Rahman, Asif and Menezes, Dee and Rahman, Ananna and Tiberi, Simon and White, Peter J. and Abubakar, Ibrahim"
+  year: 2021
+  type: "journal"
+  venue: "European Respiratory Journal"
+  pages: "2003831"
+  doi: "10.1183/13993003.03831-2020"
+
+- title: "Risk factors, symptom reporting, healthcare-seeking behaviour and adherence to public health guidance: protocol for {Virus"
+  authors: "Hayward, A and Fragaszy, E and Kovar, J and Nguyen, V and Beale, S and Byrne, T and Aryee, A and Hardelid, P and Wijlaars, L and Fong, WLE and Geismar, C and Patel, P and Shrotri, M and Navaratnam, AMD and Aldridge, RW"
+  year: 2021
+  type: "journal"
+  venue: "BMJ open"
+  doi: "10.1136/bmjopen-2020-048042"
+
+- title: "Peer advocacy and access to healthcare for people who are homeless in {London"
+  authors: "Rathod, Sujit D. and Guise, Andrew and Annand, P. J. and Hosseini, Paniz and Williamson, Elizabeth and Miners, Alec and Bowgett, Kate and Burrows, Martin and Aldridge, Robert W. and Luchenski, Serena and Menezes, Dee and Story, Alistair and Hayward, Andrew and Platt, Lucy"
+  year: 2021
+  type: "journal"
+  venue: "BMJ Open"
+  volume: "11"
+  pages: "e050717"
+  doi: "10.1136/bmjopen-2021-050717"
+
+- title: "Household overcrowding and risk of {SARS"
+  authors: "Aldridge, Robert W. and Pineo, Helen and Fragaszy, Ellen and Eyre, Max and Kovar, Jana and Nguyen, Vincent and Beale, Sarah and Byrne, Thomas and Aryee, Anna and Smith, Colette and Devakumar, Delanjathan and Taylor, Jonathon and Katikireddi, Vittal and Fong, Wing Lam Erica and Geismar, Cyril and Patel, Parth and Shrotri, Madhumita and Braithwaite, Isobel and Navaratnam, Annalan M. D. and Johnson, Anne M. and Hayward, Andrew"
+  year: 2021
+  type: "journal"
+  doi: "10.1101/2021.05.10.21256912"
+
+- title: "Healthcare resource utilisation and mortality outcomes in international migrants to the {UK"
+  authors: "Pathak, Neha and Patel, Parth and Burns, Rachel and Haim, Lucinda and Zhang, Claire X. and Boukari, Yamina and Gonzales-Izquierdo, Arturo and Mathur, Rohini and Minassian, Caroline and Pitman, Alexandra and Denaxas, Spiros and Hemingway, Harry and Hayward, Andrew and Sonnenberg, Pam and Aldridge, Robert W."
+  year: 2021
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "156"
+  doi: "10.12688/wellcomeopenres.15931.2"
+
+- title: "Data-driven discovery of changes in clinical code usage over time: a case-study on changes in cardiovascular disease recording in two {English"
+  authors: "Rockenschaub, Patrick and Nguyen, Vincent and Aldridge, Robert W. and Acosta, Dionisio and García-Gómez, Juan Miguel and Sáez, Carlos"
+  year: 2020
+  type: "journal"
+  venue: "BMJ Open"
+  volume: "10"
+  pages: "e034396"
+  doi: "10.1136/bmjopen-2019-034396"
+
+- title: "Mobile-based and open-source case detection and infectious disease outbreak management systems: a review"
+  authors: "Yavlinsky, Alexei and Lule, Swaib A. and Burns, Rachel and Zumla, Alimuddin and McHugh, Timothy D. and Ntoumi, Francine and Masanja, Honorati and Mwakasungula, Solomon and Abubakar, Ibrahim and Aldridge, Robert W."
+  year: 2020
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "37"
+  doi: "10.12688/wellcomeopenres.15723.1"
+
+- title: "A new transdisciplinary research model to investigate and improve the health of the public."
+  authors: "Pineo, H and Turnbull, ER and Davies, M and Rowson, M and Hayward, AC and Hart, G and Johnson, AM and Aldridge, RW"
+  year: 2020
+  type: "journal"
+  venue: "Health promotion international"
+  doi: "10.1093/heapro/daaa125"
+
+- title: "Seasonality and immunity to laboratory-confirmed seasonal coronaviruses ({HCoV"
+  authors: "Aldridge, Robert W. and Lewer, Dan and Beale, Sarah and Johnson, Anne M. and Zambon, Maria and Hayward, Andrew C. and and, Ellen B. Fragaszy"
+  year: 2020
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "52"
+  doi: "10.12688/wellcomeopenres.15812.1"
+
+- title: "A {Rapid"
+  authors: "Beale, Sarah and Hayward, Andrew and Shallcross, Laura and Aldridge, Robert W. and Fragaszy, Ellen"
+  year: 2020
+  type: "journal"
+  doi: "10.1101/2020.05.20.20108183"
+
+- title: "Household transmission of seasonal coronavirus infections: {Results"
+  authors: "Beale, Sarah and Lewer, Dan and Aldridge, Robert W. and Johnson, Anne M. and Zambon, Maria and Hayward, Andrew and Fragaszy, Ellen"
+  year: 2020
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "145"
+  doi: "10.12688/wellcomeopenres.16055.1"
+
+- title: "Black, {Asian"
+  authors: "Aldridge, Robert W. and Lewer, Dan and Katikireddi, Srinivasa Vittal and Mathur, Rohini and Pathak, Neha and Burns, Rachel and Fragaszy, Ellen B. and Johnson, Anne M. and Devakumar, Delan and Abubakar, Ibrahim and Hayward, Andrew"
+  year: 2020
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "88"
+  doi: "10.12688/wellcomeopenres.15922.2"
+
+- title: "Global call to action for inclusion of migrants and refugees in the {COVID"
+  authors: "Orcutt, M and Patel, P and Burns, R and Hiam, L and Aldridge, R and Devakumar, D and Kumar, B and Spiegel, P and Abubakar, I"
+  year: 2020
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(20)30971-5"
+
+- title: "A national initiative in data science for health: an evaluation of the {UK"
+  authors: "Hemingway, H and Lyons, R and Li, Q and Buchan, I and Ainsworth, J and Pell, J and Morris, A"
+  year: 2020
+  type: "journal"
+  venue: "International journal of population data science"
+  doi: "10.23889/ijpds.v5i1.1128"
+
+- title: "Automated and semi-automated contact tracing: {Protocol"
+  authors: "Braithwaite, Isobel and Callender, Tom and Bullock, Miriam and Aldridge, Rob"
+  year: 2020
+  type: "journal"
+  doi: "10.1101/2020.04.14.20063636"
+
+- title: "From the micro to the macro to improve health: microorganism ecology and society in teaching infectious disease epidemiology."
+  authors: "Shahmanesh, M and Harling, G and Coltart, CEM and Bailey, H and King, C and Gibbs, J and Seeley, J and Phillips, A and Sabin, CA and Aldridge, RW and Sonnenberg, P and Hart, G and Rowson, M and Field, N"
+  year: 2020
+  type: "journal"
+  venue: "The Lancet. Infectious diseases"
+  doi: "10.1016/s1473-3099(20)30136-5"
+
+- title: "Black, {Asian"
+  authors: "Aldridge, Robert W. and Lewer, Dan and Katikireddi, Srinivasa Vittal and Mathur, Rohini and Pathak, Neha and Burns, Rachel and Fragaszy, Ellen B. and Johnson, Anne M. and Devakumar, Delan and Abubakar, Ibrahim and Hayward, Andrew"
+  year: 2020
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "88"
+  doi: "10.12688/wellcomeopenres.15922.1"
+
+- title: "{COVID"
+  authors: "Lewer, Dan and Braithwaite, Isobel and Bullock, Miriam and Eyre, Max T. and Aldridge, Robert W."
+  year: 2020
+  type: "journal"
+  doi: "10.1101/2020.05.04.20079301"
+
+- title: "Automated and partially-automated contact tracing: a rapid systematic review to inform the control of {COVID"
+  authors: "Braithwaite, Isobel and Callender, Tom and Bullock, Miriam and Aldridge, Robert W."
+  year: 2020
+  type: "journal"
+  doi: "10.1101/2020.05.27.20114447"
+
+- title: "Protocol for a systematic review of treatment adherence for {HIV"
+  authors: "Johnson, L and Lewer, D and Aldridge, RW and Hayward, AC and Story, A"
+  year: 2020
+  type: "journal"
+  venue: "Systematic reviews"
+  doi: "10.1186/s13643-020-01470-y"
+
+- title: "{COVID"
+  authors: "D, Lewer and I, Braithwaite and M, Bullock and MT, Eyre and PJ, White and RW, Aldridge and A, Story and AC, Hayward"
+  year: 2020
+  type: "journal"
+  venue: "The Lancet. Respiratory medicine"
+  doi: "10.1016/s2213-2600(20)30396-9"
+
+- title: "Impact of baseline cases of cough and fever on {UK"
+  authors: "Eyre, Max T. and Burns, Rachel and Kirkby, Victoria and Smith, Catherine and Denaxas, Spiros and Nguyen, Vincent and Hayward, Andrew and Shallcross, Laura and Fragaszy, Ellen and Aldridge, Robert W."
+  year: 2020
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "225"
+  doi: "10.12688/wellcomeopenres.16304.1"
+
+- title: "Discovery and validation of a personalized risk predictor for incident tuberculosis in low transmission settings."
+  authors: "Gupta, RK and Calderwood, CJ and Yavlinsky, A and Krutikov, M and Quartagno, M and Aichelburg, MC and Altet, N and Diel, R and Dobler, CC and Dominguez, J and Doyle, JS and Erkens, C and Geis, S and Abubakar, I"
+  year: 2020
+  type: "journal"
+  venue: "Nature medicine"
+  doi: "10.1038/s41591-020-1076-0"
+
+- title: "Automated and partly automated contact tracing: a systematic review to inform the control of {COVID"
+  authors: "I, Braithwaite and T, Callender and M, Bullock and RW, Aldridge"
+  year: 2020
+  type: "journal"
+  venue: "The Lancet. Digital health"
+  doi: "10.1016/s2589-7500(20)30184-9"
+
+- title: "Increase in reported domestic abuse in {Integrated"
+  authors: "Weller, SJ and Tippetts, D and Weston, D and Aldridge, RW and Ashby, J"
+  year: 2020
+  type: "journal"
+  venue: "Sexually transmitted infections"
+  doi: "10.1136/sextrans-2020-054722"
+
+- title: "Management and control of tuberculosis control in socially complex groups: a research programme including three {RCTs"
+  authors: "Story, Alistair and Garber, Elizabeth and Aldridge, Robert W and Smith, Catherine M and Hall, Joe and Ferenando, Gloria and Possas, Lucia and Hemming, Sara and Wurie, Fatima and Luchenski, Serena and Abubakar, Ibrahim and McHugh, Timothy D and White, Peter J and Watson, John M and Lipman, Marc and Garfein, Richard and Hayward, Andrew C"
+  year: 2020
+  type: "journal"
+  venue: "Programme Grants for Applied Research"
+  volume: "8"
+  pages: "1--76"
+  doi: "10.3310/pgfar08090"
+
+- title: "A rapid review and meta-analysis of the asymptomatic proportion of {PCR"
+  authors: "Beale, Sarah and Hayward, Andrew and Shallcross, Laura and Aldridge, Robert W. and Fragaszy, Ellen"
+  year: 2020
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "266"
+  doi: "10.12688/wellcomeopenres.16387.1"
+
+- title: "Seasonality and immunity to laboratory-confirmed seasonal coronaviruses ({HCoV"
+  authors: "Aldridge, Robert W. and Lewer, Dan and Beale, Sarah and Johnson, Anne M. and Zambon, Maria and Hayward, Andrew C. and Fragaszy, Ellen B."
+  year: 2020
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "52"
+  doi: "10.12688/wellcomeopenres.15812.2"
+
+- title: "Health on the {Move"
+  authors: "Aldridge, Robert W. and Burns, Rachel and Kirkby, Victoria and Elsay, Nadia and Murray, Elizabeth and Perski, Olga and Navaratnam, Annalan M. and Williamson, Elizabeth J. and Nieto-Martínez, Ramfis and Miranda, J. Jaime and Hugenholtz, Greg C. G."
+  year: 2020
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "5"
+  pages: "268"
+  doi: "10.12688/wellcomeopenres.16348.1"
+
+- title: "Seasonality and immunity to laboratory-confirmed seasonal coronaviruses ({HCoV"
+  authors: "R, Aldridge and D, Lewer and S, Beale and A, Johnson and M, Zambon and A, Hayward and E, Fragaszy and Group, Flu Watch"
+  year: 2020
+  type: "journal"
+  venue: "Wellcome open research"
+
+- title: "Premature mortality attributable to socioeconomic inequality in {England"
+  authors: "Lewer, D and Jayatunga, W and Aldridge, RW and Edge, C and Marmot, M and Story, A and Hayward, A"
+  year: 2020
+  type: "journal"
+  venue: "The Lancet. Public health"
+  doi: "10.1016/s2468-2667(19)30219-1"
+
+- title: "Homelessness: a barometer of social justice."
+  authors: "R, Aldridge"
+  year: 2020
+  type: "journal"
+  venue: "The Lancet. Public health"
+  doi: "10.1016/s2468-2667(19)30240-3"
+
+- title: "Our data, our society, our health: {A"
+  authors: "Ford, E and Boyd, A and Bowles, JKF and Havard, A and Aldridge, RW and Curcin, V and Greiver, M and Harron, K and Katikireddi, V and Rodgers, SE and Sperrin, M"
+  year: 2019
+  type: "journal"
+  venue: "Learning health systems"
+  doi: "10.1002/lrh2.10191"
+
+- title: "Effects of non-health-targeted policies on migrant health: a systematic review and meta-analysis."
+  authors: "Juárez, SP and Honkaniemi, H and Dunlavy, AC and Aldridge, RW and Barreto, ML and Katikireddi, SV and Rostila, M"
+  year: 2019
+  type: "journal"
+  venue: "The Lancet. Global health"
+  doi: "10.1016/s2214-109x(18)30560-6"
+
+- title: "Smartphone-enabled video-observed versus directly observed treatment for tuberculosis: a multicentre, analyst-blinded, randomised, controlled superiority trial."
+  authors: "Story, A and Aldridge, RW and Smith, CM and Garber, E and Hall, J and Ferenando, G and Possas, L and Hemming, S and Wurie, F and Luchenski, S and Abubakar, I and McHugh, TD and White, PJ and Watson, JM and Hayward, AC"
+  year: 2019
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(18)32993-3"
+
+- title: "Building a {European"
+  authors: "Öhd, JN and Lönnroth, K and Abubakar, I and Aldridge, RW and Erkens, C and Jonsson, J and Marchese, V and Matteelli, A and Menezes, D and Zenner, D and Hergens, MP"
+  year: 2019
+  type: "journal"
+  venue: "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases"
+  venue_short: "International journal of infectious diseases : IJID : off..."
+  doi: "10.1016/j.ijid.2019.02.041"
+
+- title: "Code sets for respiratory symptoms in electronic health records research: a systematic review protocol"
+  authors: "Jayatunga, Wikum and Stone, Philip and Aldridge, Robert W. and Quint, Jennifer K. and George, Julie"
+  year: 2019
+  type: "journal"
+  venue: "BMJ Open"
+  volume: "9"
+  pages: "e025965"
+  doi: "10.1136/bmjopen-2018-025965"
+
+- title: "Occupational health outcomes among international migrant workers: a systematic review and meta-analysis."
+  authors: "Hargreaves, S and Rustage, K and Nellums, LB and McAlpine, A and Pocock, N and Devakumar, D and Aldridge, RW and Abubakar, I and Kristensen, KL and Himmels, JW and Friedland, JS and Zimmerman, C"
+  year: 2019
+  type: "journal"
+  venue: "The Lancet. Global health"
+  doi: "10.1016/s2214-109x(19)30204-9"
+
+- title: "Increasing healthy life expectancy equitably in {England"
+  authors: "Marteau, TM and White, M and Rutter, H and Petticrew, M and Mytton, OT and McGowan, JG and RW, Aldridge"
+  year: 2019
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(19)31510-7"
+
+- title: "The negative health effects of hostile environment policies on migrants: {A"
+  authors: "Weller, Sophie J. and Crosby, Liam J. and Turnbull, Eleanor R. and Burns, Rachel and Miller, Anna and Jones, Lucy and Aldridge, Robert W."
+  year: 2019
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "4"
+  pages: "109"
+  doi: "10.12688/wellcomeopenres.15358.1"
+
+- title: "Research and training recommendations for public health data science."
+  authors: "Aldridge, RW"
+  year: 2019
+  type: "journal"
+  venue: "The Lancet. Public health"
+  doi: "10.1016/s2468-2667(19)30112-4"
+
+- title: "Causes of death among homeless people: a population-based cross-sectional study of linked hospitalisation and mortality data in {England"
+  authors: "Aldridge, Robert W. and Menezes, Dee and Lewer, Dan and Cornes, Michelle and Evans, Hannah and Blackburn, Ruth M. and Byng, Richard and Clark, Michael and Denaxas, Spiros and Fuller, James and Hewett, Nigel and Kilmister, Alan and Luchenski, Serena and Manthorpe, Jill and McKee, Martin and Neale, Joanne and Story, Alistair and Tinelli, Michela and Whiteford, Martin and Wurie, Fatima and Hayward, Andrew"
+  year: 2019
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "4"
+  pages: "49"
+  doi: "10.12688/wellcomeopenres.15151.1"
+
+- title: "{UK"
+  authors: "Tweed, EJ and Aldridge, RW and Group, Public Health Science Conference"
+  year: 2019
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(19)30895-5"
+
+- title: "Health-related quality of life and prevalence of six chronic diseases in homeless and housed people: a cross-sectional study in {London"
+  authors: "Lewer, Dan and Aldridge, Robert W and Menezes, Dee and Sawyer, Clare and Zaninotto, Paola and Dedicoat, Martin and Ahmed, Imtiaz and Luchenski, Serena and Hayward, Andrew and Story, Alistair"
+  year: 2019
+  type: "journal"
+  venue: "BMJ Open"
+  volume: "9"
+  pages: "e025192"
+  doi: "10.1136/bmjopen-2018-025192"
+
+- title: "Collecting and exploiting data to understand a nation’s sexual health needs: {Implications"
+  authors: "Mercer, Catherine H and Clifton, Soazig and Prior, Gillian and Aldridge, Robert W and Bonell, Chris and Copas, Andrew J and Field, Nigel and Gibbs, Jo and Macdowall, Wendy and Mitchell, Kirstin R and Tanton, Clare and Thomson, Nick and Unemo, Magnus and Sonnenberg, Pam"
+  year: 2019
+  type: "journal"
+  venue: "Sexually Transmitted Infections"
+  volume: "95"
+  pages: "159--161"
+  doi: "10.1136/sextrans-2018-053571"
+
+- title: "Causes of hospital admission and mortality among 6683 people who use heroin: {A"
+  authors: "D, Lewer and EJ, Tweed and RW, Aldridge and KI, Morley"
+  year: 2019
+  type: "journal"
+  venue: "Drug and alcohol dependence"
+  doi: "10.1016/j.drugalcdep.2019.06.027"
+
+- title: "Stalling life expectancy and rising inequalities in {England"
+  authors: "TM, Marteau and M, White and H, Rutter and M, Petticrew and OT, Mytton and JG, McGowan and RW, Aldridge"
+  year: 2019
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(19)32602-9"
+
+- title: "{ActEarly"
+  authors: "Wright, John and Hayward, Andrew C. and West, Jane and Pickett, Kate E. and McEachan, Rosie M. and Mon-Williams, Mark and Christie, Nicola and Vaughan, Laura and Sheringham, Jess and Haklay, Muki and Sheard, Laura and Dickerson, Josie and Barber, Sally and Small, Neil and Cookson, Richard and Garnett, Philip and Bywater, Tracey and Pleace, Nicholas and Brunner, Eric J. and Cameron, Claire and Ucci, Marcella and Cummins, Steve and Fancourt, Daisy and Kandt, Jens and Longley, Paul and Morris, Steve and Ploubidis, George and Savage, Robert and Aldridge, Robert W. and Hopewell, Dan and Yang, Tiffany and Mason, Dan and Santorelli, Gillian and Romano, Richard and Bryant, Maria and Crosby, Liam and Sheldon, Trevor"
+  year: 2019
+  type: "journal"
+  venue: "Wellcome Open Research"
+  volume: "4"
+  pages: "156"
+  doi: "10.12688/wellcomeopenres.15443.1"
+
+- title: "High prevalence of latent tuberculosis and bloodborne virus infection in a homeless population."
+  authors: "RW, Aldridge and AC, Hayward and S, Hemming and SK, Yates and G, Ferenando and L, Possas and E, Garber and JM, Watson and AM, Geretti and TD, McHugh and M, Lipman and A, Story"
+  year: 2018
+  type: "journal"
+  venue: "Thorax"
+  doi: "10.1136/thoraxjnl-2016-209579"
+
+- title: "Promoting a healthy cities agenda through indicators: development of a global urban environment and health index"
+  authors: "Pineo, Helen and Zimmermann, Nici and Cosgrave, Ellie and Aldridge, Robert W. and Acuto, Michele and Rutter, Harry"
+  year: 2018
+  type: "journal"
+  venue: "Cities & Health"
+  volume: "2"
+  pages: "27--45"
+  doi: "10.1080/23748834.2018.1429180"
+
+- title: "Public {Health"
+  authors: "van Schalkwyk, MCI and Aldridge, RW and Group, Public Health Science Conference"
+  year: 2018
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(18)30851-1"
+
+- title: "Accuracy of an automated system for tuberculosis detection on chest radiographs in high-risk screening."
+  authors: "J, Melendez and L, Hogeweg and CI, Sánchez and RHHM, Philipsen and RW, Aldridge and AC, Hayward and I, Abubakar and B, van Ginneken and A, Story"
+  year: 2018
+  type: "journal"
+  venue: "The international journal of tuberculosis and lung disease : the official journal of the International Union against Tuberculosis and Lung Disease"
+  venue_short: "The international journal of tuberculosis and lung diseas..."
+  doi: "10.5588/ijtld.17.0492"
+
+- title: "Global patterns of mortality in international migrants: a systematic review and meta-analysis."
+  authors: "Aldridge, RW and Nellums, LB and Bartlett, S and Barr, AL and Patel, P and Burns, R and Hargreaves, S and Miranda, JJ and Tollman, S and Friedland, JS and Abubakar, I"
+  year: 2018
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(18)32781-8"
+
+- title: "Can deinstitutionalisation contribute to exclusion? - {Authors"
+  authors: "Luchenski, SA and Fitzpatrick, S and Hewett, N and Aldridge, RW and Hayward, AC"
+  year: 2018
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(18)30755-4"
+
+- title: "Changes in health in the countries of the {UK"
+  authors: "Steel, N and Ford, JA and Newton, JN and Davis, ACJ and Vos, T and Naghavi, M and Glenn, S and Hughes, A and Dalton, AM and Stockton, D and Humphreys, C and Dallat, M and Schmidt, J and Flowers, J and Murray, CJL"
+  year: 2018
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(18)32207-4"
+
+- title: "The {UCL"
+  authors: "Abubakar, I and Aldridge, RW and Devakumar, D and Orcutt, M and Burns, R and Barreto, ML and Dhavan, P and Fouad, FM and Groce, N and Guo, Y and Hargreaves, S and Knipper, M and Miranda, JJ and Migration, UCL-Lancet Commission on and {Health"
+  year: 2018
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(18)32114-7"
+
+- title: "Tuberculosis control in {New"
+  authors: "Aldridge, R.W. and Hayward, A."
+  year: 2017
+  type: "journal"
+  venue: "The Lancet Public Health"
+  volume: "2"
+  pages: "e302--e303"
+
+- title: "What works in inclusion health: overview of effective interventions for marginalised and excluded populations."
+  authors: "S, Luchenski and N, Maguire and RW, Aldridge and A, Hayward and A, Story and P, Perri and J, Withers and S, Clint and S, Fitzpatrick and N, Hewett"
+  year: 2017
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(17)31959-1"
+
+- title: "Morbidity and mortality in homeless individuals, prisoners, sex workers, and individuals with substance use disorders in high-income countries: a systematic review and meta-analysis."
+  authors: "RW, Aldridge and A, Story and SW, Hwang and M, Nordentoft and SA, Luchenski and G, Hartwell and EJ, Tweed and D, Lewer and S, Vittal Katikireddi and AC, Hayward"
+  year: 2017
+  type: "journal"
+  venue: "Lancet (London, England)"
+  doi: "10.1016/s0140-6736(17)31869-x"
+
+- title: "Post-migration follow-up of migrants at risk of tuberculosis."
+  authors: "White, PJ and Abubakar, I and Aldridge, RW and Hayward, AC"
+  year: 2017
+  type: "journal"
+  venue: "The Lancet. Infectious diseases"
+  doi: "10.1016/s1473-3099(17)30567-4"
+
+- title: "Outcomes of specialist discharge coordination and intermediate care schemes for patients who are homeless: analysis protocol for a population-based historical cohort."
+  authors: "RM, Blackburn and A, Hayward and M, Cornes and M, McKee and D, Lewer and M, Whiteford and D, Menezes and S, Luchenski and A, Story and S, Denaxas and M, Tinelli and FB, Wurie and R, Byng and MC, Clark and RW, Aldridge"
+  year: 2017
+  type: "journal"
+  venue: "BMJ open"
+  doi: "10.1136/bmjopen-2017-019282"
+
+- title: "Erratum: {Correction"
+  authors: "Wang, H. and Wolock, T.M. and Carter, A. and Nguyen, G. and Kyu, H.H. and Gakidou, E. and Hay, S.I. and Mills, E.J. and Trickey, A. and Msemburi, W. and Coates, M.M. and Mooney, M.D. and Fraser, M.S. and Sligar, A. and Salomon, J. and Larson, H.J. and Friedman, J. and Abajobir, A.A. and Abate, K.H. and Abbas, K.M. and Razek, M.M.A.E. and Abd-Allah, F. and Abdulle, A.M. and Abera, S.F. and Abubakar, I. and Abu-Raddad, L.J. and Abu-Rmeileh, N.M.E. and Abyu, G.Y. and Adebiyi, A.O. and Adedeji, I.A. and Adelekan, A.L. and Adofo, K. and Adou, A.K. and Ajala, O.N. and Akinyemiju, T.F. and Akseer, N. and Lami, F.H.A. and Al-Aly, Z. and Alam, K. and Alam, N.K.M. and Alasfoor, D. and Aldhahri, S.F.S. and Aldridge, R.W. and Alegretti, M.A. and Aleman, A.V. and Alemu, Z.A. and Alfonso-Cristancho, R. and Ali, R. and Alkerwi, A. and Alla, F. and Mohammad, R. and Al-Raddadi, S. and Alsharif, U. and Alvarez, E. and Alvis-Guzman, N. and Amare, A.T. and Amberbir, A. and Amegah, A.K. and Ammar, W. and Amrock, S.M. and Antonio, C.A.T. and Anwari, P. and Ã?rnlÃ?v, J. and Artaman, A. and Asayesh, H. and Asghar, R.J. and Assadi, R. and Atique, S. and Atkins, L.S. and Avokpaho, E.F.G.A. and Awasthi, A. and Quintanilla, B.P.A. and Bacha, U. and Badawi, A. and Barac, A. and BÃ?rnighausen, T. and Basu, A. and Bayou, T.A. and Bayou, Y.T. and Bazargan-Hejazi, S. and Beardsley, J. and Bedi, N. and Bennett, D.A. and Bensenor, I.M. and Betsu, B.D. and Beyene, A.S. and Bhatia, E. and Bhutta, Z.A. and Biadgilign, S. and Bikbov, B. and Birlik, S.M. and Bisanzio, D. and Brainin, M. and Brazinova, A. and Breitborde, N.J.K. and Brown, A. and Burch, M. and Butt, Z.A. and Campuzano, J.C. and CÃ?rdenas, R. and Carrero, J.J. and CastaÃ?eda-Orjuela, C.A. and Rivas, J.C. and CatalÃ?-LÃ?pez, F. and Chang, H.-Y. and Chang, J.-C. and Chavan, L. and Chen, W. and Chiang, P.P.-C. and Chibalabala, M. and Chisumpa, V.H. and Choi, J.-Y.J. and Christopher, D.J. and Ciobanu, L.G. and Cooper, C. and Dahiru, T. and Damtew, S.A. and Dandona, L. and Dandona, R. and das Neves, J. and de Jager, P. and De Leo, D. and Degenhardt, L. and Dellavalle, R.P. and Deribe, K. and Deribew, A. and Des Jarlais, D.C. and Dharmaratne, S.D. and Ding, E.L. and Doshi, P.P. and Driscoll, T.R. and Dubey, M. and Elshrek, Y.M. and Elyazar, I. and Endries, A.Y. and Ermakov, S.P. and Eshrati, B. and Esteghamati, A. and Faghmous, I.D.A. and Farinha, C.S.E.S. and Faro, A. and Farvid, M.S. and Farzadfar, F. and Fereshtehnejad, S.-M. and Fernandes, J.C. and Fischer, F. and Fitchett, J.R.A. and Foigt, N. and Fullman, N. and FÃ?rst, T. and GankpÃ?, F.G. and Gebre, T. and Gebremedhin, A.T. and Gebru, A.A. and Geleijnse, J.M. and Gessner, B.D. and Gething, P.W. and Ghiwot, T.T. and Giroud, M. and Gishu, M.D. and Glaser, E. and Goenka, S. and Goodridge, A. and Gopalani, S.V. and Goto, A. and Gugnani, H.C. and Guimaraes, M.D.C. and Gupta, R. and Gupta, R. and Gupta, V. and Haagsma, J. and Hafezi-Nejad, N. and Hagan, H. and Hailu, G.B. and Hamadeh, R.R. and Hamidi, S. and Hammami, M. and Hankey, G.J. and Hao, Y. and Harb, H.L. and Harikrishnan, S. and Haro, J.M. and Harun, K.M. and Havmoeller, R. and Hedayati, M.T. and Heredia-Pi, I.B. and Hoek, H.W. and Horino, M. and Horita, N. and Hosgood, H.D. and Hoy, D.G. and Hsairi, M. and Hu, G. and Huang, H. and Huang, J.J. and Iburg, K.M. and Idrisov, B.T. and Innos, K. and Iyer, V.J. and Jacobsen, K.H. and Jahanmehr, N. and Jakovljevic, M.B. and Javanbakht, M. and Jayatilleke, A.U. and Jeemon, P. and Jha, V. and Jiang, G. and Jiang, Y. and Jibat, T. and Jonas, J.B. and Kabir, Z. and Kamal, R. and Kan, H. and Karch, A. and Karema, C.K. and Karletsos, D. and Kasaeian, A. and Kaul, A. and Kawakami, N. and Kayibanda, J.F. and Keiyoro, P.N. and Kemp, A.H. and Kengne, A.P. and Kesavachandran, C.N. and Khader, Y.S. and Khalil, I. and Khan, A.R. and Khan, E.A. and Khang, Y.-H. and Khubchandani, J. and Kim, Y.J. and Kinfu, Y. and Kivipelto, M. and Kokubo, Y. and Kosen, S. and Koul, P.A. and Koyanagi, A. and Defo, B.K. and Bicer, B.K. and Kulkarni, V.S. and Kumar, G.A. and Lal, D.K. and Lam, H. and Lam, J.O. and Langan, S.M. and Lansingh, V.C. and Larsson, A. and Leigh, J. and Leung, R. and Li, Y. and Lim, S.S. and Lipshultz, S.E. and Liu, S. and Lloyd, B.K. and Logroscino, G. and Lotufo, P.A. and Lunevicius, R. and Razek, H.M.A.E. and Mahdavi, M. and Majdan, M. and Majeed, A. and Makhlouf, C. and Malekzadeh, R. and Mapoma, C.C. and Marcenes, W. and Martinez-Raga, J. and Marzan, M.B. and Masiye, F. and Mason-Jones, A.J. and Mayosi, B.M. and McKee, M. and Meaney, P.A. and Mehndiratta, M.M. and Mekonnen, A.B. and Melaku, Y.A. and Memiah, P. and Memish, Z.A. and Mendoza, W. and Meretoja, A. and Meretoja, T.J. and Mhimbira, F.A. and Miller, T.R. and Mikesell, J. and Mirarefin, M. and Mohammad, K.A. and Mohammed, S. and Mokdad, A.H. and Monasta, L. and Moradi-Lakeh, M. and Mori, R. and Mueller, U.O. and Murimira, B. and Murthy, G.V.S. and Naheed, A. and Naldi, L. and Nangia, V. and Nash, D. and Nawaz, H. and Nejjari, C. and Ngalesoni, F.N. and de Dieu Ngirabega, J. and Nguyen, Q.L. and Nisar, M.I. and Norheim, O.F. and Norman, R.E. and Nyakarahuka, L. and Ogbo, F.A. and Oh, I.-H. and Ojelabi, F.A. and Olusanya, B.O. and Olusanya, J.O. and Opio, J.N. and Oren, E. and Ota, E. and Padukudru, M.A. and Park, H.-Y. and Park, J.-H. and Patil, S.T. and Patten, S.B. and Paul, V.K. and Pearson, K. and Peprah, E.K. and Doyle, K.E. and Pereira, D.M. and Perico, N. and Pesudovs, K. and Petzold, M. and Phillips, M.R. and Pillay, J.D. and Plass, D. and Polinder, S. and Pourmalek, F. and Prokop, D.M. and Qorbani, M. and Rafay, A. and Rahimi, K. and Rahimi-Movaghar, V. and Rahman, M. and Rahman, M.H.U. and Rahman, S.U. and Rai, R.K. and Rajsic, S. and Ram, U. and Rana, S.M. and Rao, P.V. and Remuzzi, G. and Rojas-Rueda, D. and Ronfani, L. and Roshandel, G. and Roy, A. and Ruhago, G.M. and Saeedi, M.Y. and Sagar, R. and Saleh, M.M. and Sanabria, J.R. and Santos, I.S. and Sarmiento-Suarez, R. and Sartorius, B. and Sawhney, M. and Schutte, A.E. and Schwebel, D.C. and Seedat, S. and Sepanlou, S.G. and Servan-Mori, E.E. and Shaikh, M.A. and Sharma, R. and She, J. and Sheikhbahaei, S. and Shen, J. and Shibuya, K. and Shin, H.H. and Sigfusdottir, I.D. and Silpakit, N. and Silva, D.A.S. and Silveira, D.G.A. and Simard, E.P. and Sindi, S. and Singh, J.A. and Singh, O.P. and Singh, P.K. and Skirbekk, V. and Sliwa, K. and Soneji, S. and Sorensen, R.J.D. and Soriano, J.B. and Soti, D.O. and Sreeramareddy, C.T. and Stathopoulou, V. and Steel, N. and Sunguya, B.F. and Swaminathan, S. and Sykes, B.L. and TabarÃ?s-Seisdedos, R. and Talongwa, R.T. and Tavakkoli, M. and Taye, B. and Tedla, B.A. and Tekle, T. and Shifa, G.T. and Temesgen, A.M. and Terkawi, A.S. and Tesfay, F.H. and Tessema, G.A. and Thapa, K. and Thomson, A.J. and Thorne-Lyman, A.L. and Tobe-Gai, R. and Topor-Madry, R. and Towbin, J.A. and Tran, B.X. and Dimbuene, Z.T. and Tsilimparis, N. and Tura, A.K. and Ukwaja, K.N. and Uneke, C.J. and Uthman, O.A. and Venketasubramanian, N. and Vladimirov, S.K. and Vlassov, V.V. and Vollset, S.E. and Wang, L. and Weiderpass, E. and Weintraub, R.G. and Werdecker, A. and Westerman, R. and Wijeratne, T. and Wilkinson, J.D. and Wiysonge, C.S. and Wolfe, C.D.A. and Won, S. and Wong, J.Q. and Xu, G. and Yadav, A.K. and Yakob, B. and Yalew, A.Z. and Yano, Y. and Yaseri, M. and Yebyo, H.G. and Yip, P. and Yonemoto, N. and Yoon, S.-J. and Younis, M.Z. and Yu, C. and Yu, S. and Zaidi, Z. and Zaki, M.E.S. and Zeeb, H. and Zhang, H. and Zhao, Y. and Zodpey, S. and Zoeckler, L. and Zuhlke, L.J. and Lopez, A.D. and Murray, C.J.L."
+  year: 2016
+  type: "journal"
+  venue: "The Lancet HIV"
+  volume: "3"
+
+- title: "Are {School"
+  authors: "Aldridge, Robert W. and Hayward, Andrew C. and Field, Nigel and Warren-Gash, Charlotte and Smith, Colette and Pebody, Richard and Fleming, Declan and McCracken, Shane"
+  year: 2016
+  type: "journal"
+  venue: "PLOS ONE"
+  volume: "11"
+  pages: "e0146964"
+  doi: "10.1371/journal.pone.0146964"
+
+- title: "Prevalence of and risk factors for active tuberculosis in migrants screened before entry to the {UK"
+  authors: "Aldridge, Robert W and Zenner, Dominik and White, Peter J and Muzyamba, Morris C and Loutet, Miranda and Dhavan, Poonam and Mosca, Davide and Hayward, Andrew C and Abubakar, Ibrahim"
+  year: 2016
+  type: "journal"
+  venue: "The Lancet Infectious Diseases"
+  volume: "16"
+  pages: "962--970"
+  doi: "10.1016/s1473-3099(16)00072-4"
+
+- title: "Public {Health"
+  authors: "Aldridge, R.W. and Capewell, S. and Greaves, F. and Johnson, A.M. and Landon, J. and Lyons, R.A. and McKee, M. and McPherson, K. and Nicholl, J. and Horton, R."
+  year: 2016
+  type: "journal"
+  venue: "The Lancet"
+  volume: "387"
+  pages: "1258--1259"
+
+- title: "Estimates of global, regional, and national incidence, prevalence, and mortality of {HIV"
+  authors: "Wang, Haidong and Wolock, Tim M and Carter, Austin and Nguyen, Grant and Kyu, Hmwe Hmwe and Gakidou, Emmanuela and Hay, Simon I and Mills, Edward J and Trickey, Adam and Msemburi, William and Coates, Matthew M and Mooney, Meghan D and Fraser, Maya S and Sligar, Amber and Salomon, Joshua and Larson, Heidi J and Friedman, Joseph and Abajobir, Amanuel Alemu and Abate, Kalkidan Hassen and Abbas, Kaja M and Razek, Mohamed Magdy Abd El and Abd-Allah, Foad and Abdulle, Abdishakur M and Abera, Semaw Ferede and Abubakar, Ibrahim and Abu-Raddad, Laith J and Abu-Rmeileh, Niveen M E and Abyu, Gebre Yitayih and Adebiyi, Akindele Olupelumi and Adedeji, Isaac Akinkunmi and Adelekan, Ademola Lukman and Adofo, Koranteng and Adou, Arsène Kouablan and Ajala, Oluremi N and Akinyemiju, Tomi F and Akseer, Nadia and Lami, Faris Hasan Al and Al-Aly, Ziyad and Alam, Khurshid and Alam, Noore K M and Alasfoor, Deena and Aldhahri, Saleh Fahed S and Aldridge, Robert William and Alegretti, Miguel Angel and Aleman, Alicia V and Alemu, Zewdie Aderaw and Alfonso-Cristancho, Rafael and Ali, Raghib and Alkerwi, Ala’a and Alla, François and Mohammad, Rajaa and Al-Raddadi, Salem and Alsharif, Ubai and Alvarez, Elena and Alvis-Guzman, Nelson and Amare, Azmeraw T and Amberbir, Alemayehu and Amegah, Adeladza Kofi and Ammar, Walid and Amrock, Stephen Marc and Antonio, Carl Abelardo T and Anwari, Palwasha and Ärnlöv, Johan and Artaman, Al and Asayesh, Hamid and Asghar, Rana Jawad and Assadi, Reza and Atique, Suleman and Atkins, Lydia S and Avokpaho, Euripide Frinel G Arthur and Awasthi, Ashish and Quintanilla, Beatriz Paulina Ayala and Bacha, Umar and Badawi, Alaa and Barac, Aleksandra and Bärnighausen, Till and Basu, Arindam and Bayou, Tigist Assefa and Bayou, Yibeltal Tebekaw and Bazargan-Hejazi, Shahrzad and Beardsley, Justin and Bedi, Neeraj and Bennett, Derrick A and Bensenor, Isabela M and Betsu, Balem Demtsu and Beyene, Addisu Shunu and Bhatia, Eesh and Bhutta, Zulfiqar A and Biadgilign, Sibhatu and Bikbov, Boris and Birlik, Sait Mentes and Bisanzio, Donal and Brainin, Michael and Brazinova, Alexandra and Breitborde, Nicholas J K and Brown, Alexandria and Burch, Michael and Butt, Zahid A and Campuzano, Julio Cesar and Cárdenas, Rosario and Carrero, Juan Jesus and Castañeda-Orjuela, Carlos A and Rivas, Jacqueline Castillo and Catalá-López, Ferrán and Chang, Hsing-Yi and Chang, Jung-chen and Chavan, Laxmikant and Chen, Wanqing and Chiang, Peggy Pei-Chia and Chibalabala, Mirriam and Chisumpa, Vesper Hichilombwe and Choi, Jee-Young Jasmine and Christopher, Devasahayam Jesudas and Ciobanu, Liliana G and Cooper, Cyrus and Dahiru, Tukur and Damtew, Solomon Abrha and Dandona, Lalit and Dandona, Rakhi and das Neves, José and de Jager, Pieter and De Leo, Diego and Degenhardt, Louisa and Dellavalle, Robert P and Deribe, Kebede and Deribew, Amare and Des Jarlais, Don C and Dharmaratne, Samath D and Ding, Eric L and Doshi, Pratik Pinal and Doyle, Kerrie E and Driscoll, Tim R and Dubey, Manisha and Elshrek, Yousef Mohamed and Elyazar, Iqbal and Endries, Aman Yesuf and Ermakov, Sergey Petrovich and Eshrati, Babak and Esteghamati, Alireza and Faghmous, Imad D A and Farinha, Carla Sofia e Sa and Faro, Andre and Farvid, Maryam S and Farzadfar, Farshad and Fereshtehnejad, Seyed-Mohammad and Fernandes, Joao C and Fischer, Florian and Fitchett, Joseph Robert Anderson and Foigt, Nataliya and Fullman, Nancy and Fürst, Thomas and Gankpé, Fortuné Gbètoho and Gebre, Teshome and Gebremedhin, Amanuel Tesfay and Gebru, Alemseged Aregay and Geleijnse, Johanna M and Gessner, Bradford D and Gething, Peter W and Ghiwot, Tsegaye Tewelde and Giroud, Maurice and Gishu, Melkamu Dedefo and Glaser, Elizabeth and Goenka, Shifalika and Goodridge, Amador and Gopalani, Sameer Vali and Goto, Atsushi and Gugnani, Harish Chander and Guimaraes, Mark D C and Gupta, Rahul and Gupta, Rajeev and Gupta, Vipin and Haagsma, Juanita and Hafezi-Nejad, Nima and Hagan, Holly and Hailu, Gessessew Bugssa and Hamadeh, Randah Ribhi and Hamidi, Samer and Hammami, Mouhanad and Hankey, Graeme J and Hao, Yuantao and Harb, Hilda L and Harikrishnan, Sivadasanpillai and Haro, Josep Maria and Harun, Kimani M and Havmoeller, Rasmus and Hedayati, Mohammad T and Heredia-Pi, Ileana Beatriz and Hoek, Hans W and Horino, Masako and Horita, Nobuyuki and Hosgood, H Dean and Hoy, Damian G and Hsairi, Mohamed and Hu, Guoqing and Huang, Hsiang and Huang, John J and Iburg, Kim Moesgaard and Idrisov, Bulat T and Innos, Kaire and Iyer, Veena J and Jacobsen, Kathryn H and Jahanmehr, Nader and Jakovljevic, Mihajlo B and Javanbakht, Mehdi and Jayatilleke, Achala Upendra and Jeemon, Panniyammakal and Jha, Vivekanand and Jiang, Guohong and Jiang, Ying and Jibat, Tariku and Jonas, Jost B and Kabir, Zubair and Kamal, Ritul and Kan, Haidong and Karch, André and Karema, Corine Kakizi and Karletsos, Dimitris and Kasaeian, Amir and Kaul, Anil and Kawakami, Norito and Kayibanda, Jeanne Françoise and Keiyoro, Peter Njenga and Kemp, Andrew Haddon and Kengne, Andre Pascal and Kesavachandran, Chandrasekharan Nair and Khader, Yousef Saleh and Khalil, Ibrahim and Khan, Abdur Rahman and Khan, Ejaz Ahmad and Khang, Young-Ho and Khubchandani, Jagdish and Kim, Yun Jin and Kinfu, Yohannes and Kivipelto, Miia and Kokubo, Yoshihiro and Kosen, Soewarta and Koul, Parvaiz A and Koyanagi, Ai and Defo, Barthelemy Kuate and Bicer, Burcu Kucuk and Kulkarni, Veena S and Kumar, G Anil and Lal, Dharmesh Kumar and Lam, Hilton and Lam, Jennifer O and Langan, Sinead M and Lansingh, Van C and Larsson, Anders and Leigh, James and Leung, Ricky and Li, Yongmei and Lim, Stephen S and Lipshultz, Steven E and Liu, Shiwei and Lloyd, Belinda K and Logroscino, Giancarlo and Lotufo, Paulo A and Lunevicius, Raimundas and Razek, Hassan Magdy Abd El and Mahdavi, Mahdi and Mahesh, P A and Majdan, Marek and Majeed, Azeem and Makhlouf, Carla and Malekzadeh, Reza and Mapoma, Chabila C and Marcenes, Wagner and Martinez-Raga, Jose and Marzan, Melvin Barrientos and Masiye, Felix and Mason-Jones, Amanda J and Mayosi, Bongani M and McKee, Martin and Meaney, Peter A and Mehndiratta, Man Mohan and Mekonnen, Alemayehu B and Melaku, Yohannes Adama and Memiah, Peter and Memish, Ziad A and Mendoza, Walter and Meretoja, Atte and Meretoja, Tuomo J and Mhimbira, Francis Apolinary and Miller, Ted R and Mikesell, Joseph and Mirarefin, Mojde and Mohammad, Karzan Abdulmuhsin and Mohammed, Shafiu and Mokdad, Ali H and Monasta, Lorenzo and Moradi-Lakeh, Maziar and Mori, Rintaro and Mueller, Ulrich O and Murimira, Brighton and Murthy, Gudlavalleti Venkata Satyanarayana and Naheed, Aliya and Naldi, Luigi and Nangia, Vinay and Nash, Denis and Nawaz, Haseeb and Nejjari, Chakib and Ngalesoni, Frida Namnyak and de Dieu Ngirabega, Jean and Nguyen, Quyen Le and Nisar, Muhammad Imran and Norheim, Ole F and Norman, Rosana E and Nyakarahuka, Luke and Ogbo, Felix Akpojene and Oh, In-Hwan and Ojelabi, Foluke Adetola and Olusanya, Bolajoko Olubukunola and Olusanya, Jacob Olusegun and Opio, John Nelson and Oren, Eyal and Ota, Erika and Park, Hye-Youn and Park, Jae-Hyun and Patil, Snehal T and Patten, Scott B and Paul, Vinod K and Pearson, Katherine and Peprah, Emmanuel Kwame and Pereira, David M and Perico, Norberto and Pesudovs, Konrad and Petzold, Max and Phillips, Michael Robert and Pillay, Julian David and Plass, Dietrich and Polinder, Suzanne and Pourmalek, Farshad and Prokop, David M and Qorbani, Mostafa and Rafay, Anwar and Rahimi, Kazem and Rahimi-Movaghar, Vafa and Rahman, Mahfuzar and Rahman, Mohammad Hifz Ur and Rahman, Sajjad Ur and Rai, Rajesh Kumar and Rajsic, Sasa and Ram, Usha and Rana, Saleem M and Rao, Paturi Vishnupriya and Remuzzi, Giuseppe and Rojas-Rueda, David and Ronfani, Luca and Roshandel, Gholamreza and Roy, Ambuj and Ruhago, George Mugambage and Saeedi, Mohammad Yahya and Sagar, Rajesh and Saleh, Muhammad Muhammad and Sanabria, Juan R and Santos, Itamar S and Sarmiento-Suarez, Rodrigo and Sartorius, Benn and Sawhney, Monika and Schutte, Aletta E and Schwebel, David C and Seedat, Soraya and Sepanlou, Sadaf G and Servan-Mori, Edson E and Shaikh, Masood Ali and Sharma, Rajesh and She, Jun and Sheikhbahaei, Sara and Shen, Jiabin and Shibuya, Kenji and Shin, Hwashin Hyun and Sigfusdottir, Inga Dora and Silpakit, Naris and Silva, Diego Augusto Santos and Silveira, Dayane Gabriele Alves and Simard, Edgar P and Sindi, Shireen and Singh, Jasvinder A and Singh, Om Prakash and Singh, Prashant Kumar and Skirbekk, Vegard and Sliwa, Karen and Soneji, Samir and Sorensen, Reed J D and Soriano, Joan B and Soti, David O and Sreeramareddy, Chandrashekhar T and Stathopoulou, Vasiliki and Steel, Nicholas and Sunguya, Bruno F and Swaminathan, Soumya and Sykes, Bryan L and Tabarés-Seisdedos, Rafael and Talongwa, Roberto Tchio and Tavakkoli, Mohammad and Taye, Bineyam and Tedla, Bemnet Amare and Tekle, Tesfaye and Shifa, Girma Temam and Temesgen, Awoke Misganaw and Terkawi, Abdullah Sulieman and Tesfay, Fisaha Haile and Tessema, Gizachew Assefa and Thapa, Kiran and Thomson, Alan J and Thorne-Lyman, Andrew L and Tobe-Gai, Ruoyan and Topor-Madry, Roman and Towbin, Jeffrey Allen and Tran, Bach Xuan and Dimbuene, Zacharie Tsala and Tsilimparis, Nikolaos and Tura, Abera Kenay and Ukwaja, Kingsley Nnanna and Uneke, Chigozie Jesse and Uthman, Olalekan A and Venketasubramanian, N and Vladimirov, Sergey K and Vlassov, Vasiliy Victorovich and Vollset, Stein Emil and Wang, Linhong and Weiderpass, Elisabete and Weintraub, Robert G and Werdecker, Andrea and Westerman, Ronny and Wijeratne, Tissa and Wilkinson, James D and Wiysonge, Charles Shey and Wolfe, Charles D A and Won, Sungho and Wong, John Q and Xu, Gelin and Yadav, Ajit Kumar and Yakob, Bereket and Yalew, Ayalnesh Zemene and Yano, Yuichiro and Yaseri, Mehdi and Yebyo, Henock Gebremedhin and Yip, Paul and Yonemoto, Naohiro and Yoon, Seok-Jun and Younis, Mustafa Z and Yu, Chuanhua and Yu, Shicheng and Zaidi, Zoubida and Zaki, Maysaa El Sayed and Zeeb, Hajo and Zhang, Hao and Zhao, Yong and Zodpey, Sanjay and Zoeckler, Leo and Zuhlke, Liesl Joanna and Lopez, Alan D and Murray, Christopher J L"
+  year: 2016
+  type: "journal"
+  venue: "The Lancet HIV"
+  volume: "3"
+  pages: "e361--e387"
+  doi: "10.1016/s2352-3018(16)30087-x"
+
+- title: "{UCL"
+  authors: "Abubakar, Ibrahim and Devakumar, Delan and Madise, Nyovani and Sammonds, Peter and Groce, Nora and Zimmerman, Cathy and Aldridge, Robert W and Clark, Jocalyn and Horton, Richard"
+  year: 2016
+  type: "journal"
+  venue: "The Lancet"
+  volume: "388"
+  pages: "1141--1142"
+  doi: "10.1016/s0140-6736(16)31581-1"
+
+- title: "Tuberculosis in migrants moving from high-incidence to low-incidence countries: a population-based cohort study of 519 955 migrants screened before entry to {England"
+  authors: "Aldridge, Robert W and Zenner, Dominik and White, Peter J and Williamson, Elizabeth J and Muzyamba, Morris C and Dhavan, Poonam and Mosca, Davide and Thomas, H Lucy and Lalor, Maeve K and Abubakar, Ibrahim and Hayward, Andrew C"
+  year: 2016
+  type: "journal"
+  venue: "The Lancet"
+  volume: "388"
+  pages: "2510--2518"
+  doi: "10.1016/s0140-6736(16)31008-x"
+
+- title: "Global, regional, national, and selected subnational levels of stillbirths, neonatal, infant, and under-5 mortality, 1980–2015: a systematic analysis for the {Global"
+  authors: "Wang, Haidong and Bhutta, Zulfiqar A and Coates, Matthew M and Coggeshall, Megan and Dandona, Lalit and Diallo, Khassoum and Franca, Elisabeth Barboza and Fraser, Maya and Fullman, Nancy and Gething, Peter W and Hay, Simon I and Kinfu, Yohannes and Kita, Maaya and Kulikoff, Xie Rachel and Larson, Heidi J and Liang, Juan and Liang, Xiaofeng and Lim, Stephen S and Lind, Margaret and Lopez, Alan D and Lozano, Rafael and Mensah, George A and Mikesell, Joseph B and Mokdad, Ali H and Mooney, Meghan D and Naghavi, Mohsen and Nguyen, Grant and Rakovac, Ivo and Salomon, Joshua A and Silpakit, Naris and Sligar, Amber and Sorensen, Reed J D and Vos, Theo and Zhu, Jun and Abajobir, Amanuel Alemu and Abate, Kalkidan Hassen and Abbas, Kaja M and Abd-Allah, Foad and Abdulle, Abdishakur M and Abera, Semaw Ferede and Aboyans, Victor and Abraham, Biju and Abubakar, Ibrahim and Abu-Raddad, Laith J and Abu-Rmeileh, Niveen M E and Abyu, Gebre Yitayih and Achoki, Tom and Adebiyi, Akindele Olupelumi and Adedeji, Isaac Akinkunmi and Adelekan, Ademola Lukman and Adou, Arsène Kouablan and Agarwal, Arnav and Ajala, Oluremi N and Akinyemiju, Tomi F and Akseer, Nadia and Alam, Khurshid and Alam, Noore K M and Alasfoor, Deena and Aldridge, Robert William and Alegretti, Miguel Angel and Alemu, Zewdie Aderaw and Ali, Raghib and Alkerwi, Ala’a and Alla, François and Al-Raddadi, Rajaa and Alsharif, Ubai and Altirkawi, Khalid A and Martin, Elena Alvarez and Alvis-Guzman, Nelson and Amare, Azmeraw T and Amberbir, Alemayehu and Amegah, Adeladza Kofi and Ameh, Emmanuel A and Ammar, Walid and Amrock, Stephen Marc and Andersen, Hjalte H and Anderson, Gregory M and Antonio, Carl Abelardo T and Ärnlöv, Johan and Artaman, Al and Asayesh, Hamid and Asghar, Rana Jawad and Assadi, Reza and Atique, Suleman and Avokpaho, Euripide Frinel G Arthur and Awasthi, Ashish and Quintanilla, Beatriz Paulina Ayala and Bacha, Umar and Badawi, Alaa and Balakrishnan, Kalpana and Banerjee, Amitava and Banigbe, Bolanle F and Barac, Aleksandra and Barber, Ryan M and Barker-Collo, Suzanne L and Bärnighausen, Till and Barrero, Lope H and Bayou, Tigist Assefa and Bayou, Yibeltal Tebekaw and Bazargan-Hejazi, Shahrzad and Beardsley, Justin and Bedi, Neeraj and Bekele, Tolesa and Bell, Michelle L and Bello, Aminu K and Bennett, Derrick A and Bensenor, Isabela M and Berhane, Adugnaw and Bernabé, Eduardo and Betsu, Balem Demtsu and Beyene, Addisu Shunu and Bhatt, Samir and Biadgilign, Sibhatu and Bikbov, Boris and Birlik, Sait Mentes and Bisanzio, Donal and Bjertness, Espen and Blore, Jed D and Bourne, Rupert R A and Brainin, Michael and Brazinova, Alexandra and Breitborde, Nicholas J K and Brown, Alexandria and Buckle, Geoffrey Colin and Burch, Michael and Butt, Zahid A and Campos-Nonato, Ismael Ricardo and Campuzano, Julio Cesar and Cárdenas, Rosario and Carpenter, David O and Carrero, Juan Jesus and Carter, Austin and Casey, Daniel C and Castañeda-Orjuela, Carlos A and Rivas, Jacqueline Castillo and Castro, Ruben Estanislao and Catalá-López, Ferrán and Cercy, Kelly and Chang, Hsing-Yi and Chang, Jung-Chen and Chibueze, Chioma Ezinne and Chisumpa, Vesper Hichilombwe and Choi, Jee-Young Jasmine and Chowdhury, Rajiv and Christopher, Devasahayam Jesudas and Ciobanu, Liliana G and Colquhoun, Samantha M and Cooper, Cyrus and Cornaby, Leslie and Damtew, Solomon Abrha and Danawi, Hadi and Dandona, Rakhi and das Neves, José and Davis, Adrian C and de Jager, Pieter and De Leo, Diego and Degenhardt, Louisa and Deribe, Kebede and Deribew, Amare and Jarlais, Don C Des and deVeber, Gabrielle A and Dharmaratne, Samath D and Dhillon, Preet K and Ding, Eric L and Doshi, Pratik Pinal and Doyle, Kerrie E and Duan, Leilei and Dubey, Manisha and Ebrahimi, Hedyeh and Ellingsen, Christian Lycke and Elyazar, Iqbal and Endries, Aman Yesuf and Ermakov, Sergey Petrovich and Eshrati, Babak and Esteghamati, Alireza and Faraon, Emerito Jose Aquino and Farid, Talha A and Farinha, Carla Sofia e Sa and Faro, André and Farvid, Maryam S and Farzadfar, Farshad and Fereshtehnejad, Seyed-Mohammad and Fernandes, Joao C and Fischer, Florian and Fitchett, Joseph R A and Foigt, Nataliya and Franklin, Richard C and Friedman, Joseph and Fürst, Thomas and Gambashidze, Ketevan and Gamkrelidze, Amiran and Ganguly, Parthasarathi and Gebre, Teshome and Gebrehiwot, Tsegaye Tewelde and Gebremedhin, Amanuel Tesfay and Gebru, Alemseged Aregay and Geleijnse, Johanna M and Gessner, Bradford D and Ginawi, Ibrahim Abdelmageem Mohamed and Giref, Ababi Zergaw and Gishu, Melkamu Dedefo and Gomez-Dantes, Hector and Gona, Philimon and Goodridge, Amador and Gopalani, Sameer Vali and Goto, Atsushi and Gouda, Hebe N and Gugnani, Harish Chander and Guo, Yuming and Gupta, Rahul and Gupta, Rajeev and Gupta, Vipin and Gyawali, Bishal and Haagsma, Juanita A and Hafezi-Nejad, Nima and Haile, Demewoz and Hailu, Alemayehu Desalegne and Hailu, Gessessew Bugssa and Hamadeh, Randah Ribhi and Hamidi, Samer and Hancock, Jamie and Handal, Alexis J and Hankey, Graeme J and Harb, Hilda L and Harikrishnan, Sivadasanpillai and Harun, Kimani M and Havmoeller, Rasmus and Hay, Roderick J and Heredia-Pi, Ileana Beatriz and Hoek, Hans W and Horino, Masako and Horita, Nobuyuki and Hosgood, H Dean and Hotez, Peter J and Hoy, Damian G and Hsairi, Mohamed and Hu, Guoqing and Huang, Cheng and Huang, John J and Huang, Hsiang and Huiart, Laetitia and Huynh, Chantal and Iburg, Kim Moesgaard and Idrisov, Bulat T and Innos, Kaire and Jacobsen, Kathryn H and Jahanmehr, Nader and Javanbakht, Mehdi and Jayatilleke, Achala Upendra and Jee, Sun Ha and Jeemon, Panniyammakal and Jha, Vivekanand and Jiang, Guohong and Jiang, Ying and Jibat, Tariku and Jin, Ye and Jonas, Jost B and Kabir, Zubair and Kalkonde, Yogeshwar and Kamal, Ritul and Kan, Haidong and Kang, Gagandeep and Karch, André and Karema, Corine Kakizi and Kasaeian, Amir and Kaul, Anil and Kawakami, Norito and Kayibanda, Jeanne Françoise and Kazanjan, Konstantin and Keiyoro, Peter Njenga and Kemp, Andrew Haddon and Kengne, Andre Pascal and Keren, Andre and Kereselidze, Maia and Kesavachandran, Chandrasekharan Nair and Khader, Yousef Saleh and Khalil, Ibrahim A and Khan, Abdur Rahman and Khan, Ejaz Ahmad and Khang, Young-Ho and Khonelidze, Irma and Khubchandani, Jagdish and Kim, Cho-il and Kim, Daniel and Kim, Yun Jin and Kissoon, Niranjan and Kivipelto, Miia and Knibbs, Luke D and Kokubo, Yoshihiro and Kosen, Soewarta and Koul, Parvaiz A and Koyanagi, Ai and Defo, Barthelemy Kuate and Bicer, Burcu Kucuk and Kudom, Andreas A and Kumar, G Anil and Kutz, Michael J and Kyu, Hmwe H and Lal, Dharmesh Kumar and Lalloo, Ratilal and Lam, Hilton and Lam, Jennifer O and Lansingh, Van C and Larsson, Anders and Leigh, James and Leung, Ricky and Li, Yichong and Li, Yongmei and Lindsay, M Patrice and Liu, Patrick Y and Liu, Shiwei and Lloyd, Belinda K and Lo, Warren D and Logroscino, Giancarlo and Low, Nicola and Lunevicius, Raimundas and Lyons, Ronan A and Ma, Stefan and Razek, Hassan Magdy Abd El and Razek, Mohammed Magdy Abd El and Mahdavi, Mahdi and Majdan, Marek and Majeed, Azeem and Malekzadeh, Reza and Mapoma, Chabila C and Marcenes, Wagner and Martinez-Raga, Jose and Marzan, Melvin Barrientos and Masiye, Felix and McGrath, John J and Meaney, Peter A and Mehari, Alem and Mehndiratta, Man Mohan and Mekonnen, Alemayehu B and Melaku, Yohannes Adama and Memiah, Peter and Memish, Ziad A and Mendoza, Walter and Meretoja, Atte and Meretoja, Tuomo J and Mhimbira, Francis Apolinary and Miller, Ted R and Mills, Edward J and Mirarefin, Mojde and Misganaw, Awoke and Mock, Charles N and Mohammad, Karzan Abdulmuhsin and Mohammadi, Alireza and Mohammed, Shafiu and Monasta, Lorenzo and Hernandez, Julio Cesar Montañez and Montico, Marcella and Moore, Ami R and Moradi-Lakeh, Maziar and Morawska, Lidia and Mori, Rintaro and Mueller, Ulrich O and Murphy, Georgina A V and Murthy, Srinivas and Nachega, Jean B and Naheed, Aliya and Naidoo, Kovin S and Naldi, Luigi and Nand, Devina and Nangia, Vinay and Neupane, Subas and Newton, Charles R and Newton, John N and Ng, Marie and Ngalesoni, Frida Namnyak and Nguhiu, Peter and Nguyen, Quyen Le and Nisar, Muhammad Imran and Pete, Patrick Martial Nkamedjie and Norheim, Ole F and Norman, Rosana E and Ogbo, Felix Akpojene and Oh, In-Hwan and Ojelabi, Foluke Adetola and Olivares, Pedro R and Olusanya, Bolajoko Olubukunola and Olusanya, Jacob Olusegun and Oren, Eyal and Ota, Erika and PA, Mahesh and Park, Eun-Kee and Park, Hye-Youn and Parsaeian, Mahboubeh and Caicedo, Angel J Paternina and Patten, Scott B and Pedro, João Mário and Pereira, David M and Perico, Norberto and Pesudovs, Konrad and Petzold, Max and Phillips, Michael Robert and Pillay, Julian David and Pishgar, Farhad and Polinder, Suzanne and Pope, Daniel and Popova, Svetlana and Pourmalek, Farshad and Qorbani, Mostafa and Rabiee, Rynaz H S and Rafay, Anwar and Rahimi-Movaghar, Vafa and Rahman, Mahfuzar and Rahman, Mohammad Hifz Ur and Rahman, Sajjad Ur and Rai, Rajesh Kumar and Raju, Murugesan and Ram, Usha and Rana, Saleem M and Ranabhat, Chhabi Lal and Rao, Puja and Refaat, Amany H and Remuzzi, Giuseppe and Resnikoff, Serge and Reynolds, Alex and Rojas-Rueda, David and Ronfani, Luca and Roshandel, Gholamreza and Roth, Gregory A and Roy, Ambuj and Ruhago, George Mugambage and Sagar, Rajesh and Saleh, Muhammad Muhammad and Sanabria, Juan R and Sanchez-Niño, Maria Dolores and Santos, Itamar S and Santos, João Vasco and Sarmiento-Suarez, Rodrigo and Sartorius, Benn and Satpathy, Maheswar and Savic, Miloje and Sawhney, Monika and Schneider, Ione J C and Schöttker, Ben and Schwebel, David C and Seedat, Soraya and Sepanlou, Sadaf G and Servan-Mori, Edson E and Setegn, Tesfaye and Shahraz, Saeid and Shaikh, Masood Ali and Shakh-Nazarova, Marina and Sharma, Rajesh and She, Jun and Sheikhbahaei, Sara and Shen, Jiabin and Sheth, Kevin N and Shibuya, Kenji and Shin, Hwashin Hyun and Shin, Min-Jeong and Shiri, Rahman and Shuie, Ivy and Sigfusdottir, Inga Dora and Silva, Diego Augusto Santos and Silverberg, Jonathan and Simard, Edgar P and Sindi, Shireen and Singh, Abhishek and Singh, Jasvinder A and Singh, Om Prakash and Singh, Prashant Kumar and Singh, Virendra and Soriano, Joan B and Soshnikov, Sergey and Sposato, Luciano A and Sreeramareddy, Chandrashekhar T and Stathopoulou, Vasiliki and Steel, Nicholas and Stroumpoulis, Konstantinos and Sturua, Lela and Sunguya, Bruno F and Swaminathan, Soumya and Sykes, Bryan L and Szoeke, Cassandra E I and Tabarés-Seisdedos, Rafael and Tavakkoli, Mohammad and Taye, Bineyam and Tedla, Bemnet Amare and Tefera, Worku Mekonnen and Tekle, Tesfaye and Shifa, Girma Temam and Terkawi, Abdullah Sulieman and Tesfay, Fisaha Haile and Tessema, Gizachew Assefa and Thapa, Kiran and Thomson, Alan J and Thorne-Lyman, Andrew L and Tobe-Gai, Ruoyan and Tonelli, Marcello and Topor-Madry, Roman and Topouzis, Fotis and Tran, Bach Xuan and Troeger, Christopher and Truelsen, Thomas and Dimbuene, Zacharie Tsala and Tura, Abera Kenay and Tyrovolas, Stefanos and Ukwaja, Kingsley N and Uneke, Chigozie Jesse and Uthman, Olalekan A and Vaezghasemi, Masoud and Vasankari, Tommi and Vasconcelos, Ana Maria Nogales and Venketasubramanian, Narayanaswamy and Verma, Raj Kumar and Violante, Francesco S and Vladimirov, Sergey K and Vlassov, Vasiliy Victorovich and Vollset, Stein Emil and Wang, Linhong and Wang, Yanping and Weichenthal, Scott and Weiderpass, Elisabete and Weintraub, Robert G and Weiss, Daniel J and Werdecker, Andrea and Westerman, Ronny and Widdowson, Marc-Alain and Wijeratne, Tissa and Williams, Thomas Neil and Wiysonge, Charles Shey and Wolfe, Charles D A and Wolfe, Ingrid and Won, Sungho and Wubshet, Mamo and Xiao, Qingyang and Xu, Gelin and Yadav, Ajit Kumar and Yakob, Bereket and Yano, Yuichiro and Yaseri, Mehdi and Ye, Pengpeng and Yebyo, Henock Gebremedhin and Yip, Paul and Yonemoto, Naohiro and Yoon, Seok-Jun and Younis, Mustafa Z and Yu, Chuanhua and Zaidi, Zoubida and Zaki, Maysaa El Sayed and Zeeb, Hajo and Zhang, Hao and Zhao, Yong and Zheng, Yingfeng and Zhou, Maigeng and Zodpey, Sanjay and Murray, Christopher J L"
+  year: 2016
+  type: "journal"
+  venue: "The Lancet"
+  volume: "388"
+  pages: "1725--1774"
+  doi: "10.1016/s0140-6736(16)31575-6"
+
+- title: "Measuring the health-related {Sustainable"
+  authors: "Lim, Stephen S and Allen, Kate and Bhutta, Zulfiqar A and Dandona, Lalit and Forouzanfar, Mohammad H and Fullman, Nancy and Gething, Peter W and Goldberg, Ellen M and Hay, Simon I and Holmberg, Mollie and Kinfu, Yohannes and Kutz, Michael J and Larson, Heidi J and Liang, Xiaofeng and Lopez, Alan D and Lozano, Rafael and McNellan, Claire R and Mokdad, Ali H and Mooney, Meghan D and Naghavi, Mohsen and Olsen, Helen E and Pigott, David M and Salomon, Joshua A and Vos, Theo and Wang, Haidong and Abajobir, Amanuel Alemu and Abate, Kalkidan Hassen and Abbafati, Cristiana and Abbas, Kaja M and Abd-Allah, Foad and Abdulle, Abdishakur M and Abraham, Biju and Abubakar, Ibrahim and Abu-Raddad, Laith J and Abu-Rmeileh, Niveen M E and Abyu, Gebre Yitayih and Achoki, Tom and Adebiyi, Akindele Olupelumi and Adedeji, Isaac Akinkunmi and Afanvi, Kossivi Agbelenko and Afshin, Ashkan and Agarwal, Arnav and Agrawal, Anurag and Kiadaliri, Aliasghar Ahmad and Ahmadieh, Hamid and Ahmed, Kedir Yimam and Akanda, Ali Shafqat and Akinyemi, Rufus Olusola and Akinyemiju, Tomi F and Akseer, Nadia and Al-Aly, Ziyad and Alam, Khurshid and Alam, Uzma and Alasfoor, Deena and AlBuhairan, Fadia S and Aldhahri, Saleh Fahed and Aldridge, Robert William and Alemu, Zewdie Aderaw and Ali, Raghib and Alkerwi, Ala’a and Alkhateeb, Mohammad AB and Alla, François and Allebeck, Peter and Allen, Christine and Al-Raddadi, Rajaa and Alsharif, Ubai and Altirkawi, Khalid A and Martin, Elena Alvarez and Alvis-Guzman, Nelson and Amare, Azmeraw T and Amberbir, Alemayehu and Amegah, Adeladza Kofi and Amini, Heresh and Ammar, Walid and Amrock, Stephen Marc and Andersen, Hjalte H and Anderson, Benjamin O and Anderson, Gregory M and Antonio, Carl Abelardo T and Anwari, Palwasha and Ärnlöv, Johan and Artaman, Al and Asayesh, Hamid and Asghar, Rana Jawad and Atique, Suleman and Avokpaho, Euripide Frinel G Arthur and Awasthi, Ashish and Quintanilla, Beatriz Paulina Ayala and Azzopardi, Peter and Bacha, Umar and Badawi, Alaa and Balakrishnan, Kalpana and Banerjee, Amitava and Barac, Aleksandra and Barber, Ryan and Barker-Collo, Suzanne L and Bärnighausen, Till and Barrero, Lope H and Barrientos-Gutierrez, Tonatiuh and Basu, Sanjay and Bayou, Tigist Assefa and Bazargan-Hejazi, Shahrzad and Beardsley, Justin and Bedi, Neeraj and Beghi, Ettore and Béjot, Yannick and Bell, Michelle L and Bello, Aminu K and Bennett, Derrick A and Bensenor, Isabela M and Benzian, Habib and Berhane, Adugnaw and Bernabé, Eduardo and Bernal, Oscar Alberto and Betsu, Balem Demtsu and Beyene, Addisu Shunu and Bhala, Neeraj and Bhatt, Samir and Biadgilign, Sibhatu and Bienhoff, Kelly A and Bikbov, Boris and Binagwaho, Agnes and Bisanzio, Donal and Bjertness, Espen and Blore, Jed and Bourne, Rupert R A and Brainin, Michael and Brauer, Michael and Brazinova, Alexandra and Breitborde, Nicholas J K and Broday, David M and Brugha, Traolach S and Buchbinder, Rachelle and Butt, Zahid A and Cahill, Leah E and Campos-Nonato, Ismael Ricardo and Campuzano, Julio Cesar and Carabin, Hélène and Cárdenas, Rosario and Carrero, Juan Jesus and Carter, Austin and Casey, Daniel and Caso, Valeria and Castañeda-Orjuela, Carlos A and Rivas, Jacqueline Castillo and Catalá-López, Ferrán and Cavalleri, Fiorella and Cecílio, Pedro and Chang, Hsing-Yi and Chang, Jung-Chen and Charlson, Fiona J and Che, Xuan and Chen, Alan Zian and Chiang, Peggy Pei-Chia and Chibalabala, Mirriam and Chisumpa, Vesper Hichilombwe and Choi, Jee-Young Jasmine and Chowdhury, Rajiv and Christensen, Hanne and Ciobanu, Liliana G and Cirillo, Massimo and Coates, Matthew M and Coggeshall, Megan and Cohen, Aaron J and Cooke, Graham S and Cooper, Cyrus and Cooper, Leslie Trumbull and Cowie, Benjamin C and Crump, John A and Damtew, Solomon Abrha and Dandona, Rakhi and Dargan, Paul I and Neves, José das and Davis, Adrian C and Davletov, Kairat and de Castro, E Filipa and De Leo, Diego and Degenhardt, Louisa and Del Gobbo, Liana C and Deribe, Kebede and Derrett, Sarah and Des Jarlais, Don C and Deshpande, Aniruddha and deVeber, Gabrielle A and Dey, Subhojit and Dharmaratne, Samath D and Dhillon, Preet K and Ding, Eric L and Dorsey, E Ray and Doyle, Kerrie E and Driscoll, Tim R and Duan, Leilei and Dubey, Manisha and Duncan, Bruce Bartholow and Ebrahimi, Hedyeh and Endries, Aman Yesuf and Ermakov, Sergey Petrovich and Erskine, Holly E and Eshrati, Babak and Esteghamati, Alireza and Fahimi, Saman and Farid, Talha A and Farinha, Carla Sofia e Sa and Faro, André and Farvid, Maryam S and Farzadfar, Farshad and Feigin, Valery L and Felicio, Manuela Mendonca and Fereshtehnejad, Seyed-Mohammad and Fernandes, Jefferson G and Fernandes, Joao C and Ferrari, Alize J and Fischer, Florian and Fitchett, Joseph R A and Fitzmaurice, Christina and Foigt, Nataliya and Foreman, Kyle and Fowkes, F Gerry R and Franca, Elisabeth Barboza and Franklin, Richard C and Fraser, Maya and Friedman, Joseph and Frostad, Joseph and Fürst, Thomas and Gabbe, Belinda and Garcia-Basteiro, Alberto L and Gebre, Teshome and Gebrehiwot, Tsegaye Tewelde and Gebremedhin, Amanuel Tesfay and Gebru, Alemseged Aregay and Gessner, Bradford D and Gillum, Richard F and Ginawi, Ibrahim Abdelmageem Mohamed and Giref, Ababi Zergaw and Giroud, Maurice and Gishu, Melkamu Dedefo and Giussani, Giorgia and Godwin, William and Gona, Philimon and Goodridge, Amador and Gopalani, Sameer Vali and Gotay, Carolyn C and Goto, Atsushi and Gouda, Hebe N and Graetz, Nicholas and Greenwell, Karen Fern and Griswold, Max and Gugnani, Harish and Guo, Yuming and Gupta, Rahul and Gupta, Rajeev and Gupta, Vipin and Gutiérrez, Reyna A and Gyawali, Bishal and Haagsma, Juanita A and Haakenstad, Annie and Hafezi-Nejad, Nima and Haile, Demewoz and Hailu, Gessessew Bugssa and Halasa, Yara A and Hamadeh, Randah Ribhi and Hamidi, Samer and Hammami, Mouhanad and Hankey, Graeme J and Harb, Hilda L and Haro, Josep Maria and Hassanvand, Mohammad Sadegh and Havmoeller, Rasmus and Heredia-Pi, Ileana Beatriz and Hoek, Hans W and Horino, Masako and Horita, Nobuyuki and Hosgood, H Dean and Hoy, Damian G and Htet, Aung Soe and Hu, Guoqing and Huang, Hsiang and Iburg, Kim Moesgaard and Idrisov, Bulat T and Inoue, Manami and Islami, Farhad and Jacobs, Troy A and Jacobsen, Kathryn H and Jahanmehr, Nader and Jakovljevic, Mihajlo B and James, Peter and Jansen, Henrica A F M and Javanbakht, Mehdi and Jayaraman, Sudha P and Jayatilleke, Achala Upendra and Jee, Sun Ha and Jeemon, Panniyammakal and Jha, Vivekanand and Jiang, Ying and Jibat, Tariku and Jin, Ye and Jonas, Jost B and Kabir, Zubair and Kalkonde, Yogeshwar and Kamal, Ritul and Kan, Haidong and Kandel, Amit and Karch, André and Karema, Corine Kakizi and Karimkhani, Chante and Karunapema, Palitha and Kasaeian, Amir and Kassebaum, Nicholas J and Kaul, Anil and Kawakami, Norito and Kayibanda, Jeanne Françoise and Keiyoro, Peter Njenga and Kemmer, Laura and Kemp, Andrew Haddon and Kengne, Andre Pascal and Keren, Andre and Kesavachandran, Chandrasekharan Nair and Khader, Yousef Saleh and Khan, Abdur Rahman and Khan, Ejaz Ahmad and Khan, Gulfaraz and Khang, Young-Ho and Khoja, Tawfik Ahmed Muthafer and Khosravi, Ardeshir and Khubchandani, Jagdish and Kieling, Christian and Kim, Cho-il and Kim, Daniel and Kim, Sungroul and Kim, Yun Jin and Kimokoti, Ruth W and Kissoon, Niranjan and Kivipelto, Miia and Knibbs, Luke D and Kokubo, Yoshihiro and Kolte, Dhaval and Kosen, Soewarta and Kotsakis, Georgios A and Koul, Parvaiz A and Koyanagi, Ai and Kravchenko, Michael and Krueger, Hans and Defo, Barthelemy Kuate and Kuchenbecker, Ricardo S and Kuipers, Ernst J and Kulikoff, Xie Rachel and Kulkarni, Veena S and Kumar, G Anil and Kwan, Gene F and Kyu, Hmwe H and Lal, Aparna and Lal, Dharmesh Kumar and Lalloo, Ratilal and Lam, Hilton and Lan, Qing and Langan, Sinead M and Larsson, Anders and Laryea, Dennis Odai and Latif, Asma Abdul and Leasher, Janet L and Leigh, James and Leinsalu, Mall and Leung, Janni and Leung, Ricky and Levi, Miriam and Li, Yichong and Li, Yongmei and Lind, Margaret and Linn, Shai and Lipshultz, Steven E and Liu, Patrick Y and Liu, Shiwei and Liu, Yang and Lloyd, Belinda K and Lo, Loon-Tzian and Logroscino, Giancarlo and Lotufo, Paulo A and Lucas, Robyn M and Lunevicius, Raimundas and El Razek, Mohammed Magdy Abd and Magis-Rodriguez, Carlos and Mahdavi, Mahdi and Majdan, Marek and Majeed, Azeem and Malekzadeh, Reza and Malta, Deborah Carvalho and Mapoma, Chabila C and Margolis, David Joel and Martin, Randall V and Martinez-Raga, Jose and Masiye, Felix and Mason-Jones, Amanda J and Massano, João and Matzopoulos, Richard and Mayosi, Bongani M and McGrath, John J and McKee, Martin and Meaney, Peter A and Mehari, Alem and Mekonnen, Alemayehu B and Melaku, Yohannes Adama and Memiah, Peter and Memish, Ziad A and Mendoza, Walter and Mensink, Gert B M and Meretoja, Atte and Meretoja, Tuomo J and Mesfin, Yonatan Moges and Mhimbira, Francis Apolinary and Micha, Renata and Miller, Ted R and Mills, Edward J and Mirarefin, Mojde and Misganaw, Awoke and Mitchell, Philip B and Mock, Charles N and Mohammadi, Alireza and Mohammed, Shafiu and Monasta, Lorenzo and de la Cruz Monis, Jonathan and Hernandez, Julio Cesar Montañez and Montico, Marcella and Moradi-Lakeh, Maziar and Morawska, Lidia and Mori, Rintaro and Mueller, Ulrich O and Murdoch, Michele E and Murimira, Brighton and Murray, Joseph and Murthy, Gudlavalleti Venkata Satyanarayana and Murthy, Srinivas and Musa, Kamarul Imran and Nachega, Jean B and Nagel, Gabriele and Naidoo, Kovin S and Naldi, Luigi and Nangia, Vinay and Neal, Bruce and Nejjari, Chakib and Newton, Charles R and Newton, John N and Ngalesoni, Frida Namnyak and Nguhiu, Peter and Nguyen, Grant and Le Nguyen, Quyen and Nisar, Muhammad Imran and Pete, Patrick Martial Nkamedjie and Nolte, Sandra and Nomura, Marika and Norheim, Ole F and Norrving, Bo and Obermeyer, Carla Makhlouf and Ogbo, Felix Akpojene and Oh, In-Hwan and Oladimeji, Olanrewaju and Olivares, Pedro R and Olusanya, Bolajoko Olubukunola and Olusanya, Jacob Olusegun and Opio, John Nelson and Oren, Eyal and Ortiz, Alberto and Osborne, Richard H and Ota, Erika and Owolabi, Mayowa O and PA, Mahesh and Park, Eun-Kee and Park, Hye-Youn and Parry, Charles D and Parsaeian, Mahboubeh and Patel, Tejas and Patel, Vikram and Caicedo, Angel J Paternina and Patil, Snehal T and Patten, Scott B and Patton, George C and Paudel, Deepak and Pedro, João Mário and Pereira, David M and Perico, Norberto and Pesudovs, Konrad and Petzold, Max and Phillips, Michael Robert and Piel, Frédéric B and Pillay, Julian David and Pinho, Christine and Pishgar, Farhad and Polinder, Suzanne and Poulton, Richie G and Pourmalek, Farshad and Qorbani, Mostafa and Rabiee, Rynaz H S and Radfar, Amir and Rahimi-Movaghar, Vafa and Rahman, Mahfuzar and Rahman, Mohammad Hifz Ur and Rahman, Sajjad Ur and Rai, Rajesh Kumar and Rajsic, Sasa and Raju, Murugesan and Ram, Usha and Rana, Saleem M and Ranabhat, Chhabi Lal and Ranganathan, Kavitha and Rao, Puja C and Refaat, Amany H and Reitsma, Marissa B and Remuzzi, Giuseppe and Resnikoff, Serge and Ribeiro, Antonio L and Blancas, Maria Jesus Rios and Roba, Hirbo Shore and Roberts, Bayard and Rodriguez, Alina and Rojas-Rueda, David and Ronfani, Luca and Roshandel, Gholamreza and Roth, Gregory A and Rothenbacher, Dietrich and Roy, Ambuj and Roy, Nobhojit and Sackey, Ben Benasco and Sagar, Rajesh and Saleh, Muhammad Muhammad and Sanabria, Juan R and Santos, João Vasco and Santomauro, Damian F and Santos, Itamar S and Sarmiento-Suarez, Rodrigo and Sartorius, Benn and Satpathy, Maheswar and Savic, Miloje and Sawhney, Monika and Sawyer, Susan M and Schmidhuber, Josef and Schmidt, Maria Inês and Schneider, Ione J C and Schutte, Aletta E and Schwebel, David C and Seedat, Soraya and Sepanlou, Sadaf G and Servan-Mori, Edson E and Shackelford, Katya and Shaheen, Amira and Shaikh, Masood Ali and Levy, Teresa Shamah and Sharma, Rajesh and She, Jun and Sheikhbahaei, Sara and Shen, Jiabin and Sheth, Kevin N and Shey, Muki and Shi, Peilin and Shibuya, Kenji and Shigematsu, Mika and Shin, Min-Jeong and Shiri, Rahman and Shishani, Kawkab and Shiue, Ivy and Sigfusdottir, Inga Dora and Silpakit, Naris and Silva, Diego Augusto Santos and Silverberg, Jonathan I and Simard, Edgar P and Sindi, Shireen and Singh, Abhishek and Singh, Gitanjali M and Singh, Jasvinder A and Singh, Om Prakash and Singh, Prashant Kumar and Skirbekk, Vegard and Sligar, Amber and Soneji, Samir and Søreide, Kjetil and Sorensen, Reed J D and Soriano, Joan B and Soshnikov, Sergey and Sposato, Luciano A and Sreeramareddy, Chandrashekhar T and Stahl, Hans-Christian and Stanaway, Jeffrey D and Stathopoulou, Vasiliki and Steckling, Nadine and Steel, Nicholas and Stein, Dan J and Steiner, Caitlyn and Stöckl, Heidi and Stranges, Saverio and Strong, Mark and Sun, Jiandong and Sunguya, Bruno F and Sur, Patrick and Swaminathan, Soumya and Sykes, Bryan L and Szoeke, Cassandra E I and Tabarés-Seisdedos, Rafael and Tabb, Karen M and Talongwa, Roberto Tchio and Tarawneh, Mohammed Rasoul and Tavakkoli, Mohammad and Taye, Bineyam and Taylor, Hugh R and Tedla, Bemnet Amare and Tefera, Worku and Tegegne, Teketo Kassaw and Tekle, Dejen Yemane and Shifa, Girma Temam and Terkawi, Abdullah Sulieman and Tessema, Gizachew Assefa and Thakur, J S and Thomson, Alan J and Thorne-Lyman, Andrew L and Thrift, Amanda G and Thurston, George D and Tillmann, Taavi and Tobe-Gai, Ruoyan and Tonelli, Marcello and Topor-Madry, Roman and Topouzis, Fotis and Tran, Bach Xuan and Truelsen, Thomas and Dimbuene, Zacharie Tsala and Tura, Abera Kenay and Tuzcu, Emin Murat and Tyrovolas, Stefanos and Ukwaja, Kingsley Nnanna and Undurraga, Eduardo A and Uneke, Chigozie Jesse and Uthman, Olalekan A and van Donkelaar, Aaron and Varakin, Yuri Y and Vasankari, Tommi and Vasconcelos, Ana Maria Nogales and Veerman, J Lennert and Venketasubramanian, Narayanaswamy and Verma, Raj Kumar and Violante, Francesco S and Vlassov, Vasiliy Victorovich and Volkow, Patricia and Vollset, Stein Emil and Wagner, Gregory R and Wallin, Mitchell T and Wang, Linhong and Wanga, Valentine and Watkins, David A and Weichenthal, Scott and Weiderpass, Elisabete and Weintraub, Robert G and Weiss, Daniel J and Werdecker, Andrea and Westerman, Ronny and Whiteford, Harvey A and Wilkinson, James D and Wiysonge, Charles Shey and Wolfe, Charles D A and Wolfe, Ingrid and Won, Sungho and Woolf, Anthony D and Workie, Shimelash Bitew and Wubshet, Mamo and Xu, Gelin and Yadav, Ajit Kumar and Yakob, Bereket and Yalew, Ayalnesh Zemene and Yan, Lijing L and Yano, Yuichiro and Yaseri, Mehdi and Ye, Pengpeng and Yip, Paul and Yonemoto, Naohiro and Yoon, Seok-Jun and Younis, Mustafa Z and Yu, Chuanhua and Zaidi, Zoubida and El Sayed Zaki, Maysaa and Zambrana-Torrelio, Carlos and Zapata, Tomas and Zegeye, Elias Asfaw and Zhao, Yi and Zhou, Maigeng and Zodpey, Sanjay and Zonies, David and Murray, Christopher J L"
+  year: 2016
+  type: "journal"
+  venue: "The Lancet"
+  volume: "388"
+  pages: "1813--1850"
+  doi: "10.1016/s0140-6736(16)31467-2"
+
+- title: "Global, regional, and national life expectancy, all-cause mortality, and cause-specific mortality for 249 causes of death, 1980–2015: a systematic analysis for the {Global"
+  authors: "Wang, Haidong and Naghavi, Mohsen and Allen, Christine and Barber, Ryan M and Bhutta, Zulfiqar A and Carter, Austin and Casey, Daniel C and Charlson, Fiona J and Chen, Alan Zian and Coates, Matthew M and Coggeshall, Megan and Dandona, Lalit and Dicker, Daniel J and Erskine, Holly E and Ferrari, Alize J and Fitzmaurice, Christina and Foreman, Kyle and Forouzanfar, Mohammad H and Fraser, Maya S and Fullman, Nancy and Gething, Peter W and Goldberg, Ellen M and Graetz, Nicholas and Haagsma, Juanita A and Hay, Simon I and Huynh, Chantal and Johnson, Catherine O and Kassebaum, Nicholas J and Kinfu, Yohannes and Kulikoff, Xie Rachel and Kutz, Michael and Kyu, Hmwe H and Larson, Heidi J and Leung, Janni and Liang, Xiaofeng and Lim, Stephen S and Lind, Margaret and Lozano, Rafael and Marquez, Neal and Mensah, George A and Mikesell, Joe and Mokdad, Ali H and Mooney, Meghan D and Nguyen, Grant and Nsoesie, Elaine and Pigott, David M and Pinho, Christine and Roth, Gregory A and Salomon, Joshua A and Sandar, Logan and Silpakit, Naris and Sligar, Amber and Sorensen, Reed J D and Stanaway, Jeffrey and Steiner, Caitlyn and Teeple, Stephanie and Thomas, Bernadette A and Troeger, Christopher and VanderZanden, Amelia and Vollset, Stein Emil and Wanga, Valentine and Whiteford, Harvey A and Wolock, Timothy and Zoeckler, Leo and Abate, Kalkidan Hassen and Abbafati, Cristiana and Abbas, Kaja M and Abd-Allah, Foad and Abera, Semaw Ferede and Abreu, Daisy M X and Abu-Raddad, Laith J and Abyu, Gebre Yitayih and Achoki, Tom and Adelekan, Ademola Lukman and Ademi, Zanfina and Adou, Arsène Kouablan and Adsuar, José C and Afanvi, Kossivi Agbelenko and Afshin, Ashkan and Agardh, Emilie Elisabet and Agarwal, Arnav and Agrawal, Anurag and Kiadaliri, Aliasghar Ahmad and Ajala, Oluremi N and Akanda, Ali Shafqat and Akinyemi, Rufus Olusola and Akinyemiju, Tomi F and Akseer, Nadia and Lami, Faris Hasan Al and Alabed, Samer and Al-Aly, Ziyad and Alam, Khurshid and Alam, Noore K M and Alasfoor, Deena and Aldhahri, Saleh Fahed and Aldridge, Robert William and Alegretti, Miguel Angel and Aleman, Alicia V and Alemu, Zewdie Aderaw and Alexander, Lily T and Alhabib, Samia and Ali, Raghib and Alkerwi, Ala’a and Alla, François and Allebeck, Peter and Al-Raddadi, Rajaa and Alsharif, Ubai and Altirkawi, Khalid A and Martin, Elena Alvarez and Alvis-Guzman, Nelson and Amare, Azmeraw T and Amegah, Adeladza Kofi and Ameh, Emmanuel A and Amini, Heresh and Ammar, Walid and Amrock, Stephen Marc and Andersen, Hjalte H and Anderson, Benjamin O and Anderson, Gregory M and Antonio, Carl Abelardo T and Aregay, Atsede Fantahun and Ärnlöv, Johan and Arsenijevic, Valentina S Arsic and Artaman, Al and Asayesh, Hamid and Asghar, Rana Jawad and Atique, Suleman and Avokpaho, Euripide Frinel G Arthur and Awasthi, Ashish and Azzopardi, Peter and Bacha, Umar and Badawi, Alaa and Bahit, Maria C and Balakrishnan, Kalpana and Banerjee, Amitava and Barac, Aleksandra and Barker-Collo, Suzanne L and Bärnighausen, Till and Barregard, Lars and Barrero, Lope H and Basu, Arindam and Basu, Sanjay and Bayou, Yibeltal Tebekaw and Bazargan-Hejazi, Shahrzad and Beardsley, Justin and Bedi, Neeraj and Beghi, Ettore and Belay, Haileeyesus Adamu and Bell, Brent and Bell, Michelle L and Bello, Aminu K and Bennett, Derrick A and Bensenor, Isabela M and Berhane, Adugnaw and Bernabé, Eduardo and Betsu, Balem Demtsu and Beyene, Addisu Shunu and Bhala, Neeraj and Bhalla, Ashish and Biadgilign, Sibhatu and Bikbov, Boris and Abdulhak, Aref A Bin and Biroscak, Brian J and Biryukov, Stan and Bjertness, Espen and Blore, Jed D and Blosser, Christopher D and Bohensky, Megan A and Borschmann, Rohan and Bose, Dipan and Bourne, Rupert R A and Brainin, Michael and Brayne, Carol E G and Brazinova, Alexandra and Breitborde, Nicholas J K and Brenner, Hermann and Brewer, Jerry D and Brown, Alexandria and Brown, Jonathan and Brugha, Traolach S and Buckle, Geoffrey Colin and Butt, Zahid A and Calabria, Bianca and Campos-Nonato, Ismael Ricardo and Campuzano, Julio Cesar and Carapetis, Jonathan R and Cárdenas, Rosario and Carpenter, David O and Carrero, Juan Jesus and Castañeda-Orjuela, Carlos A and Rivas, Jacqueline Castillo and Catalá-López, Ferrán and Cavalleri, Fiorella and Cercy, Kelly and Cerda, Jorge and Chen, Wanqing and Chew, Adrienne and Chiang, Peggy Pei-Chia and Chibalabala, Mirriam and Chibueze, Chioma Ezinne and Chimed-Ochir, Odgerel and Chisumpa, Vesper Hichilombwe and Choi, Jee-Young Jasmine and Chowdhury, Rajiv and Christensen, Hanne and Christopher, Devasahayam Jesudas and Ciobanu, Liliana G and Cirillo, Massimo and Cohen, Aaron J and Colistro, Valentina and Colomar, Mercedes and Colquhoun, Samantha M and Cooper, Cyrus and Cooper, Leslie Trumbull and Cortinovis, Monica and Cowie, Benjamin C and Crump, John A and Damsere-Derry, James and Danawi, Hadi and Dandona, Rakhi and Daoud, Farah and Darby, Sarah C and Dargan, Paul I and das Neves, José and Davey, Gail and Davis, Adrian C and Davitoiu, Dragos V and de Castro, E Filipa and de Jager, Pieter and Leo, Diego De and Degenhardt, Louisa and Dellavalle, Robert P and Deribe, Kebede and Deribew, Amare and Dharmaratne, Samath D and Dhillon, Preet K and Diaz-Torné, Cesar and Ding, Eric L and dos Santos, Kadine Priscila Bender and Dossou, Edem and Driscoll, Tim R and Duan, Leilei and Dubey, Manisha and Duncan, Bruce Bartholow and Ellenbogen, Richard G and Ellingsen, Christian Lycke and Elyazar, Iqbal and Endries, Aman Yesuf and Ermakov, Sergey Petrovich and Eshrati, Babak and Esteghamati, Alireza and Estep, Kara and Faghmous, Imad D A and Fahimi, Saman and Faraon, Emerito Jose Aquino and Farid, Talha A and Farinha, Carla Sofia e Sa and Faro, André and Farvid, Maryam S and Farzadfar, Farshad and Feigin, Valery L and Fereshtehnejad, Seyed-Mohammad and Fernandes, Jefferson G and Fernandes, Joao C and Fischer, Florian and Fitchett, Joseph R A and Flaxman, Abraham and Foigt, Nataliya and Fowkes, F Gerry R and Franca, Elisabeth Barboza and Franklin, Richard C and Friedman, Joseph and Frostad, Joseph and Fürst, Thomas and Futran, Neal D and Gall, Seana L and Gambashidze, Ketevan and Gamkrelidze, Amiran and Ganguly, Parthasarathi and Gankpé, Fortuné Gbètoho and Gebre, Teshome and Gebrehiwot, Tsegaye Tsewelde and Gebremedhin, Amanuel Tesfay and Gebru, Alemseged Aregay and Geleijnse, Johanna M and Gessner, Bradford D and Ghoshal, Aloke Gopal and Gibney, Katherine B and Gillum, Richard F and Gilmour, Stuart and Giref, Ababi Zergaw and Giroud, Maurice and Gishu, Melkamu Dedefo and Giussani, Giorgia and Glaser, Elizabeth and Godwin, William W and Gomez-Dantes, Hector and Gona, Philimon and Goodridge, Amador and Gopalani, Sameer Vali and Gosselin, Richard A and Gotay, Carolyn C and Goto, Atsushi and Gouda, Hebe N and Greaves, Felix and Gugnani, Harish Chander and Gupta, Rahul and Gupta, Rajeev and Gupta, Vipin and Gutiérrez, Reyna A and Hafezi-Nejad, Nima and Haile, Demewoz and Hailu, Alemayehu Desalegne and Hailu, Gessessew Bugssa and Halasa, Yara A and Hamadeh, Randah Ribhi and Hamidi, Samer and Hancock, Jamie and Handal, Alexis J and Hankey, Graeme J and Hao, Yuantao and Harb, Hilda L and Harikrishnan, Sivadasanpillai and Haro, Josep Maria and Havmoeller, Rasmus and Heckbert, Susan R and Heredia-Pi, Ileana Beatriz and Heydarpour, Pouria and Hilderink, Henk B M and Hoek, Hans W and Hogg, Robert S and Horino, Masako and Horita, Nobuyuki and Hosgood, H Dean and Hotez, Peter J and Hoy, Damian G and Hsairi, Mohamed and Htet, Aung Soe and Htike, Maung Maung Than and Hu, Guoqing and Huang, Cheng and Huang, Hsiang and Huiart, Laetitia and Husseini, Abdullatif and Huybrechts, Inge and Huynh, Grace and Iburg, Kim Moesgaard and Innos, Kaire and Inoue, Manami and Iyer, Veena J and Jacobs, Troy A and Jacobsen, Kathryn H and Jahanmehr, Nader and Jakovljevic, Mihajlo B and James, Peter and Javanbakht, Mehdi and Jayaraman, Sudha P and Jayatilleke, Achala Upendra and Jeemon, Panniyammakal and Jensen, Paul N and Jha, Vivekanand and Jiang, Guohong and Jiang, Ying and Jibat, Tariku and Jimenez-Corona, Aida and Jonas, Jost B and Joshi, Tushar Kant and Kabir, Zubair and Kamal, Ritul and Kan, Haidong and Kant, Surya and Karch, André and Karema, Corine Kakizi and Karimkhani, Chante and Karletsos, Dimitris and Karthikeyan, Ganesan and Kasaeian, Amir and Katibeh, Marzieh and Kaul, Anil and Kawakami, Norito and Kayibanda, Jeanne Françoise and Keiyoro, Peter Njenga and Kemmer, Laura and Kemp, Andrew Haddon and Kengne, Andre Pascal and Keren, Andre and Kereselidze, Maia and Kesavachandran, Chandrasekharan Nair and Khader, Yousef Saleh and Khalil, Ibrahim A and Khan, Abdur Rahman and Khan, Ejaz Ahmad and Khang, Young-Ho and Khera, Sahil and Khoja, Tawfik Ahmed Muthafer and Kieling, Christian and Kim, Daniel and Kim, Yun Jin and Kissela, Brett M and Kissoon, Niranjan and Knibbs, Luke D and Knudsen, Ann Kristin and Kokubo, Yoshihiro and Kolte, Dhaval and Kopec, Jacek A and Kosen, Soewarta and Koul, Parvaiz A and Koyanagi, Ai and Krog, Norun Hjertager and Defo, Barthelemy Kuate and Bicer, Burcu Kucuk and Kudom, Andreas A and Kuipers, Ernst J and Kulkarni, Veena S and Kumar, G Anil and Kwan, Gene F and Lal, Aparna and Lal, Dharmesh Kumar and Lalloo, Ratilal and Lallukka, Tea and Lam, Hilton and Lam, Jennifer O and Langan, Sinead M and Lansingh, Van C and Larsson, Anders and Laryea, Dennis Odai and Latif, Asma Abdul and Lawrynowicz, Alicia Elena Beatriz and Leigh, James and Levi, Miriam and Li, Yongmei and Lindsay, M Patrice and Lipshultz, Steven E and Liu, Patrick Y and Liu, Shiwei and Liu, Yang and Lo, Loon-Tzian and Logroscino, Giancarlo and Lotufo, Paulo A and Lucas, Robyn M and Lunevicius, Raimundas and Lyons, Ronan A and Ma, Stefan and Machado, Vasco Manuel Pedro and Mackay, Mark T and MacLachlan, Jennifer H and Razek, Hassan Magdy Abd El and Magdy, Mohammed and Razek, Abd El and Majdan, Marek and Majeed, Azeem and Malekzadeh, Reza and Manamo, Wondimu Ayele Ayele and Mandisarisa, John and Mangalam, Srikanth and Mapoma, Chabila C and Marcenes, Wagner and Margolis, David Joel and Martin, Gerard Robert and Martinez-Raga, Jose and Marzan, Melvin Barrientos and Masiye, Felix and Mason-Jones, Amanda J and Massano, João and Matzopoulos, Richard and Mayosi, Bongani M and McGarvey, Stephen Theodore and McGrath, John J and McKee, Martin and McMahon, Brian J and Meaney, Peter A and Mehari, Alem and Mehndiratta, Man Mohan and Mejia-Rodriguez, Fabiola and Mekonnen, Alemayehu B and Melaku, Yohannes Adama and Memiah, Peter and Memish, Ziad A and Mendoza, Walter and Meretoja, Atte and Meretoja, Tuomo J and Mhimbira, Francis Apolinary and Micha, Renata and Millear, Anoushka and Miller, Ted R and Mirarefin, Mojde and Misganaw, Awoke and Mock, Charles N and Mohammad, Karzan Abdulmuhsin and Mohammadi, Alireza and Mohammed, Shafiu and Mohan, Viswanathan and Mola, Glen Liddell D and Monasta, Lorenzo and Hernandez, Julio Cesar Montañez and Montero, Pablo and Montico, Marcella and Montine, Thomas J and Moradi-Lakeh, Maziar and Morawska, Lidia and Morgan, Katherine and Mori, Rintaro and Mozaffarian, Dariush and Mueller, Ulrich O and Murthy, Gudlavalleti Venkata Satyanarayana and Murthy, Srinivas and Musa, Kamarul Imran and Nachega, Jean B and Nagel, Gabriele and Naidoo, Kovin S and Naik, Nitish and Naldi, Luigi and Nangia, Vinay and Nash, Denis and Nejjari, Chakib and Neupane, Subas and Newton, Charles R and Newton, John N and Ng, Marie and Ngalesoni, Frida Namnyak and de Dieu Ngirabega, Jean and Nguyen, Quyen Le and Nisar, Muhammad Imran and Pete, Patrick Martial Nkamedjie and Nomura, Marika and Norheim, Ole F and Norman, Paul E and Norrving, Bo and Nyakarahuka, Luke and Ogbo, Felix Akpojene and Ohkubo, Takayoshi and Ojelabi, Foluke Adetola and Olivares, Pedro R and Olusanya, Bolajoko Olubukunola and Olusanya, Jacob Olusegun and Opio, John Nelson and Oren, Eyal and Ortiz, Alberto and Osman, Majdi and Ota, Erika and Ozdemir, Raziye and PA, Mahesh and Pain, Amanda and Pandian, Jeyaraj D and Pant, Puspa Raj and Papachristou, Christina and Park, Eun-Kee and Park, Jae-Hyun and Parry, Charles D and Parsaeian, Mahboubeh and Caicedo, Angel J Paternina and Patten, Scott B and Patton, George C and Paul, Vinod K and Pearce, Neil and Pedro, João Mário and Stokic, Ljiljana Pejin and Pereira, David M and Perico, Norberto and Pesudovs, Konrad and Petzold, Max and Phillips, Michael Robert and Piel, Frédéric B and Pillay, Julian David and Plass, Dietrich and Platts-Mills, James A and Polinder, Suzanne and Pope, C Arden and Popova, Svetlana and Poulton, Richie G and Pourmalek, Farshad and Prabhakaran, Dorairaj and Qorbani, Mostafa and Quame-Amaglo, Justice and Quistberg, D Alex and Rafay, Anwar and Rahimi, Kazem and Rahimi-Movaghar, Vafa and Rahman, Mahfuzar and Rahman, Mohammad Hifz Ur and Rahman, Sajjad Ur and Rai, Rajesh Kumar and Rajavi, Zhale and Rajsic, Sasa and Raju, Murugesan and Rakovac, Ivo and Rana, Saleem M and Ranabhat, Chhabi L and Rangaswamy, Thara and Rao, Puja and Rao, Sowmya R and Refaat, Amany H and Rehm, Jürgen and Reitsma, Marissa B and Remuzzi, Giuseppe and Resnikoff, Serge and Ribeiro, Antonio L and Ricci, Stefano and Blancas, Maria Jesus Rios and Roberts, Bayard and Roca, Anna and Rojas-Rueda, David and Ronfani, Luca and Roshandel, Gholamreza and Rothenbacher, Dietrich and Roy, Ambuj and Roy, Nawal K and Ruhago, George Mugambage and Sagar, Rajesh and Saha, Sukanta and Sahathevan, Ramesh and Saleh, Muhammad Muhammad and Sanabria, Juan R and Sanchez-Niño, Maria Dolores and Sanchez-Riera, Lidia and Santos, Itamar S and Sarmiento-Suarez, Rodrigo and Sartorius, Benn and Satpathy, Maheswar and Savic, Miloje and Sawhney, Monika and Schaub, Michael P and Schmidt, Maria Inês and Schneider, Ione J C and Schöttker, Ben and Schutte, Aletta E and Schwebel, David C and Seedat, Soraya and Sepanlou, Sadaf G and Servan-Mori, Edson E and Shackelford, Katya A and Shaddick, Gavin and Shaheen, Amira and Shahraz, Saeid and Shaikh, Masood Ali and Shakh-Nazarova, Marina and Sharma, Rajesh and She, Jun and Sheikhbahaei, Sara and Shen, Jiabin and Shen, Ziyan and Shepard, Donald S and Sheth, Kevin N and Shetty, Balakrishna P and Shi, Peilin and Shibuya, Kenji and Shin, Min-Jeong and Shiri, Rahman and Shiue, Ivy and Shrime, Mark G and Sigfusdottir, Inga Dora and Silberberg, Donald H and Silva, Diego Augusto Santos and Silveira, Dayane Gabriele Alves and Silverberg, Jonathan I and Simard, Edgar P and Singh, Abhishek and Singh, Gitanjali M and Singh, Jasvinder A and Singh, Om Prakash and Singh, Prashant Kumar and Singh, Virendra and Soneji, Samir and Søreide, Kjetil and Soriano, Joan B and Sposato, Luciano A and Sreeramareddy, Chandrashekhar T and Stathopoulou, Vasiliki and Stein, Dan J and Stein, Murray B and Stranges, Saverio and Stroumpoulis, Konstantinos and Sunguya, Bruno F and Sur, Patrick and Swaminathan, Soumya and Sykes, Bryan L and Szoeke, Cassandra E I and Tabarés-Seisdedos, Rafael and Tabb, Karen M and Takahashi, Ken and Takala, Jukka S and Talongwa, Roberto Tchio and Tandon, Nikhil and Tavakkoli, Mohammad and Taye, Bineyam and Taylor, Hugh R and Ao, Braden J Te and Tedla, Bemnet Amare and Tefera, Worku Mekonnen and Have, Margreet Ten and Terkawi, Abdullah Sulieman and Tesfay, Fisaha Haile and Tessema, Gizachew Assefa and Thomson, Alan J and Thorne-Lyman, Andrew L and Thrift, Amanda G and Thurston, George D and Tillmann, Taavi and Tirschwell, David L and Tonelli, Marcello and Topor-Madry, Roman and Topouzis, Fotis and Towbin, Jeffrey Allen and Traebert, Jefferson and Tran, Bach Xuan and Truelsen, Thomas and Trujillo, Ulises and Tura, Abera Kenay and Tuzcu, Emin Murat and Uchendu, Uche S and Ukwaja, Kingsley N and Undurraga, Eduardo A and Uthman, Olalekan A and Dingenen, Rita Van and van Donkelaar, Aaron and Vasankari, Tommi and Vasconcelos, Ana Maria Nogales and Venketasubramanian, Narayanaswamy and Vidavalur, Ramesh and Vijayakumar, Lakshmi and Villalpando, Salvador and Violante, Francesco S and Vlassov, Vasiliy Victorovich and Wagner, Joseph A and Wagner, Gregory R and Wallin, Mitchell T and Wang, Linhong and Watkins, David A and Weichenthal, Scott and Weiderpass, Elisabete and Weintraub, Robert G and Werdecker, Andrea and Westerman, Ronny and White, Richard A and Wijeratne, Tissa and Wilkinson, James D and Williams, Hywel C and Wiysonge, Charles Shey and Woldeyohannes, Solomon Meseret and Wolfe, Charles D A and Won, Sungho and Wong, John Q and Woolf, Anthony D and Xavier, Denis and Xiao, Qingyang and Xu, Gelin and Yakob, Bereket and Yalew, Ayalnesh Zemene and Yan, Lijing L and Yano, Yuichiro and Yaseri, Mehdi and Ye, Pengpeng and Yebyo, Henock Gebremedhin and Yip, Paul and Yirsaw, Biruck Desalegn and Yonemoto, Naohiro and Yonga, Gerald and Younis, Mustafa Z and Yu, Shicheng and Zaidi, Zoubida and Zaki, Maysaa El Sayed and Zannad, Faiez and Zavala, Diego E and Zeeb, Hajo and Zeleke, Berihun M and Zhang, Hao and Zodpey, Sanjay and Zonies, David and Zuhlke, Liesl Joanna and Vos, Theo and Lopez, Alan D and Murray, Christopher J L"
+  year: 2016
+  type: "journal"
+  venue: "The Lancet"
+  volume: "388"
+  pages: "1459--1544"
+  doi: "10.1016/s0140-6736(16)31012-1"
+
+- title: "Global, regional, and national levels of maternal mortality, 1990–2015: a systematic analysis for the {Global"
+  authors: "Kassebaum, Nicholas J and Barber, Ryan M and Bhutta, Zulfiqar A and Dandona, Lalit and Gething, Peter W and Hay, Simon I and Kinfu, Yohannes and Larson, Heidi J and Liang, Xiaofeng and Lim, Stephen S and Lopez, Alan D and Lozano, Rafael and Mensah, George A and Mokdad, Ali H and Naghavi, Mohsen and Pinho, Christine and Salomon, Joshua A and Steiner, Caitlyn and Vos, Theo and Wang, Haidong and Abajobir, Amanuel Alemu and Abate, Kalkidan Hassen and Abbas, Kaja M and Abd-Allah, Foad and Abdallat, Mahmud A and Abdulle, Abdishakur M and Abera, Semaw Ferede and Aboyans, Victor and Abubakar, Ibrahim and Abu-Rmeileh, Niveen M E and Achoki, Tom and Adebiyi, Akindele Olupelumi and Adedeji, Isaac Akinkunmi and Adelekan, Ademola Lukman and Adou, Arsène Kouablan and Afanvi, Kossivi Agbelenko and Agarwal, Arnav and Kiadaliri, Aliasghar Ahmad and Ajala, Oluremi N and Akinyemiju, Tomi F and Akseer, Nadia and Al-Aly, Ziyad and Alam, Khurshid and Alam, Noore K M and Alasfoor, Deena and Aldhahri, Saleh Fahed and Aldridge, Robert William and Alhabib, Samia and Ali, Raghib and Alkerwi, Ala’a and Alla, François and Al-Raddadi, Rajaa and Alsharif, Ubai and Martin, Elena Alvarez and Alvis-Guzman, Nelson and Amare, Azmeraw T and Amberbir, Alemayehu and Amegah, Adeladza Kofi and Ammar, Walid and Amrock, Stephen Marc and Andersen, Hjalte H and Anderson, Gregory M and Antoine, Rose Mayerline and Antonio, Carl Abelardo T and Aregay, Atsede Fantahun and Ärnlöv, Johan and Arora, Megha and Arsenijevic, Valentina S Arsic and Artaman, Al and Asayesh, Hamid and Atique, Suleman and Avokpaho, Euripide Frinel G Arthur and Awasthi, Ashish and Quintanilla, Beatriz Paulina Ayala and Azzopardi, Peter and Bacha, Umar and Badawi, Alaa and Bahit, Maria C and Balakrishnan, Kalpana and Banerjee, Amitava and Barac, Aleksandra and Barker-Collo, Suzanne L and Bärnighausen, Till and Basu, Sanjay and Bayou, Tigist Assefa and Bayou, Yibeltal Tebekaw and Bazargan-Hejazi, Shahrzad and Beardsley, Justin and Wang, Neeraj Haidong and {Bedi"
+  year: 2016
+  type: "journal"
+  venue: "The Lancet"
+  volume: "388"
+  pages: "1775--1812"
+  doi: "10.1016/s0140-6736(16)31470-2"
+
+- title: "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the {Global"
+  authors: "Forouzanfar, Mohammad H and Afshin, Ashkan and Alexander, Lily T and Anderson, H Ross and Bhutta, Zulfiqar A and Biryukov, Stan and Brauer, Michael and Burnett, Richard and Cercy, Kelly and Charlson, Fiona J and Cohen, Aaron J and Dandona, Lalit and Estep, Kara and Ferrari, Alize J and Frostad, Joseph J and Fullman, Nancy and Gething, Peter W and Godwin, William W and Griswold, Max and Hay, Simon I and Kinfu, Yohannes and Kyu, Hmwe H and Larson, Heidi J and Liang, Xiaofeng and Lim, Stephen S and Liu, Patrick Y and Lopez, Alan D and Lozano, Rafael and Marczak, Laurie and Mensah, George A and Mokdad, Ali H and Moradi-Lakeh, Maziar and Naghavi, Mohsen and Neal, Bruce and Reitsma, Marissa B and Roth, Gregory A and Salomon, Joshua A and Sur, Patrick J and Vos, Theo and Wagner, Joseph A and Wang, Haidong and Zhao, Yi and Zhou, Maigeng and Aasvang, Gunn Marit and Abajobir, Amanuel Alemu and Abate, Kalkidan Hassen and Abbafati, Cristiana and Abbas, Kaja M and Abd-Allah, Foad and Abdulle, Abdishakur M and Abera, Semaw Ferede and Abraham, Biju and Abu-Raddad, Laith J and Abyu, Gebre Yitayih and Adebiyi, Akindele Olupelumi and Adedeji, Isaac Akinkunmi and Ademi, Zanfina and Adou, Arsène Kouablan and Adsuar, José C and Agardh, Emilie Elisabet and Agarwal, Arnav and Agrawal, Anurag and Kiadaliri, Aliasghar Ahmad and Ajala, Oluremi N and Akinyemiju, Tomi F and Al-Aly, Ziyad and Alam, Khurshid and Alam, Noore K M and Aldhahri, Saleh Fahed and Aldridge, Robert William and Alemu, Zewdie Aderaw and Ali, Raghib and Alkerwi, Ala’a and Alla, François and Allebeck, Peter and Alsharif, Ubai and Altirkawi, Khalid A and Martin, Elena Alvarez and Alvis-Guzman, Nelson and Amare, Azmeraw T and Amberbir, Alemayehu and Amegah, Adeladza Kofi and Amini, Heresh and Ammar, Walid and Amrock, Stephen Marc and Andersen, Hjalte H and Anderson, Benjamin O and Antonio, Carl Abelardo T and Anwari, Palwasha and Ärnlöv, Johan and Artaman, Al and Asayesh, Hamid and Asghar, Rana Jawad and Assadi, Reza and Atique, Suleman and Avokpaho, Euripide Frinel G Arthur and Awasthi, Ashish and Quintanilla, Beatriz Paulina Ayala and Azzopardi, Peter and Bacha, Umar and Badawi, Alaa and Bahit, Maria C and Balakrishnan, Kalpana and Barac, Aleksandra and Barber, Ryan M and Barker-Collo, Suzanne L and Bärnighausen, Till and Barquera, Simon and Barregard, Lars and Barrero, Lope H and Basu, Sanjay and Batis, Carolina and Bazargan-Hejazi, Shahrzad and Beardsley, Justin and Bedi, Neeraj and Beghi, Ettore and Bell, Brent and Bell, Michelle L and Bello, Aminu K and Bennett, Derrick A and Bensenor, Isabela M and Berhane, Adugnaw and Bernabé, Eduardo and Betsu, Balem Demtsu and Beyene, Addisu Shunu and Bhala, Neeraj and Bhansali, Anil and Bhatt, Samir and Biadgilign, Sibhatu and Bikbov, Boris and Bisanzio, Donal and Bjertness, Espen and Blore, Jed D and Borschmann, Rohan and Boufous, Soufiane and Bourne, Rupert R A and Brainin, Michael and Brazinova, Alexandra and Breitborde, Nicholas J K and Brenner, Hermann and Broday, David M and Brugha, Traolach S and Brunekreef, Bert and Butt, Zahid A and Cahill, Leah E and Calabria, Bianca and Campos-Nonato, Ismael Ricardo and Cárdenas, Rosario and Carpenter, David O and Carrero, Juan Jesus and Casey, Daniel C and Castañeda-Orjuela, Carlos A and Rivas, Jacqueline Castillo and Castro, Ruben Estanislao and Catalá-López, Ferrán and Chang, Jung-Chen and Chiang, Peggy Pei-Chia and Chibalabala, Mirriam and Chimed-Ochir, Odgerel and Chisumpa, Vesper Hichilombwe and Chitheer, Abdulaal A and Choi, Jee-Young Jasmine and Christensen, Hanne and Christopher, Devasahayam Jesudas and Ciobanu, Liliana G and Coates, Matthew M and Colquhoun, Samantha M and Manzano, Alejandra G Contreras and Cooper, Leslie Trumbull and Cooperrider, Kimberly and Cornaby, Leslie and Cortinovis, Monica and Crump, John A and Cuevas-Nasu, Lucia and Damasceno, Albertino and Dandona, Rakhi and Darby, Sarah C and Dargan, Paul I and das Neves, José and Davis, Adrian C and Davletov, Kairat and de Castro, E Filipa and De la Cruz-Góngora, Vanessa and De Leo, Diego and Degenhardt, Louisa and Del Gobbo, Liana C and del Pozo-Cruz, Borja and Dellavalle, Robert P and Deribew, Amare and Jarlais, Don C Des and Dharmaratne, Samath D and Dhillon, Preet K and Diaz-Torné, Cesar and Dicker, Daniel and Ding, Eric L and Dorsey, E Ray and Doyle, Kerrie E and Driscoll, Tim R and Duan, Leilei and Dubey, Manisha and Duncan, Bruce Bartholow and Elyazar, Iqbal and Endries, Aman Yesuf and Ermakov, Sergey Petrovich and Erskine, Holly E and Eshrati, Babak and Esteghamati, Alireza and Fahimi, Saman and Faraon, Emerito Jose Aquino and Farid, Talha A and Farinha, Carla Sofia e Sa and Faro, André and Farvid, Maryam S and Farzadfar, Farshad and Feigin, Valery L and Fereshtehnejad, Seyed-Mohammad and Fernandes, Jefferson G and Fischer, Florian and Fitchett, Joseph R A and Fleming, Tom and Foigt, Nataliya and Foreman, Kyle and Fowkes, F Gerry R and Franklin, Richard C and Fürst, Thomas and Futran, Neal D and Gakidou, Emmanuela and Garcia-Basteiro, Alberto L and Gebrehiwot, Tsegaye Tewelde and Gebremedhin, Amanuel Tesfay and Geleijnse, Johanna M and Gessner, Bradford D and Giref, Ababi Zergaw and Giroud, Maurice and Gishu, Melkamu Dedefo and Giussani, Giorgia and Goenka, Shifalika and Gomez-Cabrera, Mari Carmen and Gomez-Dantes, Hector and Gona, Philimon and Goodridge, Amador and Gopalani, Sameer Vali and Gotay, Carolyn C and Goto, Atsushi and Gouda, Hebe N and Gugnani, Harish Chander and Guillemin, Francis and Guo, Yuming and Gupta, Rahul and Gupta, Rajeev and Gutiérrez, Reyna A and Haagsma, Juanita A and Hafezi-Nejad, Nima and Haile, Demewoz and Hailu, Gessessew Bugssa and Halasa, Yara A and Hamadeh, Randah Ribhi and Hamidi, Samer and Handal, Alexis J and Hankey, Graeme J and Hao, Yuantao and Harb, Hilda L and Harikrishnan, Sivadasanpillai and Haro, Josep Maria and Hassanvand, Mohammad Sadegh and Hassen, Tahir Ahmed and Havmoeller, Rasmus and Heredia-Pi, Ileana Beatriz and Hernández-Llanes, Norberto Francisco and Heydarpour, Pouria and Hoek, Hans W and Hoffman, Howard J and Horino, Masako and Horita, Nobuyuki and Hosgood, H Dean and Hoy, Damian G and Hsairi, Mohamed and Htet, Aung Soe and Hu, Guoqing and Huang, John J and Husseini, Abdullatif and Hutchings, Sally J and Huybrechts, Inge and Iburg, Kim Moesgaard and Idrisov, Bulat T and Ileanu, Bogdan Vasile and Inoue, Manami and Jacobs, Troy A and Jacobsen, Kathryn H and Jahanmehr, Nader and Jakovljevic, Mihajlo B and Jansen, Henrica A F M and Jassal, Simerjot K and Javanbakht, Mehdi and Jayaraman, Sudha P and Jayatilleke, Achala Upendra and Jee, Sun Ha and Jeemon, Panniyammakal and Jha, Vivekanand and Jiang, Ying and Jibat, Tariku and Jin, Ye and Johnson, Catherine O and Jonas, Jost B and Kabir, Zubair and Kalkonde, Yogeshwar and Kamal, Ritul and Kan, Haidong and Karch, André and Karema, Corine Kakizi and Karimkhani, Chante and Kasaeian, Amir and Kaul, Anil and Kawakami, Norito and Kazi, Dhruv S and Keiyoro, Peter Njenga and Kemmer, Laura and Kemp, Andrew Haddon and Kengne, Andre Pascal and Keren, Andre and Kesavachandran, Chandrasekharan Nair and Khader, Yousef Saleh and Khan, Abdur Rahman and Khan, Ejaz Ahmad and Khan, Gulfaraz and Khang, Young-Ho and Khatibzadeh, Shahab and Khera, Sahil and Khoja, Tawfik Ahmed Muthafer and Khubchandani, Jagdish and Kieling, Christian and Kim, Cho-il and Kim, Daniel and Kimokoti, Ruth W and Kissoon, Niranjan and Kivipelto, Miia and Knibbs, Luke D and Kokubo, Yoshihiro and Kopec, Jacek A and Koul, Parvaiz A and Koyanagi, Ai and Kravchenko, Michael and Kromhout, Hans and Krueger, Hans and Ku, Tiffany and Defo, Barthelemy Kuate and Kuchenbecker, Ricardo S and Bicer, Burcu Kucuk and Kuipers, Ernst J and Kumar, G Anil and Kwan, Gene F and Lal, Dharmesh Kumar and Lalloo, Ratilal and Lallukka, Tea and Lan, Qing and Larsson, Anders and Latif, Asma Abdul and Lawrynowicz, Alicia Elena Beatriz and Leasher, Janet L and Leigh, James and Leung, Janni and Levi, Miriam and Li, Xiaohong and Li, Yichong and Liang, Juan and Liu, Shiwei and Lloyd, Belinda K and Logroscino, Giancarlo and Lotufo, Paulo A and Lunevicius, Raimundas and MacIntyre, Michael and Mahdavi, Mahdi and Majdan, Marek and Majeed, Azeem and Malekzadeh, Reza and Malta, Deborah Carvalho and Manamo, Wondimu Ayele Ayele and Mapoma, Chabila C and Marcenes, Wagner and Martin, Randall V and Martinez-Raga, Jose and Masiye, Felix and Matsushita, Kunihiro and Matzopoulos, Richard and Mayosi, Bongani M and McGrath, John J and McKee, Martin and Meaney, Peter A and Medina, Catalina and Mehari, Alem and Mejia-Rodriguez, Fabiola and Mekonnen, Alemayehu B and Melaku, Yohannes Adama and Memish, Ziad A and Mendoza, Walter and Mensink, Gert B M and Meretoja, Atte and Meretoja, Tuomo J and Mesfin, Yonatan Moges and Mhimbira, Francis Apolinary and Millear, Anoushka and Miller, Ted R and Mills, Edward J and Mirarefin, Mojde and Misganaw, Awoke and Mock, Charles N and Mohammadi, Alireza and Mohammed, Shafiu and Mola, Glen Liddell D and Monasta, Lorenzo and Hernandez, Julio Cesar Montañez and Montico, Marcella and Morawska, Lidia and Mori, Rintaro and Mozaffarian, Dariush and Mueller, Ulrich O and Mullany, Erin and Mumford, John Everett and Murthy, Gudlavalleti Venkata Satyanarayana and Nachega, Jean B and Naheed, Aliya and Nangia, Vinay and Nassiri, Nariman and Newton, John N and Ng, Marie and Nguyen, Quyen Le and Nisar, Muhammad Imran and Pete, Patrick Martial Nkamedjie and Norheim, Ole F and Norman, Rosana E and Norrving, Bo and Nyakarahuka, Luke and Obermeyer, Carla Makhlouf and Ogbo, Felix Akpojene and Oh, In-Hwan and Oladimeji, Olanrewaju and Olivares, Pedro R and Olsen, Helen and Olusanya, Bolajoko Olubukunola and Olusanya, Jacob Olusegun and Opio, John Nelson and Oren, Eyal and Orozco, Ricardo and Ortiz, Alberto and Ota, Erika and PA, Mahesh and Pana, Adrian and Park, Eun-Kee and Parry, Charles D and Parsaeian, Mahboubeh and Patel, Tejas and Caicedo, Angel J Paternina and Patil, Snehal T and Patten, Scott B and Patton, George C and Pearce, Neil and Pereira, David M and Perico, Norberto and Pesudovs, Konrad and Petzold, Max and Phillips, Michael Robert and Piel, Frédéric B and Pillay, Julian David and Plass, Dietrich and Polinder, Suzanne and Pond, Constance D and Pope, C Arden and Pope, Daniel and Popova, Svetlana and Poulton, Richie G and Pourmalek, Farshad and Prasad, Noela M and Qorbani, Mostafa and Rabiee, Rynaz H S and Radfar, Amir and Rafay, Anwar and Rahimi-Movaghar, Vafa and Rahman, Mahfuzar and Rahman, Mohammad Hifz Ur and Rahman, Sajjad Ur and Rai, Rajesh Kumar and Rajsic, Sasa and Raju, Murugesan and Ram, Usha and Rana, Saleem M and Ranganathan, Kavitha and Rao, Puja and García, Christian Aspacia Razo and Refaat, Amany H and Rehm, Colin D and Rehm, Jürgen and Reinig, Nikolas and Remuzzi, Giuseppe and Resnikoff, Serge and Ribeiro, Antonio L and Rivera, Juan A and Roba, Hirbo Shore and Rodriguez, Alina and Rodriguez-Ramirez, Sonia and Rojas-Rueda, David and Roman, Yesenia and Ronfani, Luca and Roshandel, Gholamreza and Rothenbacher, Dietrich and Roy, Ambuj and Saleh, Muhammad Muhammad and Sanabria, Juan R and Sanchez-Riera, Lidia and Sanchez-Niño, Maria Dolores and Sánchez-Pimienta, Tania G and Sandar, Logan and Santomauro, Damian F and Santos, Itamar S and Sarmiento-Suarez, Rodrigo and Sartorius, Benn and Satpathy, Maheswar and Savic, Miloje and Sawhney, Monika and Schmidhuber, Josef and Schmidt, Maria Inês and Schneider, Ione J C and Schöttker, Ben and Schutte, Aletta E and Schwebel, David C and Scott, James G and Seedat, Soraya and Sepanlou, Sadaf G and Servan-Mori, Edson E and Shaddick, Gavin and Shaheen, Amira and Shahraz, Saeid and Shaikh, Masood Ali and Levy, Teresa Shamah and Sharma, Rajesh and She, Jun and Sheikhbahaei, Sara and Shen, Jiabin and Sheth, Kevin N and Shi, Peilin and Shibuya, Kenji and Shigematsu, Mika and Shin, Min-Jeong and Shiri, Rahman and Shishani, Kawkab and Shiue, Ivy and Shrime, Mark G and Sigfusdottir, Inga Dora and Silva, Diego Augusto Santos and Silveira, Dayane Gabriele Alves and Silverberg, Jonathan I and Simard, Edgar P and Sindi, Shireen and Singh, Abhishek and Singh, Jasvinder A and Singh, Prashant Kumar and Slepak, Erica Leigh and Soljak, Michael and Soneji, Samir and Sorensen, Reed J D and Sposato, Luciano A and Sreeramareddy, Chandrashekhar T and Stathopoulou, Vasiliki and Steckling, Nadine and Steel, Nicholas and Stein, Dan J and Stein, Murray B and Stöckl, Heidi and Stranges, Saverio and Stroumpoulis, Konstantinos and Sunguya, Bruno F and Swaminathan, Soumya and Sykes, Bryan L and Szoeke, Cassandra E I and Tabarés-Seisdedos, Rafael and Takahashi, Ken and Talongwa, Roberto Tchio and Tandon, Nikhil and Tanne, David and Tavakkoli, Mohammad and Taye, Belaynew Wasie and Taylor, Hugh R and Tedla, Bemnet Amare and Tefera, Worku Mekonnen and Tegegne, Teketo Kassaw and Tekle, Dejen Yemane and Terkawi, Abdullah Sulieman and Thakur, J S and Thomas, Bernadette A and Thomas, Matthew Lloyd and Thomson, Alan J and Thorne-Lyman, Andrew L and Thrift, Amanda G and Thurston, George D and Tillmann, Taavi and Tobe-Gai, Ruoyan and Tobollik, Myriam and Topor-Madry, Roman and Topouzis, Fotis and Towbin, Jeffrey Allen and Tran, Bach Xuan and Dimbuene, Zacharie Tsala and Tsilimparis, Nikolaos and Tura, Abera Kenay and Tuzcu, Emin Murat and Tyrovolas, Stefanos and Ukwaja, Kingsley N and Undurraga, Eduardo A and Uneke, Chigozie Jesse and Uthman, Olalekan A and van Donkelaar, Aaron and van Os, Jim and Varakin, Yuri Y and Vasankari, Tommi and Veerman, J Lennert and Venketasubramanian, Narayanaswamy and Violante, Francesco S and Vollset, Stein Emil and Wagner, Gregory R and Waller, Stephen G and Wang, Jian Li and Wang, Linhong and Wang, Yanping and Weichenthal, Scott and Weiderpass, Elisabete and Weintraub, Robert G and Werdecker, Andrea and Westerman, Ronny and Whiteford, Harvey A and Wijeratne, Tissa and Wiysonge, Charles Shey and Wolfe, Charles D A and Won, Sungho and Woolf, Anthony D and Wubshet, Mamo and Xavier, Denis and Xu, Gelin and Yadav, Ajit Kumar and Yakob, Bereket and Yalew, Ayalnesh Zemene and Yano, Yuichiro and Yaseri, Mehdi and Ye, Pengpeng and Yip, Paul and Yonemoto, Naohiro and Yoon, Seok-Jun and Younis, Mustafa Z and Yu, Chuanhua and Zaidi, Zoubida and Zaki, Maysaa El Sayed and Zhu, Jun and Zipkin, Ben and Zodpey, Sanjay and Zuhlke, Liesl Joanna and Murray, Christopher J L"
+  year: 2016
+  type: "journal"
+  venue: "The Lancet"
+  volume: "388"
+  pages: "1659--1724"
+  doi: "10.1016/s0140-6736(16)31679-8"
+
+- title: "Effectiveness of peer educators on the uptake of mobile {X"
+  authors: "Aldridge, Robert W and Hayward, Andrew C and Hemming, Sara and Possas, Lucia and Ferenando, Gloria and Garber, Elizabeth and Lipman, Marc and McHugh, Timothy D and Story, Alistair"
+  year: 2015
+  type: "journal"
+  venue: "BMJ Open"
+  volume: "5"
+  pages: "e008050"
+  doi: "10.1136/bmjopen-2015-008050"
+
+- title: "Accuracy of {Probabilistic"
+  authors: "Aldridge, Robert W. and Shaji, Kunju and Hayward, Andrew C. and Abubakar, Ibrahim"
+  year: 2015
+  type: "journal"
+  venue: "PLOS ONE"
+  volume: "10"
+  pages: "e0136179"
+  doi: "10.1371/journal.pone.0136179"
+
+- title: "‘{Pre"
+  authors: "Aldridge, Robert W. and Yates, Tom A. and Zenner, Dominik and White, Peter J. and Abubakar, Ibrahim and Hayward, Andrew C."
+  year: 2015
+  type: "journal"
+  venue: "Pathogens and Global Health"
+  volume: "109"
+  pages: "166--167"
+  doi: "10.1179/2047772415z.000000000278"
+
+- title: "Public {Health"
+  authors: "Aldridge, R.W. and Capewell, S. and Johnson, A.M. and Landon, J. and McKee, M. and McPherson, K. and Horton, R."
+  year: 2015
+  type: "journal"
+  venue: "The Lancet"
+  volume: "385"
+
+- title: "Effects of donor/recipient human leukocyte antigen mismatch on human cytomegalovirus replication following liver transplantation"
+  authors: "Aldridge, R.W. and Mattes, F.M. and Rolando, N. and Rolles, K. and Smith, C. and Shirling, G. and Atkinson, C. and Burroughs, A.K. and Milne, R.S.B. and Emery, V.C. and Griffiths, P.D."
+  year: 2015
+  type: "journal"
+  venue: "Transplant Infectious Disease"
+  volume: "17"
+  pages: "25--32"
+  doi: "10.1111/tid.12325"
+
+- title: "Tuberculosis control in big cities and urban risk groups in the {European"
+  authors: "Aldridge, Robert and NA, van Hest and RW, Aldridge and G, de Vries and A, Sandgren and B, Hauer and A, Hayward and W, Arrazola de Oñate and W, Haas and LR, Codecasa and JA, Caylà and A, Story and D, Antoine and A, Gori and L, Quabeck and J, Jonsson and M, Wanlin and Å, Orcau and A, Rodes and M, Dedicoat and F, Antoun and H, van Deutekom and S, Keizer and I, Abubakar"
+  year: 2014
+  type: "journal"
+
+- title: "Public health science: {A"
+  authors: "Aldridge, R.W. and Capewell, S. and Johnson, A.M. and McKee, M. and McPherson, K. and Horton, R."
+  year: 2014
+  type: "journal"
+  venue: "The Lancet"
+  volume: "383"
+
+- title: "Tuberculosis control in big cities and urban risk groups in the {European"
+  authors: "van Hest, N.A. and Aldridge, R.W. and de Vries, G. and Sandgren, A. and Hauer, B. and Hayward, A. and de Oñate, W.A. and Haas, W. and Codecasa, L.R. and Caylã, J.A. and Story, A. and Antoine, D. and Gori, A. and Quabeck, L. and Jonsson, J. and Wanlin, M. and Orcau, Ã. and Rodes, A. and Dedicoat, M. and Antoun, F. and van Deutekom, H. and Keizer, S.T. and Abubakar, I."
+  year: 2014
+  type: "journal"
+  venue: "Eurosurveillance"
+  volume: "19"
+
+- title: "Influenza vaccination, inverse care and homelessness: cross-sectional survey of eligibility and uptake during the 2011/12 season in {London"
+  authors: "Story, Alistair and Aldridge, Robert W and Gray, Tat and Burridge, Stan and Hayward, Andrew C"
+  year: 2014
+  type: "journal"
+  venue: "BMC Public Health"
+  volume: "14"
+  doi: "10.1186/1471-2458-14-44"
+
+- title: "Epidemiology of tuberculosis in big cities of the {European"
+  authors: "de Vries, G. and Aldridge, R.W. and Caylã, J.A. and Haas, W.H. and Sandgren, A. and van Hest, N.A. and Abubakar, I. and Antoine, D. and Antoun, F. and de Oñate, A.W. and Codecasa, L.R. and Dedicoat, M. and van Deutekom, H. and Gori, A. and Hauer, B. and Hayward, A. and Huitric, E. and Jonsson, J. and Orcau, Ã. and Quabeck, L. and Rodés, A. and Story, A. and Wanlin, M. and Williams, P. and Andersen, P.H.S. and Bonita, B. and Cioran, N. and Cameron, J.C. and Davidaviciene, E. and Kalkouni, R. and Bulletin, K. and Korzeniewska, M. and Martini, V. and Milanov, V. and Riekstina, V. and Valín, E.R. and R?nning, K. and Schmidgruber, B. and Vasankari, T. and Wallenfels, J."
+  year: 2014
+  type: "journal"
+  venue: "Eurosurveillance"
+  volume: "19"
+
+- title: "Epidemiology of tuberculosis in big cities of the {European"
+  authors: "Aldridge, Robert and G, de Vries and RW, Aldridge and JA, Cayla and WH, Haas and A, Sandgren and NA, van Hest and I, Abubakar and Group, Tuberculosis in European Union Big Cities Working"
+  year: 2014
+  type: "journal"
+
+- title: "Pre-entry screening programmes for tuberculosis in migrants to low-incidence countries: a systematic review and meta-analysis"
+  authors: "Aldridge, Robert W and Yates, Tom A and Zenner, Dominik and White, Peter J and Abubakar, Ibrahim and Hayward, Andrew C"
+  year: 2014
+  type: "journal"
+  venue: "The Lancet Infectious Diseases"
+  volume: "14"
+  pages: "1240--1249"
+  doi: "10.1016/s1473-3099(14)70966-1"
+
+- title: "Public health science: {A"
+  authors: "Aldridge, R.W. and Cole, K. and Hurst, L. and Capewell, S. and Johnson, A.M. and McKee, M. and McPherson, K. and Horton, R."
+  year: 2013
+  type: "journal"
+  venue: "The Lancet"
+  volume: "381"
+
+- title: "Cost-{Effectiveness"
+  authors: "Gomes, Manuel and Aldridge, Robert W. and Wylie, Peter and Bell, James and Epstein, Owen"
+  year: 2013
+  type: "journal"
+  venue: "Applied Health Economics and Health Policy"
+  volume: "11"
+  pages: "107--117"
+  doi: "10.1007/s40258-013-0019-z"
+
+- title: "Effects of {Ascent"
+  authors: "Eisen, Sarah and Pealing, Louise and Aldridge, Robert W. and Siedner, Mark J. and Necochea, Alejandro and Leybell, Inna and Valencia, Teresa and Herrera, Beatriz and Wiles, Siouxsie and Friedland, Jon S. and Gilman, Robert H. and Evans, Carlton A."
+  year: 2013
+  type: "journal"
+  venue: "PLoS ONE"
+  volume: "8"
+  pages: "e74220"
+  doi: "10.1371/journal.pone.0074220"
+
+- title: "Cytomegalovirus {Replication"
+  authors: "Atabani, S.F. and Smith, C. and Atkinson, C. and Aldridge, R.W. and Rodriguez-Perálvarez, M. and Rolando, N. and Harber, M. and Jones, G. and O’Riordan, A. and Burroughs, A.K. and Thorburn, D. and O’Beirne, J. and Milne, R.S.B. and Emery, V.C. and Griffiths, P.D."
+  year: 2012
+  type: "journal"
+  venue: "American Journal of Transplantation"
+  volume: "12"
+  pages: "2457--2464"
+  doi: "10.1111/j.1600-6143.2012.04087.x"
+
+- title: "Active case finding for pulmonary tuberculosis using mobile digital chest radiography: an observational study"
+  authors: "Story, A. and Aldridge, R. W. and Abubakar, I. and Stagg, H. R. and Lipman, M. and Watson, J. M. and Hayward, A. C."
+  year: 2012
+  type: "journal"
+  venue: "The International Journal of Tuberculosis and Lung Disease"
+  volume: "16"
+  pages: "1461--1467"
+  doi: "10.5588/ijtld.11.0773"
+
+- title: "The other {Twitter"
+  authors: "McKee, Martin and Cole, Katie and Hurst, Louise and Aldridge, Robert W and Horton, Richard"
+  year: 2011
+  type: "journal"
+  venue: "BMJ"
+  volume: "342"
+  pages: "d948"
+  doi: "10.1136/bmj.d948"
+
+- title: "Dedicated outreach service for hard to reach patients with tuberculosis in {London"
+  authors: "Jit, M. and Stagg, H. R. and Aldridge, R. W. and White, P. J. and Abubakar, I."
+  year: 2011
+  type: "journal"
+  venue: "BMJ"
+  volume: "343"
+  pages: "d5376--d5376"
+  doi: "10.1136/bmj.d5376"
+
+- title: "Lancet {UK"
+  authors: "Aldridge, Robert W and Cole, Katie J and Hurst, Louise and McKee, Martin and Horton, Richard"
+  year: 2011
+  type: "journal"
+  venue: "The Lancet"
+  volume: "377"
+  pages: "1631--1633"
+  doi: "10.1016/s0140-6736(11)60652-1"
+
+- title: "Public health in {England"
+  authors: "McKee, Martin and Hurst, Louise and Aldridge, Robert W and Raine, Rosalind and Mindell, Jennifer S and Wolfe, Ingrid and Holland, Walter W"
+  year: 2011
+  type: "journal"
+  venue: "The Lancet"
+  volume: "378"
+  pages: "536--539"
+  doi: "10.1016/s0140-6736(11)60241-9"
+
+- title: "Panton-{Valentine"
+  authors: "Shallcross, L.J. and Williams, K. and Hopkins, S. and Aldridge, R.W. and Johnson, A.M. and Hayward, A.C."
+  year: 2010
+  type: "journal"
+  venue: "Clinical Microbiology and Infection"
+  volume: "16"
+  pages: "1644--1648"
+  doi: "10.1111/j.1469-0691.2010.03153.x"
+
+- title: "Mechanisms of disease pathogenesis in long {QT"
+  authors: "Harmer, S.C. and Wilson, A.J. and Aldridge, R. and Tinker, A."
+  year: 2010
+  type: "journal"
+  venue: "American Journal of Physiology - Cell Physiology"
+  volume: "298"
+
+- title: "Determining a cost effective intervention response to {HIV"
+  authors: "Aldridge, Robert W and Iglesias, David and Cáceres, Carlos F and Miranda, J Jaime"
+  year: 2009
+  type: "journal"
+  venue: "BMC Public Health"
+  volume: "9"
+  doi: "10.1186/1471-2458-9-352"
+
+- title: "Simplifying consent for publication of case reports"
+  authors: "Aldridge, R. W"
+  year: 2008
+  type: "journal"
+  venue: "BMJ"
+  volume: "337"
+  pages: "a1878--a1878"
+  doi: "10.1136/bmj.a1878"
+
+- title: "Simplifying consent for publication of case reports"
+  authors: "Aldridge, R.W."
+  year: 2008
+  type: "journal"
+  venue: "BMJ"
+  volume: "337"
+
+- title: "Public health in {England"
+  authors: "McKee, M. and Louise, H. and Aldridge, R.W. and Raine, R. and Mindell, J.S. and Wolfe, I. and Holland, W.W."
+  year: 2000
+  type: "journal"
+  venue: "Public Health Medicine"
+  volume: "2"
+  pages: "39--43"
+
+- title: "Combining deterministic and probabilistic matching to reduce data linkage errors in hospital administrative data"
+  authors: "G, Hagger-Johnson and K, Harron and R, Aldridge and B, Fu and E, Setakis and H, Goldstein and R, Gilbert"
+  type: "journal"
+  venue: "International journal of population data science"
+
+- title: "Involving {People"
+  authors: "S, Luchenski and S, Clint and R, Aldridge and A, Hayward and N, Maguire and A, Story and N, Hewett"
+  type: "journal"
+  venue: "International journal of population data science"
+
+- title: "Linking migration and hospital data in {England"
+  authors: "R, Burns and S, Wyke and Y, Boukari and S, Katikireddi and D, Zenner and I, Campos-Matos and K, Harron and R, Aldridge"
+  type: "journal"
+  venue: "International journal of population data science"
+
+- title: "Reporting and analysing ethnicity in populational health data and linkage research: {A"
+  authors: "{Lam J"
+  type: "journal"
+  venue: "International journal of population data science"
+
