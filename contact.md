@@ -7,9 +7,6 @@ title: Contact
 
 I'm always interested in collaborating on research projects, discussing potential opportunities, or connecting with others working in health metrics sciences, epidemiology, and data science.
 
-## Email
-
-[rob.aldridge@gmail.com](mailto:rob.aldridge@gmail.com)
 
 ## Academic Profile
 
@@ -17,8 +14,8 @@ I'm always interested in collaborating on research projects, discussing potentia
 
 ## Professional Networks
 
-- **LinkedIn**: [Connect on LinkedIn](#) <!-- Add your LinkedIn URL -->
-- **Bluesky**: [@yourusername.bsky.social](#) <!-- Add your Bluesky handle -->
+- **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/rob-aldridge/) <!-- Add your LinkedIn URL -->
+- **Bluesky**: [@yourusername.bsky.social](https://bsky.app/profile/robaldridge.bsky.social) <!-- Add your Bluesky handle -->
 - **GitHub**: [rwaldridge](https://github.com/rwaldridge)
 
 ## Institutional Affiliation
