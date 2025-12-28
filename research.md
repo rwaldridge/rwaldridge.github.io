@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Research Projects
+title: Research
 ---
 
-# Research Projects
+# Research
 
-An overview of my research projects spanning AI, federated analytics, and global health data science.
+My research integrates engineering, epidemiology, and medicine to develop innovative approaches for improving population health through data science, AI, and digital health solutions.
 
 ## Active Projects
 
@@ -42,6 +42,16 @@ An overview of my research projects spanning AI, federated analytics, and global
     <ul>
       {% for output in project.outputs %}
         <li>{{ output }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  {% if project.key_findings %}
+  <div class="project-outputs">
+    <strong>Key Findings:</strong>
+    <ul>
+      {% for finding in project.key_findings %}
+        <li>{{ finding }}</li>
       {% endfor %}
     </ul>
   </div>
