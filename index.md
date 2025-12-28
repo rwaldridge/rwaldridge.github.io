@@ -33,6 +33,27 @@ title: Home
   {% endif %}
 {% endfor %}
 
+## Recent Publications
+
+{% assign all_pubs = site.data.publications | where_exp: "item", "item.year" | sort: 'year' | reverse %}
+{% for pub in all_pubs limit: 10 %}
+<div class="publication">
+  <div class="pub-title">{{ pub.title }}</div>
+  <div class="pub-authors">{{ pub.authors }}</div>
+  <div class="pub-venue">
+    {% if pub.venue %}<em>{{ pub.venue }}</em>{% endif %}
+    {% if pub.year %} ({{ pub.year }}){% endif %}
+  </div>
+  {% if pub.doi %}
+  <div class="pub-links">
+    <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">View Publication</a>
+  </div>
+  {% endif %}
+</div>
+{% endfor %}
+
+[View all publications →](/publications.html)
+
 ## Featured GitHub Repositories
 
 <div class="repo-grid">
@@ -56,27 +77,6 @@ title: Home
 </div>
 
 [View all repositories →](/github.html)
-
-## Recent Publications
-
-{% assign all_pubs = site.data.publications | where_exp: "item", "item.year" | sort: 'year' | reverse %}
-{% for pub in all_pubs limit: 10 %}
-<div class="publication">
-  <div class="pub-title">{{ pub.title }}</div>
-  <div class="pub-authors">{{ pub.authors }}</div>
-  <div class="pub-venue">
-    {% if pub.venue %}<em>{{ pub.venue }}</em>{% endif %}
-    {% if pub.year %} ({{ pub.year }}){% endif %}
-  </div>
-  {% if pub.doi %}
-  <div class="pub-links">
-    <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">View Publication</a>
-  </div>
-  {% endif %}
-</div>
-{% endfor %}
-
-[View all publications →](/publications.html)
 
 ## Contact
 
