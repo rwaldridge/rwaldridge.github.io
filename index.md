@@ -33,6 +33,30 @@ title: Home
   {% endif %}
 {% endfor %}
 
+## Featured GitHub Repositories
+
+<div class="repo-grid">
+  <div class="repo-card">
+    <h3><a href="https://github.com/homeappstudy" target="_blank" rel="noopener">Home App Study</a></h3>
+    <p>Research tools and resources for the Home App Study cohort.</p>
+    <a href="https://github.com/homeappstudy" class="repo-link" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+  
+  <div class="repo-card">
+    <h3><a href="https://github.com/UCL-Public-Health-Data-Science/CPRD-GOLD-migrant-phenotype-validation" target="_blank" rel="noopener">CPRD GOLD Migrant Phenotype</a></h3>
+    <p>Validation of EHR phenotypes for studying migration and health in the UK.</p>
+    <a href="https://github.com/UCL-Public-Health-Data-Science/CPRD-GOLD-migrant-phenotype-validation" class="repo-link" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+  
+  <div class="repo-card">
+    <h3><a href="https://github.com/UCL-Public-Health-Data-Science/VirusWatch_Overcrowding" target="_blank" rel="noopener">Virus Watch Overcrowding</a></h3>
+    <p>Analysis of household overcrowding and SARS-CoV-2 risk from the Virus Watch cohort.</p>
+    <a href="https://github.com/UCL-Public-Health-Data-Science/VirusWatch_Overcrowding" class="repo-link" target="_blank" rel="noopener">View Repository →</a>
+  </div>
+</div>
+
+[View all repositories →](/github.html)
+
 ## Recent Publications
 
 {% assign all_pubs = site.data.publications | where_exp: "item", "item.year" | sort: 'year' | reverse %}
