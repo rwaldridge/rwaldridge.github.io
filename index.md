@@ -31,7 +31,7 @@ I am Professor of Health Metrics Sciences and Team Lead for Clinical Informatics
 
 ## Recent Publications
 
-{% assign recent_pubs = site.data.publications | sort: 'year' | reverse | limit: 5 %}
+{% assign recent_pubs = site.data.publications | sort: 'year' | reverse | limit: 10 %}
 {% for pub in recent_pubs %}
 <div class="publication">
   <div class="pub-title">{{ pub.title }}</div>
