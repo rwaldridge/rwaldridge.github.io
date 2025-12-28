@@ -8,254 +8,134 @@
 # STATUS: active, completed, archived
 # FEATURED: Set to true for projects that should appear on homepage (limit to 3)
 
-- id: "adaptive-learning-systems"
-  title: "Adaptive Learning Systems at Scale"
+
+# _data/projects.yml
+#
+# Metadata for research projects based on Rob Aldridge's CV.
+#
+
+- id: "federated-analytics-ihme"
+  title: "Federated Data Analytics & AI for Global Health"
   status: "active"
   period: "2023 - Present"
-  funding: "NSF Grant #1234567 ($500K)"
-  team_size: "3 PhD students, 2 postdocs"
-  short_description: "Developing personalized learning algorithms for massive open online courses that adapt to individual student needs in real-time"
+  funding: "Gates Foundation"
+  short_description: "Leading the global application of advanced AI and federated analytics to create billions of estimates for 375 diseases"
   long_description: |
-    This project investigates how machine learning can enable personalized education 
-    at scale. We develop algorithms that learn from student interactions to optimize 
-    content delivery, pacing, and assessment strategies. Our work combines techniques 
-    from reinforcement learning, knowledge tracing, and cognitive science.
-  infographic: "/assets/images/projects/als-infographic.png"
+    As Team Lead for Clinical Informatics at IHME, this project drives the application 
+    of federated data analytics and advanced AI methods to 60 electronic health record 
+    sources. We pioneer AI methods, including novel Kernel Regression (Kreg) models 
+    utilizing sparse linear algebra, to predict mortality and hospital admission rates 
+    across 204 countries.
   tags:
-    - "education"
-    - "machine-learning"
-    - "personalization"
-  featured: true
-  page: "/projects/adaptive-learning-systems.html"
-  collaborators:
-    - "University of Michigan"
-    - "Stanford Online"
-  outputs:
-    - "2 journal papers (in progress)"
-    - "1 conference paper (CHI 2024)"
-    - "Open-source toolkit (500+ GitHub stars)"
-  key_findings:
-    - "30% improvement in student retention"
-    - "25% increase in assessment scores"
-    - "Effective across diverse student populations"
-
-- id: "neural-architecture-search"
-  title: "Automated Neural Architecture Search"
-  status: "completed"
-  period: "2021 - 2023"
-  funding: "Google Research Award ($75K)"
-  team_size: "2 PhD students, 1 postdoc"
-  short_description: "Meta-learning approaches to optimize deep learning model architectures automatically, reducing human expertise requirements"
-  long_description: |
-    Deep learning success often depends on carefully designed architectures. This 
-    project automates architecture design through meta-learning, enabling researchers 
-    to discover optimal models for new tasks with minimal manual tuning.
-  infographic: "/assets/images/projects/nas-infographic.svg"
-  outputs:
-    - "4 journal papers"
-    - "2 conference papers (NeurIPS, ICML)"
-    - "Open-source library (1.2K GitHub stars)"
-    - "1 patent application"
-  tags:
-    - "deep-learning"
-    - "optimization"
-    - "AutoML"
-  featured: true
-  page: "/projects/neural-architecture-search.html"
-  key_findings:
-    - "Discovered architectures competitive with human-designed models"
-    - "10x reduction in architecture search time"
-    - "Transferable search strategies across domains"
-
-- id: "open-science-toolkit"
-  title: "Open Science Toolkit for Computational Research"
-  status: "active"
-  period: "2022 - Present"
-  funding: "Sloan Foundation Grant ($250K)"
-  collaborators:
-    - "University of Oxford"
-    - "MIT Libraries"
-  team_size: "2 postdocs, 4 research assistants"
-  short_description: "Tools and best practices for reproducible computational research, including workflow automation and data provenance tracking"
-  long_description: |
-    Making computational research reproducible requires more than sharing code. This 
-    project develops integrated tools for capturing computational environments, tracking 
-    data provenance, and automating reproducibility checks.
-  infographic: "/assets/images/projects/ost-infographic.png"
-  tags:
-    - "open-science"
-    - "reproducibility"
-    - "research-tools"
-  featured: false
-  page: "/projects/open-science-toolkit.html"
-  outputs:
-    - "3 software tools (Docker-based, Jupyter extension, CLI)"
-    - "2 workshop papers"
-    - "Online training materials (5000+ users)"
-  resources:
-    website: "https://openscitoolkit.org"
-    github: "https://github.com/rwaldridge/open-science-toolkit"
-    documentation: "https://docs.openscitoolkit.org"
-
-- id: "interpretable-healthcare-ml"
-  title: "Interpretable Machine Learning for Healthcare"
-  status: "completed"
-  period: "2020 - 2023"
-  funding: "NIH R01 Grant ($1.2M)"
-  team_size: "4 PhD students, 3 postdocs, 2 clinical collaborators"
-  short_description: "Developing interpretable alternatives to black-box models for clinical prediction while maintaining high accuracy"
-  long_description: |
-    Black-box models in healthcare raise serious concerns about trust, accountability, 
-    and clinical utility. This project developed interpretable machine learning methods 
-    that provide clinically meaningful explanations without sacrificing prediction 
-    accuracy.
-  infographic: "/assets/images/projects/ihm-infographic.png"
-  tags:
-    - "machine-learning"
-    - "healthcare"
-    - "interpretability"
-  featured: true
-  page: "/projects/interpretable-healthcare-ml.html"
-  collaborators:
-    - "Johns Hopkins Medicine"
-    - "Mayo Clinic"
-  outputs:
-    - "1 Nature Medicine paper"
-    - "3 conference papers (MLHC, AMIA)"
-    - "FDA-cleared clinical decision support tool"
-  awards:
-    - "Best Paper Award, Machine Learning for Healthcare 2022"
-    - "NIH Director's New Innovator Award"
-  clinical_impact:
-    - "Deployed in 3 hospital systems"
-    - "Supporting decisions for 10,000+ patients"
-
-- id: "multilingual-nlp"
-  title: "Zero-Shot Cross-Lingual NLP for Low-Resource Languages"
-  status: "active"
-  period: "2021 - Present"
-  funding: "Meta Research Grant ($100K)"
-  team_size: "3 PhD students"
-  short_description: "Enabling NLP capabilities for under-resourced languages through cross-lingual transfer learning"
-  long_description: |
-    Most NLP research focuses on high-resource languages like English. This project 
-    develops methods to transfer capabilities to low-resource languages with minimal 
-    training data, promoting linguistic diversity in AI systems.
-  infographic: "/assets/images/projects/multilingual-nlp-infographic.svg"
-  tags:
-    - "nlp"
-    - "low-resource-languages"
-    - "transfer-learning"
-  featured: false
-  page: "/projects/multilingual-nlp.html"
-  outputs:
-    - "1 ACL Best Paper (2022)"
-    - "2 additional conference papers"
-    - "Multilingual embeddings for 100+ languages"
-    - "HuggingFace model (500K downloads)"
-  languages_supported: 100+
-  resources:
-    huggingface: "https://huggingface.co/rwaldridge/multilingual-embeddings"
-    github: "https://github.com/rwaldridge/multilingual-embeddings"
-
-- id: "learning-analytics-privacy"
-  title: "Privacy-Preserving Learning Analytics"
-  status: "active"
-  period: "2023 - Present"
-  funding: "Department of Education Grant ($400K)"
-  team_size: "2 PhD students, 1 postdoc"
-  short_description: "Developing differentially private methods for educational data analysis that protect student privacy while enabling institutional insights"
-  long_description: |
-    Learning analytics can improve educational outcomes, but raises significant privacy 
-    concerns. This project applies differential privacy techniques to enable meaningful 
-    analytics while providing formal privacy guarantees.
-  infographic: "/assets/images/projects/lap-infographic.png"
-  tags:
-    - "privacy"
-    - "learning-analytics"
-    - "education"
-  featured: false
-  page: "/projects/learning-analytics-privacy.html"
-  outputs:
-    - "1 journal paper (under review)"
-    - "Software toolkit (beta release)"
-  pilot_institutions:
-    - "Large State University (50,000 students)"
-    - "Community College System (20,000 students)"
-
-- id: "ai-curriculum-design"
-  title: "AI Literacy Curriculum for Higher Education"
-  status: "completed"
-  period: "2022 - 2023"
-  funding: "Internal University Grant ($50K)"
-  team_size: "5 faculty collaborators"
-  short_description: "Designing and evaluating an interdisciplinary AI literacy curriculum for non-CS majors"
-  long_description: |
-    As AI becomes ubiquitous, all students need foundational understanding of AI 
-    capabilities, limitations, and ethical implications. This project developed and 
-    piloted a modular curriculum suitable for students across disciplines.
-  infographic: "/assets/images/projects/ai-curriculum-infographic.png"
-  tags:
-    - "education"
     - "AI"
-    - "curriculum-design"
-  featured: false
-  page: "/projects/ai-curriculum-design.html"
+    - "federated-learning"
+    - "global-health"
+    - "big-data"
+  featured: true
   outputs:
-    - "Open-source curriculum materials"
-    - "1 education journal paper"
-    - "Workshop at SIGCSE 2023"
-  students_reached: "500+ across 12 courses"
-  adoption:
-    - "Adopted by 8 universities"
-    - "Translated to Spanish and French"
+    - "Estimates for 375 diseases"
+    - "Kreg model implementation"
+    - "Reconceptualized GBD cancer registry pipeline"
+  key_findings:
+    - "Scalable prediction of all-cause mortality across 204 countries"
+    - "Integration of 900+ global cancer registry datasets"
 
-- id: "federated-learning-education"
-  title: "Federated Learning for Educational Data"
+- id: "opensafely-global-collaboration"
+  title: "OpenSAFELY Global Collaboration"
   status: "active"
   period: "2024 - Present"
-  funding: "NSF CAREER Award ($550K)"
-  team_size: "4 PhD students"
-  short_description: "Enabling multi-institution research collaborations through federated machine learning that keeps sensitive student data on-premise"
+  collaborators:
+    - "University of Oxford"
+    - "Ministry of Health Indonesia"
+  short_description: "Deploying federated data architectures globally to enhance transparency and reproducibility in health research"
   long_description: |
-    Educational research across institutions is hindered by data privacy regulations. 
-    This project applies federated learning to enable collaborative model training 
-    without sharing raw student data.
-  infographic: "/assets/images/projects/federated-learning-infographic.svg"
+    Leading data architecture strategy by collaborating with the University of Oxford 
+    to deploy the OpenSAFELY federated data architecture globally. This initiative 
+    enhances transparency and reproducibility in health data research, recently 
+    supported by Gates Foundation funding for deployment in Indonesia.
   tags:
-    - "federated-learning"
-    - "privacy"
-    - "education"
+    - "data-architecture"
+    - "open-science"
+    - "reproducibility"
   featured: false
-  page: "/projects/federated-learning-education.html"
   outputs:
-    - "Grant awarded (project starting)"
-  partner_institutions:
-    - "5 universities across 3 countries"
+    - "Global deployment strategy"
+    - "Reproducible data pipelines"
 
-- id: "bias-mitigation-ml"
-  title: "Bias Detection and Mitigation in ML Systems"
-  status: "completed"
-  period: "2019 - 2022"
-  funding: "NSF Standard Grant ($350K)"
-  team_size: "3 PhD students, 2 postdocs"
-  short_description: "Developing methods to detect, measure, and mitigate unfair bias in machine learning models"
+- id: "ai-phenotyping-llm"
+  title: "AI Phenotyping with Large Language Models"
+  status: "active"
+  period: "2023 - Present"
+  short_description: "Creating reproducible AI pipelines for disease phenotyping using NLP and LLMs across multilingual systems"
   long_description: |
-    Machine learning systems can perpetuate and amplify societal biases. This project 
-    developed techniques to audit models for bias and methods to mitigate unfairness 
-    while maintaining model utility.
-  infographic: "/assets/images/projects/bias-mitigation-infographic.png"
+    This project exploits AI phenotyping by combining Natural Language Processing (NLP) 
+    with Large Language Models (LLMs). The goal is to create a reproducible AI pipeline 
+    for disease phenotyping across multilingual medical classification systems, a critical 
+    innovation as global electronic health record access expands.
   tags:
-    - "fairness"
-    - "machine-learning"
-    - "ethics"
-  featured: false
-  page: "/projects/bias-mitigation-ml.html"
+    - "NLP"
+    - "LLMs"
+    - "phenotyping"
+    - "artificial-intelligence"
+  featured: true
+  key_findings:
+    - "Successful handling of multilingual medical classification"
+    - "Automated disease phenotyping pipelines"
+
+- id: "virus-watch"
+  title: "Virus Watch: COVID-19 Community Cohort"
+  status: "completed"
+  period: "2020 - 2023"
+  funding: "UKRI Grants (£4.6 million)"
+  team_size: "Large multidisciplinary team"
+  short_description: "A community cohort of 60,000 people examining COVID-19 transmission, immunity, and health inequities"
+  long_description: |
+    Rapid mobilization of research infrastructure during the COVID-19 pandemic to establish 
+    a cohort of 60,000 people across England and Wales. The study collected over 1 billion 
+    data points to examine antibody waning, vaccine effectiveness, and health inequities 
+    faced by racial and ethnic minority groups.
+  tags:
+    - "COVID-19"
+    - "epidemiology"
+    - "health-inequities"
+  featured: true
   outputs:
-    - "2 journal papers"
-    - "4 conference papers (FAccT, AIES)"
-    - "Open-source fairness toolkit"
-  toolkit_downloads: "10,000+"
-  resources:
-    github: "https://github.com/rwaldridge/fairness-toolkit"
-    documentation: "https://fairness-toolkit.readthedocs.io"
+    - "1 billion+ data points collected"
+    - "Evidence for UK SAGE and JCVI"
+    - "Publications in behavioral science and occupational health"
+  key_findings:
+    - "Identified clinical risk groups with low vaccine-induced antibody response"
+    - "Antibodies predict infection risk regardless of vaccine type"
+    - "Overcrowded housing linked to 2-4x higher COVID risk"
+
+- id: "migrant-health-vaccination"
+  title: "Migrant Health & Vaccination Access"
+  status: "completed"
+  period: "2020 - 2023"
+  collaborators:
+    - "UK Health Security Agency (UKHSA)"
+  short_description: "Analyzing healthcare utilization gaps and vaccination delays among migrant populations and refugees"
+  long_description: |
+    Using a newly created national linked electronic health record dataset, this project 
+    demonstrated that migrants were less likely to use primary care than UK-born individuals, 
+    a gap that widened during the pandemic. We also undertook the first large-scale analysis 
+    showing substantial delays in refugees receiving second and booster vaccination doses.
+  tags:
+    - "migration-health"
+    - "vaccination"
+    - "health-equity"
+  featured: false
+  key_findings:
+    - "Migrants less likely to use primary care during pandemic"
+    - "Substantial delays in refugee vaccination uptake"
+
+- id: "inclusion-health-mortality"
+  title: "Mortality in Socially Excluded Populations"
+  status: "completed"
+  period: "2018 - 2020"
+  short_description: "Establishing the field of inclusion health by quantifying mortality risks in socially excluded groups"
+  long_description: |
+    Collated global data to demonstrate extreme health inequities in socially excluded 
+    populations. This evidence informed global interventions by the WHO and the UK 
+    Department of Health's Rough Sleeping Strategy. We established that nearly one in 
+    three deaths among people experiencing homelessness admitted to hospital were preventable.
