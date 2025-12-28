@@ -9,7 +9,25 @@ I am Professor of Health Metrics Sciences and Team Lead for Clinical Informatics
 
 ## Featured Research Projects
 
-Coming soon - see example projects in `_projects/` folder.
+{% for project in site.data.projects %}
+  {% if project.featured %}
+  <div class="project-card">
+    <h3>{{ project.title }}</h3>
+    <p class="project-meta"><strong>{{ project.period }}</strong> | Status: {{ project.status }}</p>
+    {% if project.funding %}
+    <p class="project-funding">💰 {{ project.funding }}</p>
+    {% endif %}
+    <p>{{ project.short_description }}</p>
+    {% if project.tags %}
+    <p class="project-tags">
+      {% for tag in project.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </p>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endfor %}
 
 ## Recent Publications
 

@@ -1,0 +1,33 @@
+# Jekyll configuration for rwaldridge.github.io
+
+# Site settings
+title: "Rob Aldridge"
+description: "Professor of Health Metrics Sciences and Team Lead for Clinical Informatics on the Global Burden of Disease (GBD) study"
+baseurl: "" # Leave empty for GitHub Pages user site
+url: "https://rwaldridge.github.io"
+
+# Build settings
+markdown: kramdown
+theme: null
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "default"
