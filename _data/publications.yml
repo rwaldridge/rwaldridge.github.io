@@ -1,0 +1,191 @@
+# _data/publications.yml
+# 
+# This file contains all your publications. Add new entries at the bottom.
+# The site will automatically display them on your publications page.
+#
+# REQUIRED FIELDS: title, authors, year, type, venue
+# OPTIONAL FIELDS: venue_short, volume, pages, doi, pdf, abstract, tags, featured
+#
+# TYPES: journal, conference, book-chapter, preprint, thesis
+
+# Journal Article Example
+- title: "Adaptive Learning Rates in Deep Neural Networks: A Theoretical Framework"
+  authors: "Aldridge, R., Smith, J., & Chen, L."
+  year: 2024
+  type: "journal"
+  venue: "Journal of Machine Learning Research"
+  venue_short: "JMLR"
+  volume: "25"
+  pages: "1-34"
+  doi: "10.1234/jmlr.2024.12345"
+  pdf: "/assets/papers/aldridge-2024-adaptive.pdf"
+  abstract: "We present a theoretical framework for understanding adaptive learning rate algorithms in deep neural networks. Our analysis reveals fundamental convergence properties that explain empirical success across diverse architectures."
+  tags:
+    - "machine-learning"
+    - "optimization-theory"
+    - "deep-learning"
+  featured: true
+
+# Conference Paper Example
+- title: "Scaling Educational Data Mining for Large Institutions"
+  authors: "Aldridge, R."
+  year: 2023
+  type: "conference"
+  venue: "International Conference on Educational Data Mining"
+  venue_short: "EDM 2023"
+  location: "Montreal, Canada"
+  doi: "10.1109/edm.2023.67890"
+  pdf: "https://doi.org/10.1109/edm.2023.67890"
+  slides: "/assets/slides/edm-2023-slides.pdf"
+  abstract: "Large educational institutions generate massive datasets that remain underutilized due to scalability challenges. We present a distributed architecture that enables real-time analytics on student learning data."
+  tags:
+    - "education"
+    - "data-mining"
+    - "learning-analytics"
+  featured: false
+
+# Book Chapter Example
+- title: "Open Science Practices in Computer Science Research"
+  authors: "Chen, L., Aldridge, R., & Rodriguez, M."
+  year: 2023
+  type: "book-chapter"
+  venue: "The Handbook of Research Transparency"
+  venue_short: "Research Transparency Handbook"
+  publisher: "Academic Press"
+  pages: "234-256"
+  isbn: "978-0-12345-678-9"
+  pdf: "/assets/papers/chen-2023-open-science.pdf"
+  abstract: "This chapter examines the adoption of open science practices in computational research, including preregistration, data sharing, and reproducible workflows."
+  tags:
+    - "open-science"
+    - "research-methods"
+    - "reproducibility"
+  featured: false
+
+# Journal Article with Multiple Identifiers
+- title: "Interpretable Machine Learning for Healthcare Prediction"
+  authors: "Williams, K., Aldridge, R., Park, S., & Johnson, M."
+  year: 2023
+  type: "journal"
+  venue: "Nature Medicine"
+  venue_short: "Nat. Med."
+  volume: "29"
+  issue: "8"
+  pages: "1456-1465"
+  doi: "10.1038/s41591-023-01234-5"
+  pmid: "37245678"
+  pdf: "/assets/papers/williams-2023-interpretable.pdf"
+  supplement: "/assets/papers/williams-2023-supplement.pdf"
+  code: "https://github.com/yourusername/interpretable-healthcare-ml"
+  abstract: "Black-box models in healthcare raise concerns about trust and accountability. We develop interpretable alternatives that maintain prediction accuracy while providing clinically meaningful explanations."
+  tags:
+    - "machine-learning"
+    - "healthcare"
+    - "interpretability"
+  featured: true
+
+# Conference Paper with Best Paper Award
+- title: "Zero-Shot Cross-Lingual Transfer for Low-Resource Languages"
+  authors: "Aldridge, R. & Martinez, A."
+  year: 2022
+  type: "conference"
+  venue: "Annual Meeting of the Association for Computational Linguistics"
+  venue_short: "ACL 2022"
+  location: "Dublin, Ireland"
+  doi: "10.18653/v1/2022.acl-long.123"
+  pdf: "/assets/papers/aldridge-2022-zero-shot.pdf"
+  slides: "/assets/slides/acl-2022-slides.pdf"
+  video: "https://youtube.com/watch?v=example"
+  award: "Best Paper Award"
+  abstract: "We demonstrate effective zero-shot transfer of NLP models to low-resource languages through careful alignment of multilingual embeddings and task-specific fine-tuning strategies."
+  tags:
+    - "nlp"
+    - "low-resource-languages"
+    - "transfer-learning"
+  featured: true
+
+# Preprint Example
+- title: "Federated Learning with Differential Privacy Guarantees"
+  authors: "Aldridge, R., Thompson, B., & Lee, J."
+  year: 2024
+  type: "preprint"
+  venue: "arXiv"
+  venue_short: "arXiv"
+  archive: "arXiv"
+  archive_id: "2024.12345"
+  doi: "10.48550/arXiv.2024.12345"
+  pdf: "https://arxiv.org/pdf/2024.12345.pdf"
+  abstract: "We propose a federated learning framework that provides formal differential privacy guarantees without sacrificing model accuracy. Under review at ICML 2025."
+  tags:
+    - "federated-learning"
+    - "privacy"
+    - "machine-learning"
+  featured: false
+  note: "Under review"
+
+# Workshop Paper
+- title: "Teaching Data Ethics in Computer Science Curricula"
+  authors: "Aldridge, R."
+  year: 2022
+  type: "workshop"
+  venue: "Workshop on AI Ethics in Education (AAAI-22)"
+  venue_short: "AAAI-22 Workshop"
+  location: "Virtual"
+  pdf: "/assets/papers/aldridge-2022-data-ethics.pdf"
+  abstract: "We present a curricular framework for integrating data ethics throughout computer science education, with case studies from three institutions."
+  tags:
+    - "education"
+    - "ethics"
+    - "curriculum-design"
+  featured: false
+
+# Thesis Example
+- title: "Scalable Methods for Personalized Learning in Massive Online Courses"
+  authors: "Aldridge, R."
+  year: 2020
+  type: "thesis"
+  venue: "PhD Thesis, University of Example"
+  venue_short: "PhD Thesis"
+  institution: "University of Example"
+  department: "Computer Science"
+  advisor: "Prof. Jane Smith"
+  pdf: "/assets/papers/aldridge-2020-thesis.pdf"
+  abstract: "This dissertation develops and evaluates machine learning methods for personalizing educational content in MOOCs, demonstrating improved learning outcomes across diverse student populations."
+  tags:
+    - "education"
+    - "machine-learning"
+    - "personalization"
+  featured: false
+
+# Short Paper / Poster
+- title: "Visualizing Neural Network Decision Boundaries in High Dimensions"
+  authors: "Park, M., Aldridge, R., & Chen, L."
+  year: 2021
+  type: "poster"
+  venue: "International Conference on Learning Representations"
+  venue_short: "ICLR 2021"
+  location: "Virtual"
+  pdf: "/assets/papers/park-2021-visualizing.pdf"
+  poster: "/assets/posters/iclr-2021-poster.pdf"
+  abstract: "We introduce a dimensionality reduction technique specifically designed to preserve neural network decision boundary structure for visualization."
+  tags:
+    - "visualization"
+    - "deep-learning"
+    - "interpretability"
+  featured: false
+
+# Technical Report
+- title: "Annual Report on AI Adoption in Higher Education Institutions"
+  authors: "Aldridge, R. (Ed.)"
+  year: 2024
+  type: "report"
+  venue: "Center for Educational Technology Research"
+  venue_short: "CETR Report"
+  report_number: "CETR-2024-01"
+  pdf: "/assets/papers/aldridge-2024-ai-adoption-report.pdf"
+  abstract: "Comprehensive survey of AI tool adoption across 150 universities, including implementation challenges, faculty attitudes, and student outcomes."
+  tags:
+    - "education"
+    - "AI"
+    - "survey"
+  featured: false

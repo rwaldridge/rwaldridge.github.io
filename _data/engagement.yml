@@ -1,0 +1,256 @@
+# _data/engagement.yml
+#
+# Track your speaking engagements, media appearances, interviews, and advisory roles.
+#
+# TYPES: talk, podcast, interview, article, advisory, media, panel
+# REQUIRED FIELDS: title, type, event, date, description
+# OPTIONAL FIELDS: location, media (video/audio/article/slides/transcript), tags, featured, ongoing
+#
+# FEATURED: Set to true for items that should appear on homepage (limit to 4-5)
+
+# Example: Conference Keynote
+- title: "The Future of AI in Higher Education"
+  type: "talk"
+  event: "TEDx University Conference"
+  date: "2024-09-15"
+  location: "Boston, MA"
+  description: "Keynote address on integrating AI tools into curriculum design while maintaining academic integrity and fostering critical thinking"
+  media:
+    video: "https://youtube.com/watch?v=example123"
+    slides: "/assets/slides/tedx-2024-ai-education.pdf"
+  audience_size: "500+"
+  tags:
+    - "AI"
+    - "education"
+    - "ethics"
+  featured: true
+
+# Example: Podcast Interview
+- title: "Machine Learning for Social Good"
+  type: "podcast"
+  event: "Data Science Insights Podcast"
+  date: "2024-06-10"
+  description: "Discussion on applying machine learning to nonprofit sector challenges, including case studies from education and public health domains"
+  media:
+    audio: "https://podcast.example.com/episode-42"
+    transcript: "/assets/transcripts/dsi-episode-42.pdf"
+  duration: "45 min"
+  host: "Dr. Sarah Chen"
+  tags:
+    - "social-impact"
+    - "machine-learning"
+    - "nonprofit"
+  featured: true
+
+# Example: Newspaper Quote
+- title: "Expert Commentary on AI Regulation"
+  type: "media"
+  event: "The New York Times"
+  date: "2024-03-22"
+  description: "Quoted expert on proposed AI governance frameworks and their implications for academic research"
+  media:
+    article: "https://nytimes.com/2024/03/22/technology/ai-regulation-experts.html"
+  tags:
+    - "AI-policy"
+    - "governance"
+    - "research"
+  featured: false
+
+# Example: Advisory Board Role
+- title: "Technical Advisory Board Member"
+  type: "advisory"
+  event: "OpenAI Educational Initiative"
+  date: "2023-01-01"
+  date_end: "2025-12-31"
+  description: "Advising on responsible AI deployment in K-12 education, focusing on equity, accessibility, and pedagogical effectiveness"
+  ongoing: true
+  frequency: "Quarterly meetings"
+  tags:
+    - "advisory"
+    - "education"
+    - "K-12"
+    - "AI"
+  featured: true
+
+# Example: Opinion Article
+- title: "Rethinking Academic Publishing in the Age of Open Science"
+  type: "article"
+  event: "Chronicle of Higher Education"
+  date: "2023-11-08"
+  description: "Op-ed arguing for open access mandates and reproducibility standards in computational research"
+  media:
+    article: "https://chronicle.com/article/rethinking-academic-publishing"
+  word_count: "1200"
+  tags:
+    - "open-science"
+    - "publishing"
+    - "reproducibility"
+  featured: false
+
+# Example: Panel Discussion
+- title: "Ethics in AI Research"
+  type: "panel"
+  event: "NeurIPS 2023 Panel Discussion"
+  date: "2023-12-12"
+  location: "New Orleans, LA"
+  description: "Panelist discussing ethical considerations in machine learning research, including bias mitigation and data privacy"
+  media:
+    video: "https://youtube.com/watch?v=neurips2023panel"
+  other_panelists:
+    - "Dr. Emily Rodriguez (Stanford)"
+    - "Prof. James Kim (MIT)"
+    - "Dr. Maria Santos (DeepMind)"
+  tags:
+    - "ethics"
+    - "AI"
+    - "machine-learning"
+  featured: true
+
+# Example: Workshop Leader
+- title: "Introduction to Responsible AI for Educators"
+  type: "workshop"
+  event: "ISTE Annual Conference"
+  date: "2024-06-24"
+  location: "Denver, CO"
+  description: "Half-day workshop training K-12 teachers on evaluating and implementing AI tools in classrooms"
+  media:
+    materials: "/assets/workshops/iste-2024-responsible-ai.zip"
+    slides: "/assets/slides/iste-2024-workshop.pdf"
+  participants: "35 educators"
+  duration: "4 hours"
+  tags:
+    - "education"
+    - "AI"
+    - "professional-development"
+  featured: false
+
+# Example: University Lecture Series
+- title: "Guest Lecture: Open Science Practices"
+  type: "talk"
+  event: "MIT Graduate Seminar Series"
+  date: "2024-04-18"
+  location: "Cambridge, MA"
+  description: "Guest lecture on implementing open science workflows in computational research, covering preregistration, data sharing, and reproducible environments"
+  media:
+    slides: "/assets/slides/mit-2024-open-science.pdf"
+  course: "6.S897: Reproducible Research"
+  tags:
+    - "open-science"
+    - "reproducibility"
+    - "teaching"
+  featured: false
+
+# Example: Radio Interview
+- title: "The Promise and Perils of Educational Technology"
+  type: "interview"
+  event: "NPR's Science Friday"
+  date: "2023-09-08"
+  description: "Radio interview discussing the benefits and risks of AI-powered tutoring systems in public schools"
+  media:
+    audio: "https://sciencefriday.com/segments/educational-ai-2023/"
+    transcript: "https://sciencefriday.com/segments/educational-ai-2023/transcript/"
+  duration: "15 min"
+  host: "Ira Flatow"
+  tags:
+    - "education"
+    - "AI"
+    - "public-media"
+  featured: true
+
+# Example: Webinar
+- title: "Data Privacy in Learning Analytics"
+  type: "webinar"
+  event: "EDUCAUSE Webinar Series"
+  date: "2024-02-14"
+  description: "Online presentation on implementing privacy-preserving analytics in higher education institutions"
+  media:
+    video: "https://educause.edu/webinar/data-privacy-learning-analytics"
+    slides: "/assets/slides/educause-2024-privacy.pdf"
+  attendees: "450+"
+  duration: "60 min"
+  tags:
+    - "privacy"
+    - "learning-analytics"
+    - "higher-education"
+  featured: false
+
+# Example: Expert Testimony
+- title: "Congressional Briefing on AI in Education"
+  type: "testimony"
+  event: "U.S. House Committee on Education and Labor"
+  date: "2023-05-17"
+  location: "Washington, D.C."
+  description: "Expert testimony on the opportunities and challenges of AI adoption in K-12 and higher education"
+  media:
+    transcript: "/assets/testimony/house-education-2023.pdf"
+    video: "https://education.house.gov/calendar/eventsingle.aspx?EventID=12345"
+  tags:
+    - "policy"
+    - "education"
+    - "AI"
+    - "government"
+  featured: true
+
+# Example: Industry Conference
+- title: "Building Trust in AI Systems"
+  type: "talk"
+  event: "Google AI Summit"
+  date: "2024-10-03"
+  location: "Mountain View, CA"
+  description: "Invited talk on designing interpretable and accountable AI systems for high-stakes applications"
+  media:
+    video: "https://youtube.com/watch?v=google-ai-summit-2024"
+    slides: "/assets/slides/google-ai-summit-2024.pdf"
+  tags:
+    - "AI"
+    - "interpretability"
+    - "trust"
+  featured: false
+
+# Example: Documentary Appearance
+- title: "Featured Expert in 'The Algorithm Age' Documentary"
+  type: "media"
+  event: "PBS NOVA Documentary"
+  date: "2023-10-12"
+  description: "Appeared as expert commentator discussing the impact of machine learning on education and workforce development"
+  media:
+    video: "https://pbs.org/nova/algorithm-age"
+  production: "WGBH Boston"
+  tags:
+    - "documentary"
+    - "machine-learning"
+    - "education"
+  featured: true
+
+# Example: Ongoing Advisory Role
+- title: "Advisory Committee on Educational Technology"
+  type: "advisory"
+  event: "U.S. Department of Education"
+  date: "2022-07-01"
+  date_end: "2026-06-30"
+  description: "Member of federal advisory committee providing recommendations on educational technology policy and implementation"
+  ongoing: true
+  frequency: "Biannual meetings"
+  appointment_authority: "Secretary of Education"
+  tags:
+    - "advisory"
+    - "policy"
+    - "education"
+    - "government"
+  featured: false
+
+# Example: Blog Post / Article
+- title: "Five Principles for Ethical AI in Education"
+  type: "article"
+  event: "Harvard Business Review"
+  date: "2024-01-15"
+  description: "Essay outlining key principles for responsible deployment of AI tools in educational settings"
+  media:
+    article: "https://hbr.org/2024/01/five-principles-ethical-ai-education"
+  word_count: "2000"
+  tags:
+    - "ethics"
+    - "AI"
+    - "education"
+    - "leadership"
+  featured: false

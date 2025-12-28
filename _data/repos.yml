@@ -1,0 +1,181 @@
+# _data/repos.yml
+#
+# Manual entries for your GitHub repositories.
+# This file lets you curate which repos to highlight on your site.
+#
+# REQUIRED FIELDS: name, description, language, url
+# OPTIONAL FIELDS: stars, topics, featured, year
+#
+# FEATURED: Set to true for repos that should appear on the homepage (limit to 3-4)
+
+# Example: Machine Learning Library
+- name: "neural-network-optimizer"
+  description: "High-performance gradient descent library with adaptive learning rates and momentum variants"
+  language: "Python"
+  stars: 247
+  topics:
+    - "machine-learning"
+    - "optimization"
+    - "deep-learning"
+  url: "https://github.com/rwaldridge/neural-network-optimizer"
+  featured: true
+  year: 2024
+  readme_excerpt: "Install with pip: `pip install nn-optimizer`"
+
+# Example: Data Science Tool
+- name: "academic-citations-parser"
+  description: "Parse and normalize citations from multiple academic databases (PubMed, CrossRef, arXiv)"
+  language: "JavaScript"
+  stars: 89
+  topics:
+    - "academic-tools"
+    - "data-processing"
+    - "citation-analysis"
+  url: "https://github.com/rwaldridge/citations-parser"
+  featured: true
+  year: 2023
+  npm_package: "academic-citations-parser"
+
+# Example: Educational Resources
+- name: "teaching-materials"
+  description: "Open-source course materials for Advanced Data Structures & Algorithms (CS 401)"
+  language: "Jupyter Notebook"
+  stars: 156
+  topics:
+    - "education"
+    - "algorithms"
+    - "data-structures"
+  url: "https://github.com/rwaldridge/teaching-materials"
+  featured: false
+  year: 2023
+  license: "CC-BY-4.0"
+
+# Example: Research Project Code
+- name: "interpretable-ml-healthcare"
+  description: "Interpretable machine learning models for clinical prediction tasks (Nature Medicine 2023)"
+  language: "Python"
+  stars: 312
+  topics:
+    - "machine-learning"
+    - "healthcare"
+    - "interpretability"
+  url: "https://github.com/rwaldridge/interpretable-ml-healthcare"
+  featured: true
+  year: 2023
+  paper_doi: "10.1038/s41591-023-01234-5"
+  documentation: "https://interpretable-ml.readthedocs.io"
+
+# Example: Web Application
+- name: "learning-analytics-dashboard"
+  description: "Real-time analytics dashboard for course instructors to track student engagement"
+  language: "TypeScript"
+  stars: 67
+  topics:
+    - "education"
+    - "data-visualization"
+    - "learning-analytics"
+  url: "https://github.com/rwaldridge/learning-analytics-dashboard"
+  featured: false
+  year: 2022
+  demo_url: "https://demo.learning-analytics.example.com"
+  tech_stack: "React, D3.js, Node.js, PostgreSQL"
+
+# Example: R Package
+- name: "edm-toolkit"
+  description: "R package for educational data mining: preprocessing, feature extraction, and model evaluation"
+  language: "R"
+  stars: 134
+  topics:
+    - "education"
+    - "data-mining"
+    - "r-package"
+  url: "https://github.com/rwaldridge/edm-toolkit"
+  featured: false
+  year: 2022
+  cran_package: "edmtoolkit"
+  documentation: "https://rwaldridge.github.io/edm-toolkit/"
+
+# Example: NLP Tool
+- name: "multilingual-embeddings"
+  description: "Zero-shot cross-lingual word embeddings for 100+ languages (ACL 2022)"
+  language: "Python"
+  stars: 423
+  topics:
+    - "nlp"
+    - "embeddings"
+    - "multilingual"
+  url: "https://github.com/rwaldridge/multilingual-embeddings"
+  featured: true
+  year: 2022
+  paper_doi: "10.18653/v1/2022.acl-long.123"
+  huggingface_model: "rwaldridge/multilingual-embeddings"
+
+# Example: Data Pipeline
+- name: "mooc-data-pipeline"
+  description: "ETL pipeline for processing large-scale MOOC log data with Apache Spark"
+  language: "Scala"
+  stars: 45
+  topics:
+    - "data-engineering"
+    - "education"
+    - "big-data"
+  url: "https://github.com/rwaldridge/mooc-data-pipeline"
+  featured: false
+  year: 2021
+  tech_stack: "Apache Spark, Kafka, Cassandra"
+
+# Example: Jupyter Notebooks Collection
+- name: "data-science-tutorials"
+  description: "Interactive tutorials on machine learning, statistics, and data visualization"
+  language: "Jupyter Notebook"
+  stars: 892
+  topics:
+    - "education"
+    - "machine-learning"
+    - "data-science"
+  url: "https://github.com/rwaldridge/data-science-tutorials"
+  featured: false
+  year: 2021
+  binder_url: "https://mybinder.org/v2/gh/rwaldridge/data-science-tutorials/main"
+
+# Example: Command-Line Tool
+- name: "paper-summarizer"
+  description: "CLI tool to extract key findings from academic papers using GPT-4"
+  language: "Python"
+  stars: 178
+  topics:
+    - "nlp"
+    - "academic-tools"
+    - "cli"
+  url: "https://github.com/rwaldridge/paper-summarizer"
+  featured: false
+  year: 2024
+  pypi_package: "paper-summarizer"
+
+# Example: Browser Extension
+- name: "citation-helper"
+  description: "Browser extension to quickly generate formatted citations from any webpage"
+  language: "JavaScript"
+  stars: 234
+  topics:
+    - "browser-extension"
+    - "academic-tools"
+    - "citations"
+  url: "https://github.com/rwaldridge/citation-helper"
+  featured: false
+  year: 2023
+  chrome_store: "https://chrome.google.com/webstore/detail/..."
+  firefox_addon: "https://addons.mozilla.org/en-US/firefox/addon/..."
+
+# Example: Configuration/Dotfiles
+- name: "research-computing-setup"
+  description: "My research computing environment: dotfiles, conda environments, and productivity tools"
+  language: "Shell"
+  stars: 56
+  topics:
+    - "dotfiles"
+    - "productivity"
+    - "research-tools"
+  url: "https://github.com/rwaldridge/research-computing-setup"
+  featured: false
+  year: 2023
