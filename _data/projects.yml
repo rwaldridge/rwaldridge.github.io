@@ -19,26 +19,25 @@
   status: "active"
   period: "2023 - Present"
   funding: "Gates Foundation"
-  short_description: "Leading the global application of advanced AI and federated analytics to create billions of estimates for 375 diseases"
+  short_description: "Leading the global application of advanced AI and federated analytics to create billions of estimates for over 300 diseases"
   long_description: |
-    As Team Lead for Clinical Informatics at IHME, this project drives the application 
+    As Team Lead for Clinical Informatics at IHME, this project that I lead drives the application 
     of federated data analytics and advanced AI methods to 60 electronic health record 
     sources. We pioneer AI methods, including novel Kernel Regression (Kreg) models 
-    utilizing sparse linear algebra, to predict mortality and hospital admission rates 
+    utilizing sparse linear algebra, to predict hospital admission rates 
     across 204 countries.
   tags:
     - "AI"
-    - "federated-learning"
     - "global-health"
     - "big-data"
   featured: true
   outputs:
-    - "Estimates for 375 diseases"
+    - "Estimates for over 300 diseases"
     - "Kreg model implementation"
     - "Reconceptualized GBD cancer registry pipeline"
   key_findings:
-    - "Scalable prediction of all-cause mortality across 204 countries"
-    - "Integration of 900+ global cancer registry datasets"
+    - "Prediction of hospital admission ratesacross 204 countries"
+    - "Integration of 60 EHR data sources into GBD estimates"
 
 - id: "opensafely-global-collaboration"
   title: "OpenSAFELY Global Collaboration"
