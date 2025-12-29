@@ -69,6 +69,11 @@ My research integrates engineering, epidemiology, and medicine to develop innova
 {% assign completed_projects = site.data.projects | where: "status", "completed" %}
 {% for project in completed_projects %}
 <div class="project-card">
+  {% if project.infographic %}
+  <div class="project-infographic">
+    <img src="{{ project.infographic | relative_url }}" alt="{{ project.title }} infographic">
+  </div>
+  {% endif %}
   <h3>{{ project.title }}</h3>
   <p class="project-meta"><strong>{{ project.period }}</strong> | Status: <span class="status-completed">{{ project.status }}</span></p>
   {% if project.funding %}
