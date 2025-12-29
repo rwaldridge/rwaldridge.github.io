@@ -16,6 +16,11 @@ title: Home
 {% for project in site.data.projects %}
   {% if project.featured %}
   <div class="project-card">
+    {% if project.infographic %}
+    <div class="project-infographic-small">
+      <img src="{{ project.infographic | relative_url }}" alt="{{ project.title }} infographic">
+    </div>
+    {% endif %}
     <h3>{{ project.title }}</h3>
     <p class="project-meta"><strong>{{ project.period }}</strong> | Status: {{ project.status }}</p>
     {% if project.funding %}

@@ -156,6 +156,34 @@ a:hover {
   transform: translateY(-2px);
 }
 
+.project-infographic {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project-infographic img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-infographic-small {
+  float: right;
+  width: 150px;
+  margin: 0 0 1rem 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-infographic-small img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .project-card h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -358,5 +386,11 @@ summary:hover {
   .profile-photo {
     width: 150px;
     height: 150px;
+  }
+  
+  .project-infographic-small {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem 0;
   }
 }
