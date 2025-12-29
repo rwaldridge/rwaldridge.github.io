@@ -79,7 +79,7 @@
     - "LLMs"
     - "phenotyping"
     - "artificial-intelligence"
-  featured: true
+  featured: false
   key_findings:
     - "Successful handling of multilingual medical classification"
     - "Automated disease phenotyping pipelines"
@@ -144,3 +144,7 @@
     populations. This evidence informed global interventions by the WHO and the UK 
     Department of Health's Rough Sleeping Strategy. We established that nearly one in 
     three deaths among people experiencing homelessness admitted to hospital were preventable.
+  featured: true
+  key_findings:
+    - "Women are nearly 12 times more likely to die versus general population"
+    - "Men are nearly 12 times more likely to die versus general population"
