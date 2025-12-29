@@ -16,6 +16,7 @@
 
 - id: "federated-analytics-ihme"
   title: "Federated Data Analytics & AI for Global Health"
+  infographic: "/assets/images/infographics/federated-analytics.png"
   status: "active"
   period: "2023 - Present"
   funding: "Gates Foundation"
@@ -41,6 +42,7 @@
 
 - id: "opensafely-global-collaboration"
   title: "OpenSAFELY Global Collaboration"
+  infographic: "/assets/images/infographics/opensafely.png"
   status: "active"
   period: "2024 - Present"
   collaborators:
@@ -63,6 +65,7 @@
 
 - id: "ai-phenotyping-llm"
   title: "AI Phenotyping with Large Language Models"
+  infographic: "/assets/images/infographics/ai-phenotyping.png"
   status: "active"
   period: "2023 - Present"
   short_description: "Creating reproducible AI pipelines for disease phenotyping using NLP and LLMs across multilingual systems"
@@ -83,6 +86,7 @@
 
 - id: "virus-watch"
   title: "Virus Watch: COVID-19 Community Cohort"
+  infographic: "/assets/images/infographics/virus-watch.png"
   status: "completed"
   period: "2020 - 2023"
   funding: "UKRI Grants (£4.6 million)"
@@ -109,6 +113,7 @@
 
 - id: "migrant-health-vaccination"
   title: "Migrant Health & Vaccination Access"
+  infographic: "/assets/images/infographics/covid-vaccination-migrants.png"
   status: "completed"
   period: "2020 - 2023"
   collaborators:
@@ -130,6 +135,7 @@
 
 - id: "inclusion-health-mortality"
   title: "Mortality in Socially Excluded Populations"
+  infographic: "/assets/images/infographics/inclusion-health-mortality.png"
   status: "completed"
   period: "2018 - 2020"
   short_description: "Establishing the field of inclusion health by quantifying mortality risks in socially excluded groups"
