@@ -805,12 +805,6 @@
   venue: "Lancet (London, England)"
   doi: "10.1016/s0140-6736(24)00933-4"
 
-- title: "Anti-Nucleocapsid and Anti-Spike Antibody Trajectories in People with Post-Covid Condition versus Acute-Only Infections: Results from the Virus Watch Prospective Cohort Study"
-  authors: "Beale, Sarah, Yavlinsky, Alexei, Moncunill, Gemma, Fong, Wing Lam Erica, Nguyen, Vincent Grigori, Kovar, Jana, Hayward, Andrew C, Abubakar, Ibrahim, W Aldridge, Robert"
-  year: 2024
-  type: "journal"
-  doi: "10.1101/2024.06.19.24309147"
-
 - title: "To what extent did mortality from COVID-19 in England and Wales differ for migrants compared to non-migrants in 2020 and 2021? A descriptive, observational study."
   authors: "L, Hiam, J, Minton, R, Burns, M, McKee, RW, Aldridge"
   year: 2024
@@ -1517,11 +1511,6 @@
   volume: "9"
   pages: "100214"
 
-- title: "Adherence to mask wearing and social distancing following vaccination and use of lateral flow testing during the COVID-19 pandemic in England and Wales: Results from a cross-sectional study nested within the prospective Virus Watch household community cohort study"
-  authors: "Antonopoulou, Vivi, Ong, Madeline, Meyer, Carly, Beale, Sarah, Lorencatto, Fabiana, Michie, Susan, Aldridge, Robert W., Hayward, Andrew"
-  year: 2024
-  type: "journal"
-
 - title: "Linking migration and hospital data in England: linkage process and evaluation of bias"
   authors: "Burns, Rachel, Wyke, Sacha, Boukari, Yamina, Katikireddi, Sirinivasa Vittal, Zenner, Dominik, Campos-Matos, Ines, Harron, Katie, Aldridge, Robert W."
   year: 2024
@@ -1663,6 +1652,7 @@
   year: 2025
   type: "journal"
   venue: "International Journal of Population Data Science"
+  doi: "https://doi.org/10.23889/ijpds.v8i5.2935"
   volume: "8"
   number: "5"
   pages: "2935"
@@ -1676,6 +1666,15 @@
   volume: "25"
   number: "1"
   pages: "794"
+
+- title: "Anti-nucleocapsid and anti-spike antibody trajectories in people with post-covid condition versus acute-only infections: a nested longitudinal case-control study within the Virus Watch prospective cohort"
+  authors: "Beale, Sarah, Yavlinsky, Alexei, Moncunill, Gemma, Fong, Wing Lam Erica, Nguyen, Vincent Grigori, Kovar, Jana, Hayward, Andrew C., Abubakar, Ibrahim, Aldridge, Robert W."
+  year: 2025
+  type: "journal"
+  venue: "Nature Communications"
+  volume: "16"
+  number: "1"
+  pages: "3686"
 
 - title: "Global burden of 292 causes of death in 204 countries and territories and 660 subnational locations, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023"
   authors: "Naghavi, Mohsen, Kyu, Hmwe Hmwe, Aalipour, Mohammad Amin, Aalruz, Hasan, Ababneh, Hazim S., Abafita, Bedru J., Abaraogu, Ukachukwu O., Abbafati, Cristiana, Abbasi, Madineh, Abbaspour, Faezeh"
@@ -1811,6 +1810,7 @@
   year: 2025
   type: "journal"
   venue: "International Journal of Population Data Science"
+  doi: "https://doi.org/10.23889/ijpds.v10i4.3259"
   volume: "10"
   number: "4"
 
@@ -1819,6 +1819,7 @@
   year: 2025
   type: "journal"
   venue: "International Journal of Population Data Science"
+  doi: "https://doi.org/10.23889/ijpds.v10i4.3086"
   volume: "10"
   number: "4"
 
@@ -1835,6 +1836,7 @@
   year: 2025
   type: "journal"
   venue: "medRxiv"
+  doi: "https://doi.org/10.1101/2025.07.24.25332167"
   pages: "2025-07"
 
 - title: "Estimating the risk of post-COVID condition in deprived communities, migrants and ethnic minorities in England: findings from Virus Watch—a prospective community cohort study"
@@ -1842,12 +1844,14 @@
   year: 2025
   type: "journal"
   venue: "J Epidemiol Community Health"
+  doi: "https://doi.org/10.1136/jech-2024-223491"
 
 - title: "Pre-pregnancy primary care and accident and emergency interactions among interpreter-users versus non-interpreter-users: a retrospective cohort study"
   authors: "McGranahan, Majel, Sanchez Clemente, Nuria, Murdock, Lars, Njie, Baboucarr, Boukari, Yamina, Welshman, Zach, Sampri, Alexia, Oyebode, Oyinlola, Boardman, Felicity, Aldridge, Robert"
   year: 2025
   type: "journal"
   venue: "medRxiv"
+  doi: "https://doi.org/10.1101/2025.07.03.25330826"
   pages: "2025-07"
 
 - title: "The cost-effectiveness of specialist hospital discharge and intermediate care services for patients who are homeless"
@@ -1866,18 +1870,4 @@
   type: "journal"
   venue: "medRxiv"
   pages: "2025-06"
-
-- title: "Adherence to mask wearing and social distancing and use of lateral flow tests during the COVID19 pandemic in England and Wales based on the Virus Watch community cohort study"
-  authors: "Antonopoulou, Vivi, Ong, Madeline, Meyer, Carly, Beale, Sarah, Lorencatto, Fabiana, Michie, Susan, Aldridge, Robert W., Hayward, Andrew"
-  year: 2025
-  type: "journal"
-
-- title: "Anti-nucleocapsid and anti-spike antibody trajectories in people with post-covid condition versus acute-only infections: a nested longitudinal case-control study within the Virus Watch prospective cohort"
-  authors: "Beale, Sarah, Yavlinsky, Alexei, Moncunill, Gemma, Fong, Wing Lam Erica, Nguyen, Vincent Grigori, Kovar, Jana, Hayward, Andrew C., Abubakar, Ibrahim, Aldridge, Robert W."
-  year: 2025
-  type: "journal"
-  venue: "Nature Communications"
-  volume: "16"
-  number: "1"
-  pages: "3686"
 
