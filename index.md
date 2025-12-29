@@ -82,8 +82,3 @@ title: Home
 </div>
 
 [View all repositories →](/github.html)
-
-## Contact
-
-- Email: rob.aldridge@gmail.com
-- GitHub: [rwaldridge](https://github.com/rwaldridge)
